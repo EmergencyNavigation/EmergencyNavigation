@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+#sidebar {
+    width: 320px;
+    height: 100vh;
+    background: #111827;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#map {
+    flex: 1;
+    height: 100vh;
+}
+
+#result {
+    margin-top: 20px;
+    background: #1f2937;
+    padding: 15px;
+    border-radius: 10px;
+}
+#hazardsBox {
+    margin-top: 20px;
+    background: #1f2937;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#hazardsBox h3 {
+    margin-top: 0;
+}
+
+.hazardItem {
+    background: #374151;
+    padding: 10px;
+    border-left: 4px solid red;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#clearBtn {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    background: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#clearBtn:hover {
+    background: #b91c1c;
+}
+#statusBox {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #374151;
+    text-align: center;
+}
+
+.status-ready {
+    background: #065f46;
+    color: #d1fae5;
+}
+
+.status-error {
+    background: #7f1d1d;
+    color: #fee2e2;
+}
+#locateBtn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#locateBtn:hover {
+    background: #1d4ed8;
+}
+#statsBox {
+    margin-top: 12px;
+    background: #1f2937;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+#decisionBox {
+    margin-top: 15px;
+    background: #111827;
+    border: 1px solid #374151;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#decisionText {
+    font-size: 14px;
+    line-height: 1.5;
+}
+#emergencyType {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+#timeBox {
+    margin-top: 12px;
+    background: #1f2937;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 13px;
+}

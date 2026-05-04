@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NeuroRoute Emergency System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+    <div id="sidebar">
+        <h1>🚑 NeuroRoute</h1>
+        <div id="statsBox">
+            <div>Total Hospitals: <span id="hospitalCount">0</span></div>
+            <div>Active Hazards: <span id="hazardCount">0</span></div>
+        </div>
+        <p>Click anywhere on the NYC map to find the nearest ER.</p>
+         <select id="emergencyType">
+            <option value="General Emergency">General Emergency</option>
+            <option value="Heart Attack">Heart Attack</option>
+            <option value="Stroke">Stroke</option>
+            <option value="Accident Trauma">Accident Trauma</option>
+            <option value="Child Emergency">Child Emergency</option>
+        </select>
+        <div id="result">Waiting for location...</div>
+        <div id="decisionBox">
+            <div id="timeBox">
+                Last route calculated: <span id="routeTime">Not yet</span>
+            </div>
+            <h3>Routing Decision</h3>
+            <div id="decisionText">No emergency selected yet.</div>
+        </div>
+        <button id="clearBtn">Clear Route</button>
+        <button id="locateBtn">Use My Location</button>
+        <div id="hazardsBox">
+            <h3>Active Hazards</h3>
+            <div id="hazardsList">Loading hazards...</div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+
+   
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+    {
+        "event_id": 1000,
+        "type": "Accident",
+        "lat": 40.800560962514936,
+        "lon": -74.11557238712105,
+        "severity": "High"
+    },
+    {
+        "event_id": 1001,
+        "type": "Flooding",
+        "lat": 40.84172691945865,
+        "lon": -74.17083608598743,
+        "severity": "High"
+    },
+    {
+        "event_id": 1002,
+        "type": "Accident",
+        "lat": 40.68874848971435,
+        "lon": -74.14273381535159,
+        "severity": "High"
+    },
+    {
+        "event_id": 1003,
+        "type": "Closure",
+        "lat": 40.668985803438325,
+        "lon": -74.10109017054673,
+        "severity": "High"
+    },
+    {
+        "event_id": 1004,
+        "type": "Flooding",
+        "lat": 40.58749946868413,
+        "lon": -74.02866227975284,
+        "severity": "High"
+    },
+    {
+        "event_id": 1005,
+        "type": "Flooding",
+        "lat": 40.77082237567201,
+        "lon": -73.91540646273756,
+        "severity": "High"
+    },
+    {
+        "event_id": 1006,
+        "type": "Flooding",
+        "lat": 40.714385996205124,
+        "lon": -74.0260908728962,
+        "severity": "High"
+    },
+    {
+        "event_id": 1007,
+        "type": "Accident",
+        "lat": 40.72751609078449,
+        "lon": -73.93945374967575,
+        "severity": "High"
+    },
+    {
+        "event_id": 1008,
+        "type": "Closure",
+        "lat": 40.58806257383314,
+        "lon": -74.15118090519613,
+        "severity": "High"
+    },
+    {
+        "event_id": 1009,
+        "type": "Accident",
+        "lat": 40.60635104277706,
+        "lon": -73.87804163997542,
+        "severity": "High"
+    }
+]
