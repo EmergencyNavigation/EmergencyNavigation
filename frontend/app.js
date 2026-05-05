@@ -176,8 +176,14 @@ top3.forEach((h, i) => {
 document.getElementById("result").innerHTML = html;
 
 document.getElementById("decisionText").innerHTML = `
-    Emergency type: <b>${emergencyType}</b><br>
-    Selected <b>${bestHospital.name}</b> because it has the best score based on driving time and hazard penalty.
+    <b>Emergency:</b> ${emergencyType}<br><br>
+
+    <b>Selected:</b> ${bestHospital.name}<br>
+    <b>Distance:</b> ${bestHospital.distance_km} km<br>
+    <b>Estimated Time:</b> ${bestHospital.duration_min} min<br>
+    <b>Hazard Impact:</b> ${bestHospital.hazard_penalty}<br><br>
+
+    <span style="color:#22c55e;">✔ Best balance of speed and safety</span>
 `;
 
 document.getElementById("routeTime").innerText = new Date().toLocaleTimeString();
