@@ -126,3 +126,28 @@ body {
     border-radius: 10px;
     font-size: 13px;
 }
+#locationInput {
+    width: 100%;
+    margin-top: 10px;
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+}
+
+#searchBtn {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding: 11px;
+    background: #059669;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background: #047857;
+}

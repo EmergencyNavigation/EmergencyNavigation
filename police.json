@@ -1,0 +1,2537 @@
+[
+  {
+    "id": 368051726,
+    "lat": 40.8561127,
+    "lon": -73.8442958,
+    "tags": {
+      "name": "49th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051733,
+    "lat": 40.8224393,
+    "lon": -73.9113094,
+    "tags": {
+      "name": "Fortysecond Precinct Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051738,
+    "lat": 40.8875,
+    "lon": -73.8475,
+    "tags": {
+      "name": "Fortyseventh Precinct Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051742,
+    "lat": 40.8540411,
+    "lon": -73.9001068,
+    "tags": {
+      "name": "NYPD 46 Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "2120 Ryer Avenue, Bronx, NY 10457-2919",
+    "phone": null,
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/46th-precinct.page",
+    "borough": "Bronx"
+  },
+  {
+    "id": 368051753,
+    "lat": 40.8875,
+    "lon": -73.8772222,
+    "tags": {
+      "name": "Jerome Avenue Gate House and Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051762,
+    "lat": 40.8286111,
+    "lon": -73.9438889,
+    "tags": {
+      "name": "NYPD 30 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051819,
+    "lat": 40.7119845,
+    "lon": -74.0022478,
+    "tags": {
+      "name": "New York City Police Headquarters"
+    },
+    "operator": null,
+    "address": "New York, NY",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 368051830,
+    "lat": 40.8167675,
+    "lon": -73.8959695,
+    "tags": {
+      "name": "Police Athletic League Bronx Community Center"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051832,
+    "lat": 40.912877,
+    "lon": -73.8384675,
+    "tags": {
+      "name": "Mount Vernon Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051847,
+    "lat": 40.7267398,
+    "lon": -73.9532901,
+    "tags": {
+      "name": "Ninety fourth Precinct Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051882,
+    "lat": 40.6953832,
+    "lon": -73.9830771,
+    "tags": {
+      "name": "NYPD 84th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "301 Gold Street, 11201",
+    "phone": "+1-718-875-6811",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/84th-precinct.page",
+    "borough": null
+  },
+  {
+    "id": 368051892,
+    "lat": 40.6896844,
+    "lon": -73.9244159,
+    "tags": {
+      "name": "Eightyfirst Precinct Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051919,
+    "lat": 40.7670729,
+    "lon": -73.9638697,
+    "tags": {
+      "name": "NYPD 19 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "East 67th Street, New York, NY 10065",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 368051925,
+    "lat": 40.7538947,
+    "lon": -73.9949396,
+    "tags": {
+      "name": "Midtown South Precinct Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051939,
+    "lat": 40.707208,
+    "lon": -73.9624756,
+    "tags": {
+      "name": "Ninetieth Precinct Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 368051950,
+    "lat": 40.7890749,
+    "lon": -73.9470179,
+    "tags": {
+      "name": "23rd Precinct Police Station"
+    },
+    "operator": "New York Police Department",
+    "address": "164 East 102nd Street, New York, NY 10029-5721",
+    "phone": "+1 212-860-6430",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/23rd-precinct.page",
+    "borough": "New York"
+  },
+  {
+    "id": 368053706,
+    "lat": 40.8439662,
+    "lon": -73.9002941,
+    "tags": {
+      "name": "Fortyeighth Precinct Station House"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 575197303,
+    "lat": 40.6662553,
+    "lon": -73.7345983,
+    "tags": {
+      "name": "New York City Police"
+    },
+    "operator": null,
+    "address": "242-20 North Conduit Avenue, Rosedale, NY 11422",
+    "phone": null,
+    "website": null,
+    "borough": "Rosedale"
+  },
+  {
+    "id": 581639600,
+    "lat": 40.822877,
+    "lon": -73.8698072,
+    "tags": {
+      "name": "43rd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 608421861,
+    "lat": 40.8417221,
+    "lon": -74.0945942,
+    "tags": {
+      "name": "Carlstadt Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 941846035,
+    "lat": 40.723934,
+    "lon": -73.7062115,
+    "tags": {
+      "name": "Floral Park Police Headquarters"
+    },
+    "operator": "Incorporated Village of Floral Park",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 958934445,
+    "lat": 40.7719948,
+    "lon": -74.1379318,
+    "tags": {
+      "name": "Kearny Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1377453882,
+    "lat": 40.8376206,
+    "lon": -73.9195052,
+    "tags": {
+      "name": "44th Precinct"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1713513933,
+    "lat": 40.8581538,
+    "lon": -74.0253826,
+    "tags": {
+      "name": "Ridgefield Park Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1764402966,
+    "lat": 40.6799224,
+    "lon": -73.7758415,
+    "tags": {
+      "name": "NYPD 113 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1799440638,
+    "lat": 40.7623558,
+    "lon": -73.8269924,
+    "tags": {
+      "name": "NYPD 109 Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2063685590,
+    "lat": 40.8503273,
+    "lon": -74.0444796,
+    "tags": {
+      "name": "Little Ferry Police Station"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2084110613,
+    "lat": 40.7402948,
+    "lon": -74.1788895,
+    "tags": {
+      "name": "NJIT Public Safety"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2185003521,
+    "lat": 40.5993281,
+    "lon": -73.9118325,
+    "tags": {
+      "name": "New York City Police Department Highway Patrol"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2185003541,
+    "lat": 40.5837916,
+    "lon": -73.8845382,
+    "tags": {
+      "name": "United States Park Police"
+    },
+    "operator": "United States Park Police",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2193680052,
+    "lat": 40.6821864,
+    "lon": -73.8397899,
+    "tags": {
+      "name": "NYPD 106 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2270766964,
+    "lat": 40.8443092,
+    "lon": -73.9813227,
+    "tags": {
+      "name": "Fort Lee Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2274572753,
+    "lat": 40.8212772,
+    "lon": -73.9884347,
+    "tags": {
+      "name": "Cliffside Park Police Department"
+    },
+    "operator": null,
+    "address": "525 Palisade Avenue, Cliffside Park, NJ 07010",
+    "phone": "+1 201-945-3600",
+    "website": null,
+    "borough": "Cliffside Park"
+  },
+  {
+    "id": 2380032112,
+    "lat": 40.745239,
+    "lon": -73.869946,
+    "tags": {
+      "name": "NYPD 110 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380152287,
+    "lat": 40.7602789,
+    "lon": -73.7676997,
+    "tags": {
+      "name": "NYPD 111 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380179891,
+    "lat": 40.7071167,
+    "lon": -73.7926624,
+    "tags": {
+      "name": "NYPD 103 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "168-02 91st Avenue, Jamaica, NY 11432",
+    "phone": "+1-718-657-8181",
+    "website": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/103rd-precinct.page",
+    "borough": "Jamaica"
+  },
+  {
+    "id": 2380211445,
+    "lat": 40.6987245,
+    "lon": -73.8314459,
+    "tags": {
+      "name": "NYPD 102 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380223013,
+    "lat": 40.6029503,
+    "lon": -73.7499972,
+    "tags": {
+      "name": "NYPD 101 PCT"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380293531,
+    "lat": 40.7161816,
+    "lon": -73.9974633,
+    "tags": {
+      "name": "NYPD 5 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380301320,
+    "lat": 40.7163634,
+    "lon": -73.9837197,
+    "tags": {
+      "name": "NYPD 7th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380313280,
+    "lat": 40.7203451,
+    "lon": -74.0070419,
+    "tags": {
+      "name": "NYPD 1 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380318410,
+    "lat": 40.7247679,
+    "lon": -73.9781467,
+    "tags": {
+      "name": "NYPD PSA 4"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380484204,
+    "lat": 40.7426863,
+    "lon": -73.9983835,
+    "tags": {
+      "name": "NYPD 10 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380492748,
+    "lat": 40.7340416,
+    "lon": -74.0054536,
+    "tags": {
+      "name": "NYPD 6 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2380526285,
+    "lat": 40.7567621,
+    "lon": -73.9707859,
+    "tags": {
+      "name": "NYPD 17 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "167 East 51st Street, 10022",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2381570818,
+    "lat": 40.8157476,
+    "lon": -73.9453969,
+    "tags": {
+      "name": "NYPD 32 PCT"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2549882089,
+    "lat": 40.6487599,
+    "lon": -73.9504277,
+    "tags": {
+      "name": "NYPD 67th Precinct"
+    },
+    "operator": null,
+    "address": "2820 Snyder Avenue, 11226",
+    "phone": "+1-718-287-3211",
+    "website": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/67th-precinct.page",
+    "borough": null
+  },
+  {
+    "id": 2563988674,
+    "lat": 40.7172406,
+    "lon": -74.0007776,
+    "tags": {
+      "name": "NYPD Special Victims Division"
+    },
+    "operator": "New York Police Department",
+    "address": "137 Centre Street, 10013",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2568320814,
+    "lat": 40.6955512,
+    "lon": -73.983071,
+    "tags": {
+      "name": "NYPD Transit Special Victims Squad"
+    },
+    "operator": "New York Police Department",
+    "address": "301 Gold Street, 11201",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2636098702,
+    "lat": 40.7444375,
+    "lon": -74.0502412,
+    "tags": {
+      "name": "JCPD North District"
+    },
+    "operator": null,
+    "address": "282 Central Avenue, Jersey City, NJ 07307",
+    "phone": null,
+    "website": null,
+    "borough": "Jersey City"
+  },
+  {
+    "id": 2761331774,
+    "lat": 40.7964779,
+    "lon": -73.967428,
+    "tags": {
+      "name": "NYPD 24 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "151 West 100th Street, New York, NY 10025",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 2791825349,
+    "lat": 40.8825549,
+    "lon": -74.2347911,
+    "tags": {
+      "name": "Little Falls Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2797912464,
+    "lat": 40.8957044,
+    "lon": -74.1999888,
+    "tags": {
+      "name": "Woodland Park Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 2838525807,
+    "lat": 40.7063994,
+    "lon": -73.9510296,
+    "tags": {
+      "name": "NYPD Emergency Service Unit Squad 8"
+    },
+    "operator": "New York Police Department",
+    "address": "10 New Montrose Avenue, Brooklyn, NY 11211",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 2838525812,
+    "lat": 40.7064072,
+    "lon": -73.9505747,
+    "tags": {
+      "name": "NYPD 90th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "211 Union Avenue, Brooklyn, NY 11211",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 2904303124,
+    "lat": 40.7687402,
+    "lon": -73.8425714,
+    "tags": {
+      "name": "NYPD Tow Pound"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 3154235262,
+    "lat": 40.7693793,
+    "lon": -74.2463209,
+    "tags": {
+      "name": "West Orange Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 4224912812,
+    "lat": 40.7656177,
+    "lon": -74.1658877,
+    "tags": {
+      "name": "Newark Police Complex"
+    },
+    "operator": "Newark Department Of Public Safety",
+    "address": "1 Lincoln Avenue",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 4813745721,
+    "lat": 40.5862476,
+    "lon": -73.8164846,
+    "tags": {
+      "name": "NYPD 100 Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "92-24 Rockaway Beach Boulevard, Queens, NY 11693",
+    "phone": "+1-718-318-4200",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/100th-precinct.page",
+    "borough": "Queens"
+  },
+  {
+    "id": 5047028049,
+    "lat": 40.7258859,
+    "lon": -74.0427001,
+    "tags": {
+      "name": "JCPD East District"
+    },
+    "operator": null,
+    "address": "207 7th Street, 07302",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 5353584421,
+    "lat": 40.7869651,
+    "lon": -74.2306703,
+    "tags": {
+      "name": "Police Crime Prevention"
+    },
+    "operator": null,
+    "address": "92 Washington Street, 07052",
+    "phone": "+1-973-325-4048",
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 5520364456,
+    "lat": 40.7023258,
+    "lon": -73.9321947,
+    "tags": {
+      "name": "NYC Housing Police #3"
+    },
+    "operator": null,
+    "address": "25 Central Avenue",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 5537803702,
+    "lat": 40.8866822,
+    "lon": -74.0068874,
+    "tags": {
+      "name": "Teaneck Police Department"
+    },
+    "operator": null,
+    "address": "900 Teaneck Road, Teaneck Township, NJ 07666",
+    "phone": null,
+    "website": null,
+    "borough": "Teaneck Township"
+  },
+  {
+    "id": 5870647273,
+    "lat": 40.6389413,
+    "lon": -74.0226488,
+    "tags": {
+      "name": "NYPD 68th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "333 65th Street, Brooklyn, NY 11220",
+    "phone": "+1-718-439-4211",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/68th-precinct.page",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 6171872948,
+    "lat": 40.8480437,
+    "lon": -73.9981124,
+    "tags": {
+      "name": "Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 6253061940,
+    "lat": 40.8161856,
+    "lon": -73.895512,
+    "tags": {
+      "name": "New York City Police Department - 41st Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 6663013937,
+    "lat": 40.7435812,
+    "lon": -74.0263837,
+    "tags": {
+      "name": "Stevens Campus Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 6823944043,
+    "lat": 40.8515239,
+    "lon": -74.2286346,
+    "tags": {
+      "name": "Cedar Grove Police Station"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 6868286289,
+    "lat": 40.8922515,
+    "lon": -73.9771861,
+    "tags": {
+      "name": "Police Department-Detective Bureau"
+    },
+    "operator": null,
+    "address": "75 South Van Brunt Street, Englewood, NJ 07631",
+    "phone": null,
+    "website": null,
+    "borough": "Englewood"
+  },
+  {
+    "id": 6900807383,
+    "lat": 40.7742022,
+    "lon": -74.024916,
+    "tags": {
+      "name": "Union City Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 6955890458,
+    "lat": 40.7076183,
+    "lon": -73.7039558,
+    "tags": {
+      "name": "NCPD 5th Precinct Booth"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 7862171105,
+    "lat": 40.6435689,
+    "lon": -73.7971254,
+    "tags": {
+      "name": "Port Authority Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 8191717769,
+    "lat": 40.7713615,
+    "lon": -74.2255982,
+    "tags": {
+      "name": "Orange Police Dept."
+    },
+    "operator": null,
+    "address": "29 Park Street, Orange, NJ 07050",
+    "phone": null,
+    "website": null,
+    "borough": "Orange"
+  },
+  {
+    "id": 9017988885,
+    "lat": 40.7403188,
+    "lon": -74.1742119,
+    "tags": {
+      "name": "Rutgers Public Safety and Security"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 9786118963,
+    "lat": 40.638778,
+    "lon": -74.0223776,
+    "tags": {
+      "name": "NYPD Emergency Service Unit Squad 6"
+    },
+    "operator": "New York Police Department",
+    "address": "65th Street, Brooklyn, NY 11220",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 9820983216,
+    "lat": 40.8533005,
+    "lon": -73.7170197,
+    "tags": {
+      "name": "Sands Point Police Department"
+    },
+    "operator": "Village of Sands Point Police Department",
+    "address": "26 Tibbits Lane, Port Washington, NY 11050",
+    "phone": null,
+    "website": "https://www.sandspointpolice.org/",
+    "borough": "Port Washington"
+  },
+  {
+    "id": 9896577690,
+    "lat": 40.8039247,
+    "lon": -73.9926772,
+    "tags": {
+      "name": "Edgewater Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 9989691382,
+    "lat": 40.8324255,
+    "lon": -74.2466924,
+    "tags": {
+      "name": "Verona Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 10245969552,
+    "lat": 40.7915914,
+    "lon": -74.0037948,
+    "tags": {
+      "name": "Guttenberg Police Department"
+    },
+    "operator": null,
+    "address": "6808 Park Avenue, Guttenberg, NJ 07093",
+    "phone": null,
+    "website": null,
+    "borough": "Guttenberg"
+  },
+  {
+    "id": 11078592618,
+    "lat": 40.8551813,
+    "lon": -73.8482737,
+    "tags": {
+      "name": "Police Health And Hospitals"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 11356338649,
+    "lat": 40.7304262,
+    "lon": -74.1907474,
+    "tags": {
+      "name": "Police department: 1st precinct"
+    },
+    "operator": null,
+    "address": "17th Avenue",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 11423595546,
+    "lat": 40.81268,
+    "lon": -74.1245177,
+    "tags": {
+      "name": "Lyndhurst Police Department"
+    },
+    "operator": null,
+    "address": "367 Valley Brook Avenue, Lyndhurst, NJ 07071",
+    "phone": "+1 201-939-2900",
+    "website": "https://www.lyndhurstnjpolice.gov",
+    "borough": "Lyndhurst"
+  },
+  {
+    "id": 12278996437,
+    "lat": 40.8601909,
+    "lon": -74.045783,
+    "tags": {
+      "name": "South Hackensack Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 12466456829,
+    "lat": 40.8371908,
+    "lon": -73.8608997,
+    "tags": {
+      "name": "Parkchester Security Associates"
+    },
+    "operator": null,
+    "address": "1489 Metropolitan Avenue, Bronx, NY 10462",
+    "phone": "+1-718-320-6050",
+    "website": null,
+    "borough": "Bronx"
+  },
+  {
+    "id": 12554079858,
+    "lat": 40.6686505,
+    "lon": -74.1627551,
+    "tags": {
+      "name": "Port Authority Police - NJMT Command"
+    },
+    "operator": null,
+    "address": "1160 McLester Street, Elizabeth, NJ 07201",
+    "phone": null,
+    "website": null,
+    "borough": "Elizabeth"
+  },
+  {
+    "id": 12677429778,
+    "lat": 40.5738303,
+    "lon": -74.1059135,
+    "tags": {
+      "name": "NYPD Highway Patrol Unit 5"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 12677429779,
+    "lat": 40.5741603,
+    "lon": -74.1055894,
+    "tags": {
+      "name": "NYPD 122nd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "2320 Hylan Boulevard, 10306",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 12707824087,
+    "lat": 40.7454014,
+    "lon": -74.1697306,
+    "tags": {
+      "name": "Newark Police - Office of Professional Standards"
+    },
+    "operator": "Newark Police Department",
+    "address": "494 Broad Street, Newark, NJ 07102",
+    "phone": null,
+    "website": "https://www.newarkpublicsafety.org/npd/office-of-professional-standards/",
+    "borough": "Newark"
+  },
+  {
+    "id": 12736543648,
+    "lat": 40.7354968,
+    "lon": -74.1712304,
+    "tags": {
+      "name": "Newark Police Department Sub-Precinct Community Resource Center"
+    },
+    "operator": "Newark Police Department",
+    "address": "189 Market Street, Newark, NJ 07102",
+    "phone": "+1 973-733-6129",
+    "website": "https://www.newarkpublicsafety.org/npd/precincts/metro-precinct-substation/",
+    "borough": "Newark"
+  },
+  {
+    "id": 12791373597,
+    "lat": 40.580572,
+    "lon": -73.8374135,
+    "tags": {
+      "name": "New York City Police Department Transit District 23"
+    },
+    "operator": "New York Police Department",
+    "address": "222 Beach 116th Street, Rockaway Park, NY 11694",
+    "phone": null,
+    "website": null,
+    "borough": "Rockaway Park"
+  },
+  {
+    "id": 12791442101,
+    "lat": 40.6014817,
+    "lon": -74.064188,
+    "tags": {
+      "name": "New York State Police - SP Staten Island"
+    },
+    "operator": "New York State Police",
+    "address": "10305",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 13040315371,
+    "lat": 40.6346469,
+    "lon": -74.075019,
+    "tags": {
+      "name": "MTA Police Department District 9"
+    },
+    "operator": "Metropolitan Transportation Authority",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 13113473468,
+    "lat": 40.7513198,
+    "lon": -73.8433339,
+    "tags": {
+      "name": "Parks Enforcement Patrol"
+    },
+    "operator": null,
+    "address": "23 Meridian Road, NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 13148619081,
+    "lat": 40.7397215,
+    "lon": -74.155869,
+    "tags": {
+      "name": "Harrison Police Riverbend Station"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 13318612853,
+    "lat": 40.841513,
+    "lon": -73.8602618,
+    "tags": {
+      "name": "Parkchester Department of Public Safety 24 hour location"
+    },
+    "operator": null,
+    "address": "2000 East Tremont Avenue, Bronx, NY 10462",
+    "phone": null,
+    "website": "https://www.parkchesterpolice.org/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 185091536,
+    "lat": 40.8537936,
+    "lon": -73.969593,
+    "tags": {
+      "name": "Port Authority of New York and New Jersey"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 226083170,
+    "lat": 40.8355498,
+    "lon": -74.101237,
+    "tags": {
+      "name": "East Rutherford Police Dept."
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 232846896,
+    "lat": 40.8600413,
+    "lon": -74.2013866,
+    "tags": {
+      "name": "University Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 241829655,
+    "lat": 40.726535,
+    "lon": -73.9878314,
+    "tags": {
+      "name": "9th Precinct NYPD"
+    },
+    "operator": null,
+    "address": "321 East 5th Street, 10003",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 241835166,
+    "lat": 40.6838547,
+    "lon": -74.0002454,
+    "tags": {
+      "name": "New York Police Department 76th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "191 Union Street, Brooklyn, NY 11231",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 241853855,
+    "lat": 40.6446361,
+    "lon": -74.0774623,
+    "tags": {
+      "name": "120 Precinct Police Station"
+    },
+    "operator": null,
+    "address": "78 Richmond Terrace, NY 10301",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 245118687,
+    "lat": 40.7029702,
+    "lon": -73.9930873,
+    "tags": {
+      "name": "Brooklyn Property Clerk"
+    },
+    "operator": "New York Police Department",
+    "address": "11 Front Street, Brooklyn, NY 11201",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 245138640,
+    "lat": 40.5118444,
+    "lon": -74.250009,
+    "tags": {
+      "name": "New York City Police Department - 123rd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "116 Main Street, NY 10307",
+    "phone": null,
+    "website": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/123rd-precinct.page",
+    "borough": null
+  },
+  {
+    "id": 245220685,
+    "lat": 40.6882728,
+    "lon": -74.0016201,
+    "tags": {
+      "name": "Waterfront Commission Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 245576867,
+    "lat": 40.6440847,
+    "lon": -74.0287604,
+    "tags": {
+      "name": "NYPD Harbor Unit"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 247429026,
+    "lat": 40.6484838,
+    "lon": -73.9049556,
+    "tags": {
+      "name": "NYPD 69th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "9720 Foster Avenue, NY 11236",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 247624145,
+    "lat": 40.6711274,
+    "lon": -73.8814629,
+    "tags": {
+      "name": "NYPD - 75th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "1000 Sutter Avenue, 11208",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 248370328,
+    "lat": 40.730016,
+    "lon": -73.8106219,
+    "tags": {
+      "name": "NYPD 107 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "71-01 Parsons Boulevard, NY 11365",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 248478024,
+    "lat": 40.5762715,
+    "lon": -73.9903743,
+    "tags": {
+      "name": "NYC Housing PD Service Area 1"
+    },
+    "operator": "New York Police Department",
+    "address": "2860 West 23rd Street, Brooklyn, NY 11224",
+    "phone": "+1-718-265-7300",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/transit-housing/police-service-area-1.page",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 248502538,
+    "lat": 40.5765408,
+    "lon": -73.9761004,
+    "tags": {
+      "name": "NYPD 60th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "2951 West 8th Street, Brooklyn, NY 11224",
+    "phone": "+1-718-946-3311",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/60th-precinct.page",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 248919137,
+    "lat": 40.602578,
+    "lon": -74.0030839,
+    "tags": {
+      "name": "New York City Police Department - 62nd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "1925 Bath Avenue, Brooklyn, NY 11214",
+    "phone": "+1-718-236-2611",
+    "website": "https://www1.nyc.gov/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 249113398,
+    "lat": 40.630353,
+    "lon": -73.9737209,
+    "tags": {
+      "name": "Seventieth Precinct Police Station"
+    },
+    "operator": null,
+    "address": "154 Lawrence Avenue, NY 11230",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 249121683,
+    "lat": 40.6257641,
+    "lon": -73.9913928,
+    "tags": {
+      "name": "Sixtysixth Precinct Police Station"
+    },
+    "operator": null,
+    "address": "5822 16th Avenue, NY 11219",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 249606376,
+    "lat": 40.6581906,
+    "lon": -74.0010575,
+    "tags": {
+      "name": "New York City Police Department 72nd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "830 4th Avenue, 11232",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 249712206,
+    "lat": 40.5941091,
+    "lon": -73.9604866,
+    "tags": {
+      "name": "Sixtyfirst Precinct Police Station House"
+    },
+    "operator": "New York Police Department",
+    "address": "2575 Coney Island Avenue, Brooklyn, NY 11223",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 249976545,
+    "lat": 40.6981625,
+    "lon": -73.9178359,
+    "tags": {
+      "name": "NYPD 83rd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "480 Knickerbocker Avenue, 11237",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250006000,
+    "lat": 40.6279632,
+    "lon": -73.94167,
+    "tags": {
+      "name": "NYPD - 63 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "1844 Brooklyn Avenue, 11210",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250217416,
+    "lat": 40.6645744,
+    "lon": -73.9478807,
+    "tags": {
+      "name": "NYPD -71st Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "421 Empire Boulevard, Brooklyn, NY 11225",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 250226510,
+    "lat": 40.66799,
+    "lon": -73.9594886,
+    "tags": {
+      "name": "NYPD Transit District 32"
+    },
+    "operator": "New York Police Department",
+    "address": "960 Carroll Street, Brooklyn, NY 11225",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 250229725,
+    "lat": 40.670827,
+    "lon": -73.9125298,
+    "tags": {
+      "name": "Seventythird Precinct Police Station"
+    },
+    "operator": null,
+    "address": "NY",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250229779,
+    "lat": 40.6708289,
+    "lon": -73.9135433,
+    "tags": {
+      "name": "NYPD - 73rd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "1470 East New York Avenue, 11212",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250309685,
+    "lat": 40.6888903,
+    "lon": -73.944611,
+    "tags": {
+      "name": "New York City Police Department - 79th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "263 Tompkins Avenue, Brooklyn, NY 11216",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 250351428,
+    "lat": 40.6746962,
+    "lon": -73.9302521,
+    "tags": {
+      "name": "77th Precinct"
+    },
+    "operator": null,
+    "address": "127 Utica avenue, 11213",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250356539,
+    "lat": 40.6900817,
+    "lon": -73.9604977,
+    "tags": {
+      "name": "NYPD 88th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "298 Classon Avenue, Brooklyn, NY 11205",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 250417165,
+    "lat": 40.6996587,
+    "lon": -73.9234498,
+    "tags": {
+      "name": "Eightythird Precinct Police Station"
+    },
+    "operator": null,
+    "address": "179 Wilson Avenue, NY 11237",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250454099,
+    "lat": 40.6756441,
+    "lon": -73.9628747,
+    "tags": {
+      "name": "NYPD Special Victims Division"
+    },
+    "operator": null,
+    "address": "653 Grand Avenue, 11238",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250552597,
+    "lat": 40.722246,
+    "lon": -73.851115,
+    "tags": {
+      "name": "NYPD 112 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "68-40 Austin Street, 11375",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250602935,
+    "lat": 40.7568455,
+    "lon": -73.8755322,
+    "tags": {
+      "name": "New York City Police Department - 115th Precinct"
+    },
+    "operator": null,
+    "address": "92-15 Northern Boulevard, NY 11369",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250975215,
+    "lat": 40.7042694,
+    "lon": -73.8936099,
+    "tags": {
+      "name": "NYPD 104 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "64-02 Catalpa Avenue, 11385",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 250996761,
+    "lat": 40.6809325,
+    "lon": -73.9741142,
+    "tags": {
+      "name": "NYPD 78th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "65 6th Avenue, Brooklyn, NY 11217",
+    "phone": null,
+    "website": "https://nyc.gov/site/nypd/bureaus/patrol/precincts/78th-precinct.page",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 252961638,
+    "lat": 40.825762,
+    "lon": -74.1089978,
+    "tags": {
+      "name": "Rutherford Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 258646143,
+    "lat": 40.7565143,
+    "lon": -73.9863826,
+    "tags": {
+      "name": "NYPD Times Square Substation"
+    },
+    "operator": "New York Police Department",
+    "address": "1479 Broadway, New York, NY 10036",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 264685145,
+    "lat": 40.7478043,
+    "lon": -73.9914426,
+    "tags": {
+      "name": "New York Police Department Traffic Control Division"
+    },
+    "operator": "New York Police Department",
+    "address": "134 West 30th Street, New York, 10001",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 264754143,
+    "lat": 40.7367588,
+    "lon": -73.9833066,
+    "tags": {
+      "name": "New York City Police Department"
+    },
+    "operator": "New York Police Department",
+    "address": "235 East 20th Street, New York, 10010",
+    "phone": "+1-212-4779-218",
+    "website": "https://www1.nyc.gov/site/nypd/index.page",
+    "borough": "New York"
+  },
+  {
+    "id": 264969838,
+    "lat": 40.6684103,
+    "lon": -74.1168942,
+    "tags": {
+      "name": "Bayonne Police Headquarters"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 265300012,
+    "lat": 40.7598782,
+    "lon": -73.9967614,
+    "tags": {
+      "name": "Manhattan South Task Force"
+    },
+    "operator": "New York Police Department",
+    "address": "524 West 42nd Street, 10036",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 265796866,
+    "lat": 40.8006888,
+    "lon": -73.9411189,
+    "tags": {
+      "name": "NYPD 25th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "120 East 119th Street, 10035",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 269309227,
+    "lat": 40.7840782,
+    "lon": -73.975083,
+    "tags": {
+      "name": "NYPD 20 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "120 West 82nd Street, New York, NY 10024-5502",
+    "phone": "+1-212-580-6411",
+    "website": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/20th-precinct.page",
+    "borough": "New York"
+  },
+  {
+    "id": 271805637,
+    "lat": 40.8088317,
+    "lon": -73.9525723,
+    "tags": {
+      "name": "NYPD 28 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "2271 8th Avenue, NY 10027",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 271847680,
+    "lat": 40.8243265,
+    "lon": -73.940461,
+    "tags": {
+      "name": "NYPD PSA 6"
+    },
+    "operator": "New York Police Department",
+    "address": "2770 Frederick Douglass Boulevard, New York, NY 10039",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 271912609,
+    "lat": 40.8146839,
+    "lon": -73.956536,
+    "tags": {
+      "name": "NYPD 26 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "520 West 126th Street, New York, NY 10027",
+    "phone": "+1-212-678-1311",
+    "website": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/26th-precinct.page",
+    "borough": "New York"
+  },
+  {
+    "id": 272695220,
+    "lat": 40.8628924,
+    "lon": -73.9877935,
+    "tags": {
+      "name": "Leonia Police Station"
+    },
+    "operator": null,
+    "address": "1 Wood Park, Leonia, NJ 07605",
+    "phone": null,
+    "website": null,
+    "borough": "Leonia"
+  },
+  {
+    "id": 275054047,
+    "lat": 40.8405798,
+    "lon": -73.9358091,
+    "tags": {
+      "name": "NYPD 33rd Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "2207 Amsterdam Avenue, 10032",
+    "phone": "+1-212-927-3200",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/33rd-precinct.page",
+    "borough": null
+  },
+  {
+    "id": 275092554,
+    "lat": 40.8515271,
+    "lon": -73.9353732,
+    "tags": {
+      "name": "NYPD 34 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "4295 Broadway, New York, NY 10033",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 275297128,
+    "lat": 40.8206971,
+    "lon": -73.9159651,
+    "tags": {
+      "name": "NYPD - Police Service Area 7"
+    },
+    "operator": "New York Police Department",
+    "address": "737 Melrose Avenue, Bronx, NY 10455",
+    "phone": null,
+    "website": null,
+    "borough": "Bronx"
+  },
+  {
+    "id": 276386092,
+    "lat": 40.8690756,
+    "lon": -73.879647,
+    "tags": {
+      "name": "Fiftysecond Precinct Station House"
+    },
+    "operator": null,
+    "address": "3016 Webster Avenue, NY 10467",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 276414619,
+    "lat": 40.8835028,
+    "lon": -73.9023604,
+    "tags": {
+      "name": "NYPD 50th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "3450 Kingsbridge Avenue, 10463",
+    "phone": "+1-718-543-5700",
+    "website": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/50th-precinct.page",
+    "borough": null
+  },
+  {
+    "id": 278112893,
+    "lat": 40.7122002,
+    "lon": -74.0018521,
+    "tags": {
+      "name": "1 Police Plaza"
+    },
+    "operator": "New York Police Department",
+    "address": "1 Police Plaza, New York, NY 10038",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 278363029,
+    "lat": 40.7831441,
+    "lon": -73.9642028,
+    "tags": {
+      "name": "NYPD Central Park Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "1 86th Street Transverse, New York, NY 10024",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 280588761,
+    "lat": 40.7692754,
+    "lon": -73.9153246,
+    "tags": {
+      "name": "NYPD 114 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "34-16 Astoria Boulevard South, 11103",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 280625343,
+    "lat": 40.7430481,
+    "lon": -73.9547411,
+    "tags": {
+      "name": "108th Precinct Police Station"
+    },
+    "operator": null,
+    "address": "5-47 50th Avenue, Long Island City, NY 11101",
+    "phone": null,
+    "website": null,
+    "borough": "Long Island City"
+  },
+  {
+    "id": 282129488,
+    "lat": 40.8308431,
+    "lon": -73.8273228,
+    "tags": {
+      "name": "Fortyfifth Precinct Police Station"
+    },
+    "operator": "New York Police Department",
+    "address": "2877 Barkley Avenue, Bronx, NY 10465",
+    "phone": null,
+    "website": null,
+    "borough": "Bronx"
+  },
+  {
+    "id": 283241930,
+    "lat": 40.7262166,
+    "lon": -73.7351547,
+    "tags": {
+      "name": "NYPD 105 PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "92-08 222nd Street, 11428",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 284620962,
+    "lat": 40.7631076,
+    "lon": -73.8289019,
+    "tags": {
+      "name": "Strategic Response Group 4"
+    },
+    "operator": null,
+    "address": "137-58 Northern Boulevard, 11354",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 284852147,
+    "lat": 40.7752274,
+    "lon": -73.8832185,
+    "tags": {
+      "name": "Port Authority Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 284865815,
+    "lat": 40.8001941,
+    "lon": -73.9261546,
+    "tags": {
+      "name": "NYPD Harbor Unit"
+    },
+    "operator": null,
+    "address": "36 Bronx Shore Road, 10035",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 285107136,
+    "lat": 40.5798907,
+    "lon": -73.8887002,
+    "tags": {
+      "name": "Triborough Bridge And Tunnel Authority"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 377798575,
+    "lat": 40.8992647,
+    "lon": -74.228454,
+    "tags": {
+      "name": "Troop B"
+    },
+    "operator": "NJ State Police",
+    "address": "250 Minnisink Road, Totowa",
+    "phone": null,
+    "website": null,
+    "borough": "Totowa"
+  },
+  {
+    "id": 379442260,
+    "lat": 40.9194639,
+    "lon": -74.1706309,
+    "tags": {
+      "name": "Paterson Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 381151631,
+    "lat": 40.816936,
+    "lon": -74.2209201,
+    "tags": {
+      "name": "Montclair Police Department"
+    },
+    "operator": null,
+    "address": "55 Valley Road, Montclair, NJ 07042",
+    "phone": null,
+    "website": null,
+    "borough": "Montclair"
+  },
+  {
+    "id": 383663646,
+    "lat": 40.6235997,
+    "lon": -74.1506941,
+    "tags": {
+      "name": "121st Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "970 Richmond Avenue, Staten Island, 10314",
+    "phone": null,
+    "website": null,
+    "borough": "Staten Island"
+  },
+  {
+    "id": 412224333,
+    "lat": 40.7090948,
+    "lon": -74.0849829,
+    "tags": {
+      "name": "JCPD South District"
+    },
+    "operator": null,
+    "address": "191 Bergen Avenue, Jersey City, NJ 07305",
+    "phone": null,
+    "website": null,
+    "borough": "Jersey City"
+  },
+  {
+    "id": 419162203,
+    "lat": 40.7169318,
+    "lon": -74.0741552,
+    "tags": {
+      "name": "JCPD West District"
+    },
+    "operator": null,
+    "address": "1 Jackson Street",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 437556589,
+    "lat": 40.7307394,
+    "lon": -74.149248,
+    "tags": {
+      "name": "3rd Precinct - Newark Police Department"
+    },
+    "operator": "Newark Police",
+    "address": "649 Market Street, Newark, NJ 07105",
+    "phone": null,
+    "website": null,
+    "borough": "Newark"
+  },
+  {
+    "id": 446154725,
+    "lat": 40.7697727,
+    "lon": -74.1853639,
+    "tags": {
+      "name": "Newark Police Division Roseville Section - 7th Precinct"
+    },
+    "operator": "Newark Police Department",
+    "address": "159 North 10th Street, Newark, NJ 07107",
+    "phone": null,
+    "website": null,
+    "borough": "Newark"
+  },
+  {
+    "id": 449875246,
+    "lat": 40.7377206,
+    "lon": -74.030017,
+    "tags": {
+      "name": "Hoboken Police Station"
+    },
+    "operator": null,
+    "address": "106 Hudson Street, Hoboken, NJ",
+    "phone": null,
+    "website": null,
+    "borough": "Hoboken"
+  },
+  {
+    "id": 450419523,
+    "lat": 40.6579318,
+    "lon": -73.7718259,
+    "tags": {
+      "name": "New York City Police Department Pound"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 486689532,
+    "lat": 40.779734,
+    "lon": -74.027508,
+    "tags": {
+      "name": "North Bergan Police department"
+    },
+    "operator": "North Bergen",
+    "address": "1122 Hillside Place, North Bergen, NJ 07047",
+    "phone": null,
+    "website": null,
+    "borough": "North Bergen"
+  },
+  {
+    "id": 525025397,
+    "lat": 40.8787587,
+    "lon": -73.9507166,
+    "tags": {
+      "name": "Englewood Cliffs Police Department"
+    },
+    "operator": null,
+    "address": "10 Kahn Terrace, Englewood Cliffs, NJ 07632",
+    "phone": null,
+    "website": null,
+    "borough": "Englewood Cliffs"
+  },
+  {
+    "id": 554059841,
+    "lat": 40.7299419,
+    "lon": -73.8102775,
+    "tags": {
+      "name": "107th Precinct New York City Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 555509857,
+    "lat": 40.7565932,
+    "lon": -74.0397889,
+    "tags": {
+      "name": "Union City Police Department"
+    },
+    "operator": "Union City",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 577750534,
+    "lat": 40.8793082,
+    "lon": -74.029917,
+    "tags": {
+      "name": "Bogota Police Department"
+    },
+    "operator": null,
+    "address": "375 Larch Avenue, Bogota, NJ 07603",
+    "phone": null,
+    "website": null,
+    "borough": "Bogota"
+  },
+  {
+    "id": 585817134,
+    "lat": 40.745489,
+    "lon": -74.25329,
+    "tags": {
+      "name": "South Orange Police Department"
+    },
+    "operator": null,
+    "address": "201 South Orange Avenue, South Orange, NJ 07079",
+    "phone": null,
+    "website": null,
+    "borough": "South Orange"
+  },
+  {
+    "id": 592896801,
+    "lat": 40.8736705,
+    "lon": -74.1382182,
+    "tags": {
+      "name": "Clifton Police"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 613207311,
+    "lat": 40.7674795,
+    "lon": -73.719223,
+    "tags": {
+      "name": "Lake Success Police Department & Courthouse"
+    },
+    "operator": null,
+    "address": "15 Vanderbilt Drive, Great Neck, NY 11020",
+    "phone": null,
+    "website": null,
+    "borough": "Great Neck"
+  },
+  {
+    "id": 621330478,
+    "lat": 40.7916338,
+    "lon": -73.7312974,
+    "tags": {
+      "name": "Kensington Police Department"
+    },
+    "operator": "Village of Kensington Police Department",
+    "address": "Great Neck, NY 11021",
+    "phone": null,
+    "website": null,
+    "borough": "Great Neck"
+  },
+  {
+    "id": 626314772,
+    "lat": 40.7836939,
+    "lon": -73.7038456,
+    "tags": {
+      "name": "NCPD 6th Precinct"
+    },
+    "operator": "Nassau County Police Department",
+    "address": "100 Community Drive, Manhasset, NY 11030",
+    "phone": null,
+    "website": null,
+    "borough": "Manhasset"
+  },
+  {
+    "id": 643861448,
+    "lat": 40.8147403,
+    "lon": -73.9130682,
+    "tags": {
+      "name": "NYPD 40th Precinct"
+    },
+    "operator": "New York Police Department",
+    "address": "567 East 149th Street, Bronx, NY NY 10455",
+    "phone": null,
+    "website": null,
+    "borough": "Bronx"
+  },
+  {
+    "id": 648898104,
+    "lat": 40.8857525,
+    "lon": -74.0440886,
+    "tags": {
+      "name": "Hackensack Police Department"
+    },
+    "operator": null,
+    "address": "225 State Street, Hackensack, NJ 07601",
+    "phone": null,
+    "website": null,
+    "borough": "Hackensack"
+  },
+  {
+    "id": 654086960,
+    "lat": 40.7265318,
+    "lon": -74.0385481,
+    "tags": {
+      "name": "Security and Police Substation"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 754626208,
+    "lat": 40.7587398,
+    "lon": -74.2112973,
+    "tags": {
+      "name": "East Orange Police Department"
+    },
+    "operator": "City Of East Orange",
+    "address": "15 South Munn Avenue, East Orange, NJ 07018",
+    "phone": null,
+    "website": null,
+    "borough": "East Orange"
+  },
+  {
+    "id": 866351252,
+    "lat": 40.8624948,
+    "lon": -73.9881744,
+    "tags": {
+      "name": "Leonia Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 885649889,
+    "lat": 40.9117442,
+    "lon": -73.8091609,
+    "tags": {
+      "name": "Pelham Police Dept"
+    },
+    "operator": null,
+    "address": "38 5th Avenue, Pelham, NY 10803",
+    "phone": null,
+    "website": null,
+    "borough": "Pelham"
+  },
+  {
+    "id": 979646477,
+    "lat": 40.6768299,
+    "lon": -74.2328309,
+    "tags": {
+      "name": "Kean Police"
+    },
+    "operator": "Kean University",
+    "address": null,
+    "phone": "+1 908-737-4800",
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1069033554,
+    "lat": 40.8405671,
+    "lon": -73.7142919,
+    "tags": {
+      "name": "NCPD Sixth Precinct Booth A"
+    },
+    "operator": "Nassau County Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1189987046,
+    "lat": 40.6668951,
+    "lon": -74.2127247,
+    "tags": {
+      "name": "Elizabeth Police Department"
+    },
+    "operator": null,
+    "address": "1 Police Plaza, Elizabeth, NJ 07208",
+    "phone": null,
+    "website": null,
+    "borough": "Elizabeth"
+  },
+  {
+    "id": 1241557387,
+    "lat": 40.7271587,
+    "lon": -74.2343422,
+    "tags": {
+      "name": "Irvington Police Department"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1280251660,
+    "lat": 40.8785806,
+    "lon": -74.1028867,
+    "tags": {
+      "name": "Garfield Police Station"
+    },
+    "operator": null,
+    "address": "411 Midland Avenue, Garfield, NJ 07026",
+    "phone": null,
+    "website": null,
+    "borough": "Garfield"
+  },
+  {
+    "id": 1284133551,
+    "lat": 40.8956326,
+    "lon": -74.081442,
+    "tags": {
+      "name": "Saddle Brook Police Department"
+    },
+    "operator": null,
+    "address": "63 Market Street, Saddle Brook Township, NJ 07663",
+    "phone": null,
+    "website": null,
+    "borough": "Saddle Brook Township"
+  },
+  {
+    "id": 1289229998,
+    "lat": 40.7717022,
+    "lon": -73.8409262,
+    "tags": {
+      "name": "New York City Police Department - Police Academy"
+    },
+    "operator": "New York Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1341396019,
+    "lat": 40.7524521,
+    "lon": -74.1937581,
+    "tags": {
+      "name": "Essex County Sheriff\u2019s Patrol Division H.Q."
+    },
+    "operator": null,
+    "address": "525 West Market Street, Newark",
+    "phone": null,
+    "website": null,
+    "borough": "Newark"
+  },
+  {
+    "id": 1355085289,
+    "lat": 40.7648315,
+    "lon": -73.9851786,
+    "tags": {
+      "name": "NYPD Midtown North PCT"
+    },
+    "operator": "New York Police Department",
+    "address": "306 West 54th Street, New York, NY 10019-5102",
+    "phone": "+1-212-767-8400",
+    "website": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/midtown-north-precinct.page",
+    "borough": "New York"
+  },
+  {
+    "id": 1384107848,
+    "lat": 40.8373611,
+    "lon": -74.1786152,
+    "tags": {
+      "name": "Bloomfield Station Troop 10"
+    },
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1453911016,
+    "lat": 40.7963621,
+    "lon": -73.7525745,
+    "tags": {
+      "name": "Saddle Rock Police Booth"
+    },
+    "operator": "Nassau County Police Department",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 3663964,
+    "lat": 40.84026,
+    "lon": -73.9281996,
+    "tags": {
+      "name": "NYPD SRG 2"
+    },
+    "operator": "New York Police Department",
+    "address": "1278 Sedgwick Avenue, Bronx, NY 10452",
+    "phone": null,
+    "website": null,
+    "borough": "Bronx"
+  }
+]

@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
-import subprocess
 import json
 import os
+from route_engine import rank_hospitals
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
@@ -30,7 +30,6 @@ def js():
 def status():
     return jsonify({
         "status": "ok",
-        "navigation_exists": os.path.exists("./navigation"),
         "hospitals_exists": os.path.exists("hospitals.json")
     })
 
@@ -61,6 +60,16 @@ def hazards():
     with open("hazards.json") as f:
         return jsonify(json.load(f))
 
+@app.route("/api/police")
+def police():
+    if not os.path.exists("police.json"):
+        return jsonify({"error": "police.json not found"}), 404
+
+    with open("police.json") as f:
+        return jsonify(json.load(f))
+
+# 🔥 NEW SMART ROUTING (DIMITRI ENGINE)
+
 @app.route("/api/nearest-er", methods=["POST"])
 def nearest_er():
     data = request.get_json()
@@ -70,16 +79,40 @@ def nearest_er():
     if lat is None or lon is None:
         return jsonify({"error": "lat and lon required"}), 400
 
-    result = subprocess.run(
-        ["./navigation", str(lat), str(lon)],
-        capture_output=True,
-        text=True
-    )
+    if not os.path.exists("hospitals.json"):
+        return jsonify({"error": "hospitals.json not found"}), 404
 
-    try:
-        return jsonify(json.loads(result.stdout))
-    except:
-        return jsonify({"error": "C++ returned invalid output", "raw": result.stdout})
+    if not os.path.exists("hazards.json"):
+        return jsonify({"error": "hazards.json not found"}), 404
+
+    # load hospitals
+    with open("hospitals.json") as f:
+        raw_hospitals = json.load(f)
+
+    hospitals = []
+    for item in raw_hospitals:
+        if "lat" in item and "lon" in item:
+            hospitals.append({
+                "name": item.get("tags", {}).get("name", "Unknown Hospital"),
+                "lat": item["lat"],
+                "lon": item["lon"]
+            })
+
+    # load hazards
+    with open("hazards.json") as f:
+        hazards = json.load(f)
+
+    # 🔥 use Dimitri algorithm
+    ranked = rank_hospitals(lat, lon, hospitals, hazards)
+
+    if not ranked:
+        return jsonify({"error": "No route found"}), 500
+
+    return jsonify({
+        "best": ranked[0],
+        "top3": ranked[:3],
+        "decision": "Selected hospital based on fastest time + hazard penalty"
+    })
 
 # ---------------- RUN SERVER ----------------
 

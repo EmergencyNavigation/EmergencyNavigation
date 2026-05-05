@@ -1,4 +1,9 @@
 navigation
 *.o
 __pycache__/
+<<<<<<< HEAD
 .DS_Storey
+=======
+.DS_Store
+.env
+>>>>>>> 0f3e4002c73e3b28f26806a62691d97ce112ea21

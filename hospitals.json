@@ -1,57 +1,2322 @@
 [
-  {"lat":40.7130,"lon":-74.0132,"tags":{"name":"NY Downtown Hospital"}},
-  {"lat":40.7465,"lon":-73.9760,"tags":{"name":"NYU Langone Health"}},
-  {"lat":40.7901,"lon":-73.9533,"tags":{"name":"Mount Sinai Hospital"}},
-  {"lat":40.8401,"lon":-73.9416,"tags":{"name":"NewYork-Presbyterian Hospital"}},
-  {"lat":40.7648,"lon":-73.9562,"tags":{"name":"Memorial Sloan Kettering Cancer Center"}},
-  {"lat":40.7644,"lon":-73.9551,"tags":{"name":"Weill Cornell Medical Center"}},
-  {"lat":40.7347,"lon":-73.9857,"tags":{"name":"Mount Sinai Beth Israel"}},
-  {"lat":40.7420,"lon":-73.9749,"tags":{"name":"Bellevue Hospital"}},
-  {"lat":40.7696,"lon":-73.9867,"tags":{"name":"Mount Sinai West"}},
-  {"lat":40.7890,"lon":-73.9526,"tags":{"name":"Mount Sinai Morningside"}},
-
-  {"lat":40.6560,"lon":-73.9440,"tags":{"name":"Kings County Hospital Center"}},
-  {"lat":40.6552,"lon":-73.9455,"tags":{"name":"SUNY Downstate Medical Center"}},
-  {"lat":40.6685,"lon":-73.9428,"tags":{"name":"Brookdale University Hospital"}},
-  {"lat":40.6925,"lon":-73.9866,"tags":{"name":"NYU Langone Hospital Brooklyn"}},
-  {"lat":40.6466,"lon":-73.9986,"tags":{"name":"Maimonides Medical Center"}},
-  {"lat":40.6895,"lon":-73.9780,"tags":{"name":"Brooklyn Hospital Center"}},
-  {"lat":40.6072,"lon":-73.9606,"tags":{"name":"Mount Sinai Brooklyn"}},
-  {"lat":40.5841,"lon":-73.9534,"tags":{"name":"Coney Island Hospital"}},
-  {"lat":40.6782,"lon":-73.9442,"tags":{"name":"Interfaith Medical Center"}},
-  {"lat":40.6200,"lon":-73.9468,"tags":{"name":"Brooklyn Community Hospital"}},
-
-  {"lat":40.7470,"lon":-73.8250,"tags":{"name":"NewYork-Presbyterian Queens"}},
-  {"lat":40.7282,"lon":-73.8515,"tags":{"name":"Long Island Jewish Forest Hills"}},
-  {"lat":40.7557,"lon":-73.8167,"tags":{"name":"Flushing Hospital Medical Center"}},
-  {"lat":40.7020,"lon":-73.8160,"tags":{"name":"Jamaica Hospital Medical Center"}},
-  {"lat":40.7699,"lon":-73.7710,"tags":{"name":"Bayside Medical Center"}},
-  {"lat":40.7214,"lon":-73.8448,"tags":{"name":"Queens Medical Center"}},
-  {"lat":40.7008,"lon":-73.8087,"tags":{"name":"Queens General Hospital"}},
-  {"lat":40.7645,"lon":-73.7538,"tags":{"name":"North Shore Queens Medical"}},
-  {"lat":40.7580,"lon":-73.9190,"tags":{"name":"Mount Sinai Queens"}},
-  {"lat":40.7431,"lon":-73.8692,"tags":{"name":"Elmhurst Hospital Center"}},
-
-  {"lat":40.8500,"lon":-73.8440,"tags":{"name":"Jacobi Medical Center"}},
-  {"lat":40.8800,"lon":-73.8786,"tags":{"name":"Montefiore Medical Center"}},
-  {"lat":40.8327,"lon":-73.8894,"tags":{"name":"St. Barnabas Hospital"}},
-  {"lat":40.8430,"lon":-73.9110,"tags":{"name":"BronxCare Health System"}},
-  {"lat":40.8176,"lon":-73.9242,"tags":{"name":"Lincoln Medical Center"}},
-  {"lat":40.8948,"lon":-73.8615,"tags":{"name":"Montefiore Wakefield Campus"}},
-  {"lat":40.8558,"lon":-73.8916,"tags":{"name":"Bronx Lebanon Hospital"}},
-  {"lat":40.8640,"lon":-73.9170,"tags":{"name":"Columbia Bronx Medical Center"}},
-  {"lat":40.8265,"lon":-73.9095,"tags":{"name":"Morrisania Medical Center"}},
-  {"lat":40.8457,"lon":-73.8662,"tags":{"name":"Pelham Parkway Medical Center"}},
-
-  {"lat":40.5840,"lon":-74.0860,"tags":{"name":"Staten Island University Hospital"}},
-  {"lat":40.6355,"lon":-74.1065,"tags":{"name":"Richmond University Medical Center"}},
-  {"lat":40.6176,"lon":-74.0821,"tags":{"name":"Staten Island Medical Center"}},
-  {"lat":40.5809,"lon":-74.1502,"tags":{"name":"South Shore Medical Center"}},
-  {"lat":40.6440,"lon":-74.0776,"tags":{"name":"North Shore Staten Medical"}},
-
-  {"lat":40.7589,"lon":-73.9851,"tags":{"name":"Times Square Emergency Center"}},
-  {"lat":40.7061,"lon":-74.0086,"tags":{"name":"Financial District Urgent Care"}},
-  {"lat":40.7306,"lon":-73.9866,"tags":{"name":"East Village Medical Center"}},
-  {"lat":40.8075,"lon":-73.9626,"tags":{"name":"Upper West Medical Center"}},
-  {"lat":40.7505,"lon":-73.9934,"tags":{"name":"Midtown Emergency Clinic"}}
+  {
+    "id": 357571909,
+    "lat": 40.8800853,
+    "lon": -73.8798439,
+    "tags": {
+      "name": "Montefiore Medical Center West Campus Moses Division Hospital"
+    },
+    "has_er": true,
+    "beds": 726,
+    "is_24_7": true,
+    "operator": "Montefiore Health System",
+    "address": "111 East 210th Street, Bronx, 10467",
+    "phone": "+1 718 920 4321",
+    "website": "https://www.montefiore.org/west",
+    "borough": "Bronx"
+  },
+  {
+    "id": 357607640,
+    "lat": 40.8464723,
+    "lon": -73.8388275,
+    "tags": {
+      "name": "New York City Children's Center Bronx Campus"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1300 Waters Place, Bronx, NY 10461",
+    "phone": "+1 718 239 3600",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/nyccc/bcpc/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 357607688,
+    "lat": 40.7865276,
+    "lon": -73.9322574,
+    "tags": {
+      "name": "Kirby Forensic Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "600 East 125th Street, Wards Island, 10029",
+    "phone": "+1 646 672 5800",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/krpc/",
+    "borough": "Wards Island"
+  },
+  {
+    "id": 357611253,
+    "lat": 40.8803581,
+    "lon": -73.8813965,
+    "tags": {
+      "name": "North Central Bronx Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "3424 Kossuth Avenue, Bronx, 10467",
+    "phone": "+1 718 519 5000",
+    "website": "https://www.nychealthandhospitals.org/northcentralbronx/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 357616245,
+    "lat": 40.7851459,
+    "lon": -73.9279094,
+    "tags": {
+      "name": "George Rosenfeld Center for Recovery"
+    },
+    "has_er": false,
+    "beds": 231,
+    "is_24_7": false,
+    "operator": "Odyssey House",
+    "address": "13 Hell Gate Circle, New York, 10029",
+    "phone": "+1 212 426 6633",
+    "website": "https://odysseyhousenyc.org/george-rosenfeld-center-for-recovery/",
+    "borough": "New York"
+  },
+  {
+    "id": 357616936,
+    "lat": 40.7538889,
+    "lon": -73.7083333,
+    "tags": {
+      "name": "Cohen\u2019s Children\u2019s Medical Center"
+    },
+    "has_er": true,
+    "beds": 202,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "269-01 76th Avenue, New Hyde Park, 11040",
+    "phone": null,
+    "website": "https://childrenshospital.northwell.edu/",
+    "borough": "New Hyde Park"
+  },
+  {
+    "id": 357620244,
+    "lat": 40.7377778,
+    "lon": -74.0008333,
+    "tags": {
+      "name": "Lenox Health Greenwich Village"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "30 7th Avenue, New York, 10011",
+    "phone": "+1 646 665 6000",
+    "website": "https://www.northwell.edu/lenox-health-greenwich-village",
+    "borough": "New York"
+  },
+  {
+    "id": 357642730,
+    "lat": 40.7697091,
+    "lon": -73.9529748,
+    "tags": {
+      "name": "Gracie Square Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": true,
+    "operator": null,
+    "address": "420 East 76th Street, New York, 10021",
+    "phone": "+1 212 434 5300",
+    "website": "https://www.nygsh.org/",
+    "borough": "New York"
+  },
+  {
+    "id": 357642735,
+    "lat": 40.7620381,
+    "lon": -73.9553606,
+    "tags": {
+      "name": "Rockefeller University Hospital"
+    },
+    "has_er": false,
+    "beds": 40,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1230 York Avenue, New York, 10021",
+    "phone": "+1 212 327 7511",
+    "website": "https://rucares.org/",
+    "borough": "New York"
+  },
+  {
+    "id": 357642745,
+    "lat": 40.7318799,
+    "lon": -73.9845807,
+    "tags": {
+      "name": "New York Eye and Ear Infirmary of Mount Sinai"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Mount Sinai",
+    "address": "310 East 14th Street, New York, 10003",
+    "phone": "+1 212 979 4000",
+    "website": "http://www.nyee.edu/",
+    "borough": "New York"
+  },
+  {
+    "id": 357642750,
+    "lat": 40.764233,
+    "lon": -73.963647,
+    "tags": {
+      "name": "Manhattan Eye Ear and Throat Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Northwell Health",
+    "address": "210 East 64th Street, New York, 10065",
+    "phone": "+1 212 838 9200",
+    "website": "https://www.northwell.edu/find-care/locations/manhattan-eye-ear-and-throat-hospital",
+    "borough": "New York"
+  },
+  {
+    "id": 357652216,
+    "lat": 40.7536455,
+    "lon": -73.8605021,
+    "tags": {
+      "name": "Plaza del Sol Family Health Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "3702 108th Street, Flushing, NY 11368",
+    "phone": null,
+    "website": null,
+    "borough": "Flushing"
+  },
+  {
+    "id": 357744420,
+    "lat": 40.7957041,
+    "lon": -74.1718258,
+    "tags": {
+      "name": "Essex County Isolation Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1581175993,
+    "lat": 40.7464784,
+    "lon": -73.9717941,
+    "tags": {
+      "name": "NYU Langone Outpatient Surgery Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "NYU Langone Health",
+    "address": "339 East 38th Street, New York, 10016",
+    "phone": "+1 212 263 1515",
+    "website": "https://nyulangone.org/locations/nyu-langone-outpatient-surgery-center",
+    "borough": "New York"
+  },
+  {
+    "id": 2555136030,
+    "lat": 40.7401034,
+    "lon": -73.9893444,
+    "tags": {
+      "name": "Aimee Raupp Wellness & Fertility Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "928 Broadway, New York, NY 10010",
+    "phone": "+1-845-988-6913",
+    "website": "https://aimeeraupp.com/",
+    "borough": "New York"
+  },
+  {
+    "id": 2717876703,
+    "lat": 40.7609528,
+    "lon": -73.9687909,
+    "tags": {
+      "name": "MRHS Primary Care"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "139 East 57th Street, 10022",
+    "phone": null,
+    "website": "https://www.mrhsclinics.com/",
+    "borough": null
+  },
+  {
+    "id": 2810045562,
+    "lat": 40.8803725,
+    "lon": -73.878898,
+    "tags": {
+      "name": "Children's Hospital at Montefiore"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Montefiore Medical Center",
+    "address": "3415 Bainbridge Avenue, Bronx, NY 10467",
+    "phone": null,
+    "website": null,
+    "borough": "Bronx"
+  },
+  {
+    "id": 2822777418,
+    "lat": 40.8937765,
+    "lon": -73.8610822,
+    "tags": {
+      "name": "Montefiore Medical Center - Wakefield Campus"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "4141 Carpenter Avenue, Bronx, NY 10466",
+    "phone": null,
+    "website": null,
+    "borough": "Bronx"
+  },
+  {
+    "id": 2837699748,
+    "lat": 40.7571143,
+    "lon": -73.7833843,
+    "tags": {
+      "name": "Quest Diagnostics"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 5366311662,
+    "lat": 40.7543321,
+    "lon": -73.7088257,
+    "tags": {
+      "name": "Katz Women's Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Northwell Health",
+    "address": "270-05 76th Avenue, New Hyde Park, 11040",
+    "phone": "+1 855 850 5494",
+    "website": "https://www.northwell.edu/find-care/locations/katz-womens-hospital-long-island-jewish-medical-center",
+    "borough": "New Hyde Park"
+  },
+  {
+    "id": 5421562461,
+    "lat": 40.765164,
+    "lon": -73.9526899,
+    "tags": {
+      "name": "Hospital for Special Surgery"
+    },
+    "has_er": false,
+    "beds": 215,
+    "is_24_7": false,
+    "operator": null,
+    "address": "535 East 70th Street, New York, 10021",
+    "phone": "+1 877 606 1555",
+    "website": "https://www.hss.edu/",
+    "borough": "New York"
+  },
+  {
+    "id": 5599581921,
+    "lat": 40.804048,
+    "lon": -73.9342033,
+    "tags": {
+      "name": "New York Proton Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "225 East 126th Street, 10035",
+    "phone": null,
+    "website": "https://www.nyproton.com/",
+    "borough": null
+  },
+  {
+    "id": 5784468453,
+    "lat": 40.6064031,
+    "lon": -73.9605551,
+    "tags": {
+      "name": "cardiology"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 6157505285,
+    "lat": 40.6016008,
+    "lon": -73.9945286,
+    "tags": {
+      "name": "Cohen Children's Northwell Health"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 7011939647,
+    "lat": 40.8640182,
+    "lon": -74.1184489,
+    "tags": {
+      "name": "North Hudson Community Action Corporation"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "North Hudson",
+    "address": "220 Passaic Street, Passaic, NJ 07055",
+    "phone": "+1-201-210-0200",
+    "website": null,
+    "borough": "Passaic"
+  },
+  {
+    "id": 7278441828,
+    "lat": 40.9116455,
+    "lon": -73.839837,
+    "tags": {
+      "name": "Westchester Women's Medical Healthcare"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "105 Stevens Avenue, Mount Vernon, NY 10550",
+    "phone": "+1-914-205-4351",
+    "website": "https://www.westchesterwomens.com/",
+    "borough": "Mount Vernon"
+  },
+  {
+    "id": 8105845200,
+    "lat": 40.718289,
+    "lon": -73.9582489,
+    "tags": {
+      "name": "Mount Sinai Doctors - Williamsburg"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "135 North 7th Street, Brooklyn, NY 11211",
+    "phone": null,
+    "website": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 9058036347,
+    "lat": 40.8890355,
+    "lon": -74.2492247,
+    "tags": {
+      "name": "Willowbrook Pediatrics"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "57 Willowbrook Boulevard, Wayne, NJ 07470",
+    "phone": null,
+    "website": null,
+    "borough": "Wayne"
+  },
+  {
+    "id": 9703695879,
+    "lat": 40.8465453,
+    "lon": -73.8399746,
+    "tags": {
+      "name": "Bronx Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1500 Waters Place, Bronx, NY 10461",
+    "phone": "+1 718 931 0600",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/brpc/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 9885158918,
+    "lat": 40.6978843,
+    "lon": -73.9942217,
+    "tags": {
+      "name": "Downtown Pain Physicians Of Brooklyn"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "41 Clark Street, Brooklyn, NY 11201",
+    "phone": "+1-718-210-2225",
+    "website": "https://www.downtownpainphysicians.com",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 10363943866,
+    "lat": 40.768828,
+    "lon": -73.9927766,
+    "tags": {
+      "name": "Mount Sinai"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 10897792586,
+    "lat": 40.7852797,
+    "lon": -74.0574789,
+    "tags": {
+      "name": "Hudson County Meadowview Psychiatric Hospital"
+    },
+    "has_er": false,
+    "beds": 174,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": "+1 201 369 5252",
+    "website": "https://www.hcnj.us/health-and-human-services/psychiatric-hospital",
+    "borough": null
+  },
+  {
+    "id": 12095092700,
+    "lat": 40.7645657,
+    "lon": -73.955956,
+    "tags": {
+      "name": "New York Presbyterian Alexandra Cohen Hospital for Women and Newborns"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1283 York Avenue",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 12168864134,
+    "lat": 40.5880082,
+    "lon": -74.0910445,
+    "tags": {
+      "name": "Staten Island University Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Northwell Health",
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 12723835209,
+    "lat": 40.7100546,
+    "lon": -74.0058746,
+    "tags": {
+      "name": "Liberty Endoscopy Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "156 William Street, 10038",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 12766117165,
+    "lat": 40.6555782,
+    "lon": -74.011705,
+    "tags": {
+      "name": "Hospital for Special Surgery"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 12771176929,
+    "lat": 40.7616923,
+    "lon": -73.9637818,
+    "tags": {
+      "name": "Micheal's Optical"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1153 2nd Avenue, New York, NY 10065",
+    "phone": null,
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 13287358562,
+    "lat": 40.7561643,
+    "lon": -73.9818704,
+    "tags": {
+      "name": "Manhattan Gastroenterology \u2013 Midtown Manhattan"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Dr. Shawn Khodadadian, MD",
+    "address": "56 West 45th Street, New York, NY 10036",
+    "phone": "+1-212-533-2400",
+    "website": "https://www.manhattangastroenterology.com/new-york/midtown/",
+    "borough": "New York"
+  },
+  {
+    "id": 13619239388,
+    "lat": 40.8034411,
+    "lon": -74.2499855,
+    "tags": {
+      "name": "Urgent Care West Orange"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "464 Eagle Rock Avenue, West Orange, NJ 07052",
+    "phone": null,
+    "website": null,
+    "borough": "West Orange"
+  },
+  {
+    "id": 27080832,
+    "lat": 40.7413556,
+    "lon": -74.0340099,
+    "tags": {
+      "name": "Hoboken University Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "CarePoint Health",
+    "address": "308 Willow Avenue, Hoboken, 07030",
+    "phone": "+1 201 418 1000",
+    "website": "https://www.carepointhealth.org/hoboken-university-medical-center",
+    "borough": "Hoboken"
+  },
+  {
+    "id": 33991436,
+    "lat": 40.5852396,
+    "lon": -74.0848903,
+    "tags": {
+      "name": "Staten Island University Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "475 Seaview Avenue, Staten Island, 10305",
+    "phone": "+1 718 226 9000",
+    "website": "https://www.northwell.edu/find-care/locations/staten-island-university-hospital",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 33992484,
+    "lat": 40.5826208,
+    "lon": -74.0800209,
+    "tags": {
+      "name": "Staten Island Children and Youth Day Treatment Center and South Beach Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "New York State Office of Mental Health",
+    "address": "777 Seaview Avenue, Staten Island, 10305",
+    "phone": "+1 718 667 2300",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/sbpc/",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 137285662,
+    "lat": 40.8419985,
+    "lon": -73.9420005,
+    "tags": {
+      "name": "Columbia University Irving Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Columbia University",
+    "address": "630 West 168th Street, New York, 10031",
+    "phone": "+1 212 305 2862",
+    "website": "https://www.cuimc.columbia.edu/",
+    "borough": "New York"
+  },
+  {
+    "id": 146967028,
+    "lat": 40.7370721,
+    "lon": -73.9768987,
+    "tags": {
+      "name": "Veteran Affairs New York Harbor Healthcare System"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Veterans Health Administration",
+    "address": "423 East 23rd Street, New York, 10010",
+    "phone": "+1 212 686 7500",
+    "website": "https://www.nyharbor.va.gov/",
+    "borough": "New York"
+  },
+  {
+    "id": 150365209,
+    "lat": 40.7389726,
+    "lon": -73.9752246,
+    "tags": {
+      "name": "NYC Health + Hospitals/Bellevue"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "462 1st Avenue, New York, 10010",
+    "phone": "+1-212-562-4141",
+    "website": "https://www.nychealthandhospitals.org/bellevue/",
+    "borough": "New York"
+  },
+  {
+    "id": 150368085,
+    "lat": 40.7420343,
+    "lon": -73.9736761,
+    "tags": {
+      "name": "NYU Langone Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": null,
+    "address": "New York",
+    "phone": "+1 646 929 7870",
+    "website": "https://med.nyu.edu/",
+    "borough": "New York"
+  },
+  {
+    "id": 167481919,
+    "lat": 40.6078957,
+    "lon": -74.0241204,
+    "tags": {
+      "name": "VA New York Harbor Healthcare System Brooklyn Campus"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Veterans Health Administration",
+    "address": "800 Poly Place, Brooklyn, NY 11209",
+    "phone": "+1 718 836 6600",
+    "website": "https://www.nyharbor.va.gov/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 182930790,
+    "lat": 40.816706,
+    "lon": -73.9245464,
+    "tags": {
+      "name": "Lincoln Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "234 Eugenio Maria De Hostos Boulevard, Bronx, 10455",
+    "phone": "+1 718 579 5000",
+    "website": "https://www.nychealthandhospitals.org/lincoln/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 219041270,
+    "lat": 40.5857482,
+    "lon": -73.9648962,
+    "tags": {
+      "name": "NYC Health + Hospitals: South Brooklyn Health"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "2601 Ocean Parkway, Brooklyn, NY 11235",
+    "phone": "+1 718 616 3000",
+    "website": "https://www.nychealthandhospitals.org/coneyisland/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 245391851,
+    "lat": 40.8837197,
+    "lon": -74.0553081,
+    "tags": {
+      "name": "Hackensack University Medical Center"
+    },
+    "has_er": true,
+    "beds": 775,
+    "is_24_7": true,
+    "operator": "Hackensack Meridian Health",
+    "address": "30 Prospect Avenue, Hackensack, 07601",
+    "phone": "+1 551 996 2000",
+    "website": "https://www.hackensackumc.org/",
+    "borough": "Hackensack"
+  },
+  {
+    "id": 245394269,
+    "lat": 40.8829907,
+    "lon": -74.0100249,
+    "tags": {
+      "name": "Holy Name Medical Center"
+    },
+    "has_er": true,
+    "beds": 307,
+    "is_24_7": true,
+    "operator": null,
+    "address": "718 Teaneck Road, Teaneck, 07666",
+    "phone": "+1 201 833 3000",
+    "website": "https://www.holyname.org/",
+    "borough": "Teaneck"
+  },
+  {
+    "id": 245395693,
+    "lat": 40.9043293,
+    "lon": -73.9685644,
+    "tags": {
+      "name": "Englewood Hospital Medical Center"
+    },
+    "has_er": true,
+    "beds": 289,
+    "is_24_7": true,
+    "operator": null,
+    "address": "350 Engle Street, Englewood, 07631",
+    "phone": "+1 201 894 3000",
+    "website": "https://www.englewoodhealth.org/",
+    "borough": "Englewood"
+  },
+  {
+    "id": 245395812,
+    "lat": 40.9035987,
+    "lon": -74.165469,
+    "tags": {
+      "name": "St. Joseph\u2019s Regional Medical Center"
+    },
+    "has_er": true,
+    "beds": 698,
+    "is_24_7": true,
+    "operator": "St. Joseph\u2019s Healthcare System",
+    "address": "703 Main Street, Paterson, 07503",
+    "phone": "+1 973 754 2000",
+    "website": "https://www.stjosephshealth.org/",
+    "borough": "Paterson"
+  },
+  {
+    "id": 249663131,
+    "lat": 40.7344007,
+    "lon": -73.9829907,
+    "tags": {
+      "name": "NYU Langone Orthopedic Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "NYU Langone Health",
+    "address": "301 East 17th Street, New York, 10003",
+    "phone": "+1 212 598 6000",
+    "website": "https://nyulangone.org/locations/nyu-langone-orthopedic-hospital",
+    "borough": "New York"
+  },
+  {
+    "id": 249749008,
+    "lat": 40.6139043,
+    "lon": -73.9484847,
+    "tags": {
+      "name": "Maimonides Midwood Community Hospital"
+    },
+    "has_er": true,
+    "beds": 134,
+    "is_24_7": true,
+    "operator": null,
+    "address": "2525 Kings Highway, Brooklyn, NY 11229",
+    "phone": "+1 718 692 5300",
+    "website": "https://nych.com/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 249831230,
+    "lat": 40.6186464,
+    "lon": -73.9429014,
+    "tags": {
+      "name": "Mount Sinai Brooklyn"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Mount Sinai",
+    "address": "3201 Kings Highway, Brooklyn, 11234",
+    "phone": "+1 718 252 3000",
+    "website": "http://www.mountsinai.org/locations/brooklyn",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 265875652,
+    "lat": 40.7516073,
+    "lon": -73.979708,
+    "tags": {
+      "name": "Manhattan Restorative Health Sciences"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "295 Madison Avenue, New York, NY 10017",
+    "phone": null,
+    "website": "https://www.mrhsclinics.com/",
+    "borough": "New York"
+  },
+  {
+    "id": 266941944,
+    "lat": 40.7900542,
+    "lon": -73.9538776,
+    "tags": {
+      "name": "Mount Sinai Kravis Children's Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1184 5th Avenue, New York, NY 10029",
+    "phone": "+1 212-241-9500",
+    "website": "https://www.mountsinai.org/locations/kravis-childrens",
+    "borough": "New York"
+  },
+  {
+    "id": 274201776,
+    "lat": 40.8890675,
+    "lon": -74.2492063,
+    "tags": {
+      "name": "St Joseph Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "57 Willowbrook Boulevard, Wayne, NJ 07470",
+    "phone": null,
+    "website": null,
+    "borough": "Wayne"
+  },
+  {
+    "id": 275048181,
+    "lat": 40.8397497,
+    "lon": -73.9414477,
+    "tags": {
+      "name": "Morgan Stanley Children's Hospital"
+    },
+    "has_er": true,
+    "beds": 299,
+    "is_24_7": true,
+    "operator": "NewYork-Presbyterian Hospital",
+    "address": "3959 Broadway, New York, 10032",
+    "phone": "+1 212 305 5437",
+    "website": "https://www.nyp.org/morganstanley",
+    "borough": "New York"
+  },
+  {
+    "id": 276330982,
+    "lat": 40.8704051,
+    "lon": -73.9038508,
+    "tags": {
+      "name": "Fordham Nursing and Rehabilitation Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "2678 Kingsbridge Terrace, 10463",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 278254355,
+    "lat": 40.7131856,
+    "lon": -73.987839,
+    "tags": {
+      "name": "Gouverneur Health Medical Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "227 Madison Street, New York, NY 10002",
+    "phone": "+1-212-238-7897",
+    "website": null,
+    "borough": "New York"
+  },
+  {
+    "id": 280336215,
+    "lat": 40.7416906,
+    "lon": -73.903003,
+    "tags": {
+      "name": "Queens Blvd Extended Care"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "61-11 Queens Boulevard, 11377",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 280533350,
+    "lat": 40.7482978,
+    "lon": -73.8891495,
+    "tags": {
+      "name": "Rest Medical Care"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "37-28 77th Street, 11372",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 282906069,
+    "lat": 40.69376,
+    "lon": -73.7813201,
+    "tags": {
+      "name": "Jamaica Hospital Medical Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "111-20 Merrick Boulevard, 11433",
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 299598608,
+    "lat": 40.7887991,
+    "lon": -73.9299445,
+    "tags": {
+      "name": "Manhattan Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "New York, 10035",
+    "phone": "+1 646 672 6767",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/mapc/",
+    "borough": "New York"
+  },
+  {
+    "id": 361757084,
+    "lat": 40.7449815,
+    "lon": -73.8860581,
+    "tags": {
+      "name": "Elmhurst Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals/",
+    "address": "79-01 Broadway, Elmhurst, NY 11373",
+    "phone": "+1 718 334 4000",
+    "website": "https://www.nychealthandhospitals.org/elmhurst/",
+    "borough": "Elmhurst"
+  },
+  {
+    "id": 362875270,
+    "lat": 40.6678372,
+    "lon": -73.979145,
+    "tags": {
+      "name": "NewYork-Presbyterian Brooklyn Methodist Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NewYork-Presbyterian Hospital",
+    "address": "506 6th Street, Brooklyn, 11216",
+    "phone": "+1-718-780-3000",
+    "website": "https://www.nyp.org/brooklyn",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 395304938,
+    "lat": 40.7897421,
+    "lon": -73.9530515,
+    "tags": {
+      "name": "The Mount Sinai Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Mount Sinai",
+    "address": "1 Gustave L. Levy Place, New York, 10129",
+    "phone": "+1 212-241-6500",
+    "website": "http://www.mountsinai.org/locations/mount-sinai",
+    "borough": "New York"
+  },
+  {
+    "id": 405835399,
+    "lat": 40.7152504,
+    "lon": -74.0508589,
+    "tags": {
+      "name": "Jersey City Medical Center"
+    },
+    "has_er": true,
+    "beds": 308,
+    "is_24_7": true,
+    "operator": "RWJBarnabas Health",
+    "address": "355 Grand Street, Jersey City, 07302",
+    "phone": "+1 201 915 2000",
+    "website": "https://www.barnabashealth.org/Jersey-City-Medical-Center.aspx",
+    "borough": "Jersey City"
+  },
+  {
+    "id": 414494633,
+    "lat": 40.7440252,
+    "lon": -74.1742477,
+    "tags": {
+      "name": "Saint Michael's Medical Center"
+    },
+    "has_er": true,
+    "beds": 357,
+    "is_24_7": true,
+    "operator": "Prime Healthcare Services",
+    "address": "111 Central Avenue, Newark, 07102",
+    "phone": "+1 973 877 5000",
+    "website": "https://www.smmcnj.com/",
+    "borough": "Newark"
+  },
+  {
+    "id": 425525335,
+    "lat": 40.7524397,
+    "lon": -74.2353624,
+    "tags": {
+      "name": "VA New Jersey Health Care System"
+    },
+    "has_er": true,
+    "beds": 381,
+    "is_24_7": true,
+    "operator": "Veterans Health Administration",
+    "address": "385 Tremont Avenue, East Orange, 07018",
+    "phone": "+1 973 676 1000",
+    "website": "https://www.newjersey.va.gov/",
+    "borough": "East Orange"
+  },
+  {
+    "id": 431043330,
+    "lat": 40.7101311,
+    "lon": -74.2125408,
+    "tags": {
+      "name": "Newark Beth Israel Medical Center"
+    },
+    "has_er": true,
+    "beds": 487,
+    "is_24_7": true,
+    "operator": "RWJBarnabas Health",
+    "address": "201 Lyons Avenue, Newark, 07112",
+    "phone": "+1 800 843 2384",
+    "website": "https://www.barnabashealth.org/Newark-Beth-Israel-Medical-Center.aspx",
+    "borough": "Newark"
+  },
+  {
+    "id": 445321962,
+    "lat": 40.7857786,
+    "lon": -74.1768918,
+    "tags": {
+      "name": "Clara Maass Medical Center"
+    },
+    "has_er": true,
+    "beds": 342,
+    "is_24_7": false,
+    "operator": "RWJBarnabas Health",
+    "address": "1 Clara Maass Drive, Belleville, NJ 07109",
+    "phone": "+1 973 450 2000",
+    "website": "https://www.rwjbh.org/clara-maass-medical-center/",
+    "borough": "Belleville"
+  },
+  {
+    "id": 446140444,
+    "lat": 40.7726544,
+    "lon": -74.1866481,
+    "tags": {
+      "name": "Columbus Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "495 North 13th Street, Newark, 07107",
+    "phone": "+1 973 587 7777",
+    "website": "https://www.columbusltach.org/",
+    "borough": "Newark"
+  },
+  {
+    "id": 447327109,
+    "lat": 40.6360988,
+    "lon": -74.1054784,
+    "tags": {
+      "name": "Richmond University Medical Center"
+    },
+    "has_er": true,
+    "beds": 300,
+    "is_24_7": true,
+    "operator": null,
+    "address": "355 Bard Avenue, Staten Island, NY 10310",
+    "phone": "+1 718-818-1234",
+    "website": "https://www.rumcsi.org/locations/main-hospital/",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 447778011,
+    "lat": 40.6223928,
+    "lon": -74.0757452,
+    "tags": {
+      "name": "Bayley Seton Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Richmond University Medical Center",
+    "address": "75 Vanderbilt Avenue, Staten Island, 10304",
+    "phone": "+1-718-818-6000",
+    "website": "https://www.rumcsi.org/",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 451720059,
+    "lat": 40.7914091,
+    "lon": -74.0735619,
+    "tags": {
+      "name": "Hudson Regional Hospital"
+    },
+    "has_er": true,
+    "beds": 106,
+    "is_24_7": true,
+    "operator": null,
+    "address": "55 Meadowlands Parkway, Secaucus, 07094",
+    "phone": "+1 201 392 3100",
+    "website": "https://www.hudsonregionalhospital.com",
+    "borough": "Secaucus"
+  },
+  {
+    "id": 458061825,
+    "lat": 40.7647343,
+    "lon": -73.95394,
+    "tags": {
+      "name": "NewYork-Presbyterian / Weill Cornell Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NewYork-Presbyterian",
+    "address": "525 East 68th Street, New York, 10065",
+    "phone": "+1 212 746 5454",
+    "website": "https://www.nyp.org/locations/newyork-presbyterian-weill-cornell-medical-center",
+    "borough": "New York"
+  },
+  {
+    "id": 458950443,
+    "lat": 40.7941183,
+    "lon": -73.9957172,
+    "tags": {
+      "name": "Palisades Medical Center"
+    },
+    "has_er": true,
+    "beds": 206,
+    "is_24_7": true,
+    "operator": "Hackensack Meridian Health",
+    "address": "7600 River Road, North Bergen, 07047",
+    "phone": "+1 201 854 5000",
+    "website": "http://www.palisadesmedical.org/",
+    "borough": "North Bergen"
+  },
+  {
+    "id": 469743982,
+    "lat": 40.6589363,
+    "lon": -74.214259,
+    "tags": {
+      "name": "Trinitas Regional Medical Center Williamson Campus"
+    },
+    "has_er": true,
+    "beds": 442,
+    "is_24_7": true,
+    "operator": null,
+    "address": "225 Williamson Street, Elizabeth, 07202",
+    "phone": "+1 908 994 5000",
+    "website": "https://www.trinitashospital.org/",
+    "borough": "Elizabeth"
+  },
+  {
+    "id": 475327562,
+    "lat": 40.7555008,
+    "lon": -73.8168335,
+    "tags": {
+      "name": "Flushing Hospital Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Flushing Hospital Medical Center",
+    "address": "45-00 Parsons Boulevard, Flushing, 11354",
+    "phone": "+1 718 670 5000",
+    "website": "https://www.flushinghospital.org/",
+    "borough": "Flushing"
+  },
+  {
+    "id": 484426637,
+    "lat": 40.859386,
+    "lon": -74.1379855,
+    "tags": {
+      "name": "St. Mary's General Hospital"
+    },
+    "has_er": true,
+    "beds": 145,
+    "is_24_7": true,
+    "operator": "Prime Healthcare",
+    "address": "350 Boulevard, Passaic, 07055",
+    "phone": "+1 973 365 4300",
+    "website": "https://www.smh-nj.com/",
+    "borough": "Passaic"
+  },
+  {
+    "id": 484447465,
+    "lat": 40.8112526,
+    "lon": -74.2045728,
+    "tags": {
+      "name": "Mountainside Hospital"
+    },
+    "has_er": true,
+    "beds": 231,
+    "is_24_7": true,
+    "operator": "Hackensack University Medical Center",
+    "address": "1 Bay Avenue, Montclair, 07042",
+    "phone": "+1 973 429 6000",
+    "website": "https://mountainsidehosp.com/",
+    "borough": "Montclair"
+  },
+  {
+    "id": 484453822,
+    "lat": 40.7340193,
+    "lon": -74.0499478,
+    "tags": {
+      "name": "Christ Hospital"
+    },
+    "has_er": true,
+    "beds": 376,
+    "is_24_7": true,
+    "operator": "CarePoint Health",
+    "address": "176 Palisade Avenue, Jersey City, 07306",
+    "phone": "+1 201 795 8200",
+    "website": "https://www.carepointhealth.org/christ-hospital",
+    "borough": "Jersey City"
+  },
+  {
+    "id": 484551768,
+    "lat": 40.7290451,
+    "lon": -73.8515684,
+    "tags": {
+      "name": "Long Island Jewish Forest Hills"
+    },
+    "has_er": true,
+    "beds": 312,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "102-01 66th Avenue, Forest Hills, 11375",
+    "phone": "+1 718 830 4000",
+    "website": "https://www.northwell.edu/find-care/locations/long-island-jewish-forest-hills",
+    "borough": "Forest Hills"
+  },
+  {
+    "id": 484561010,
+    "lat": 40.7545101,
+    "lon": -74.2135441,
+    "tags": {
+      "name": "East Orange General Hospital"
+    },
+    "has_er": true,
+    "beds": 196,
+    "is_24_7": true,
+    "operator": "Prospect Medical Holdings",
+    "address": "300 Central Avenue, East Orange, 07018",
+    "phone": "+1 973 672 8400",
+    "website": "https://www.evh.org/",
+    "borough": "East Orange"
+  },
+  {
+    "id": 484604257,
+    "lat": 40.6681264,
+    "lon": -74.1126258,
+    "tags": {
+      "name": "Bayonne Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "CarePoint Health",
+    "address": "29 East 29th Street, Bayonne, NJ 07002",
+    "phone": "+1 201 858 5000",
+    "website": "https://www.carepointhealth.org/bayonne-medical-center",
+    "borough": "Bayonne"
+  },
+  {
+    "id": 484615941,
+    "lat": 40.6592513,
+    "lon": -74.1976156,
+    "tags": {
+      "name": "Trinitas Regional Medical Center New Point Campus"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "655 East Jersey Street, Elizabeth, 07206",
+    "phone": "+1 908 994 5000",
+    "website": "https://www.trinitashospital.org/",
+    "borough": "Elizabeth"
+  },
+  {
+    "id": 484631988,
+    "lat": 40.6682014,
+    "lon": -73.9781584,
+    "tags": {
+      "name": "NewYork-Presbyterian Brooklyn Center for Community Health"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "515 6th Street, 11215",
+    "phone": null,
+    "website": "https://www.nyp.org/brooklyn/locations/center-for-community-health",
+    "borough": null
+  },
+  {
+    "id": 496513558,
+    "lat": 40.6896683,
+    "lon": -73.7689092,
+    "tags": {
+      "name": "Saint Albans Community Living Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Veterans Health Administration",
+    "address": "179-00 Linden Boulevard, Jamaica, 11425",
+    "phone": "+1 718 526 1000",
+    "website": "https://www.nyharbor.va.gov/locations/st_albans_community_living_center.asp",
+    "borough": "Jamaica"
+  },
+  {
+    "id": 526963278,
+    "lat": 40.6394641,
+    "lon": -73.9987799,
+    "tags": {
+      "name": "Maimonides Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Maimonides Medical Center",
+    "address": "4802 10th Avenue, Brooklyn, NY 11219",
+    "phone": "+1 718 283 6000",
+    "website": "https://www.maimonidesmed.org/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 527868089,
+    "lat": 40.8478138,
+    "lon": -73.8396848,
+    "tags": {
+      "name": "Bronx Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "Waters Place, Bronx, NY 10461",
+    "phone": "+1 718 931 0600",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/brpc/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 527873169,
+    "lat": 40.8479992,
+    "lon": -73.8434977,
+    "tags": {
+      "name": "Calvary Hospital - Bronx Campus"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1740 Eastchester Road, Bronx, 10461",
+    "phone": "+1 718 518 2000",
+    "website": "https://www.calvaryhospital.org/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 527885410,
+    "lat": 40.854608,
+    "lon": -73.8468256,
+    "tags": {
+      "name": "NYC Health + Hospitals/Jacobi"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "1400 Pelham Parkway South, Bronx, 10461",
+    "phone": "+1 718 918 5000",
+    "website": "https://www.nychealthandhospitals.org/jacobi/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 527886111,
+    "lat": 40.8495644,
+    "lon": -73.8460931,
+    "tags": {
+      "name": "Jack D. Weiler Hospital"
+    },
+    "has_er": true,
+    "beds": 431,
+    "is_24_7": true,
+    "operator": "Montefiore Health System",
+    "address": "1825 Eastchester Road, Bronx, 10461",
+    "phone": "+1 718 904 2000",
+    "website": "https://www.montefiore.org/east",
+    "borough": "Bronx"
+  },
+  {
+    "id": 556302082,
+    "lat": 40.7514281,
+    "lon": -73.7105414,
+    "tags": {
+      "name": "Zucker Hillside Hospital"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Northwell Health",
+    "address": "75-59 263rd Street, Glen Oaks, 11004",
+    "phone": "+1 718 470 8100",
+    "website": "https://www.northwell.edu/find-care/locations/zucker-hillside-hospital",
+    "borough": "Glen Oaks"
+  },
+  {
+    "id": 561003881,
+    "lat": 40.9132653,
+    "lon": -73.7880528,
+    "tags": {
+      "name": "Montefiore New Rochelle"
+    },
+    "has_er": true,
+    "beds": 242,
+    "is_24_7": true,
+    "operator": "Montefiore Health System",
+    "address": "16 Guion Place, New Rochelle, NY 10801",
+    "phone": "+1 914 632 5000",
+    "website": "https://www.montefiorehealthsystem.org/landing.cfm?id=16",
+    "borough": "New Rochelle"
+  },
+  {
+    "id": 561008240,
+    "lat": 40.9127048,
+    "lon": -73.8400461,
+    "tags": {
+      "name": "Montefiore Mount Vernon Hospital"
+    },
+    "has_er": true,
+    "beds": 121,
+    "is_24_7": true,
+    "operator": "Montefiore Health System",
+    "address": "12 North 7th Avenue, Mount Vernon, 10550",
+    "phone": "+1 914 664 8000",
+    "website": "http://montefiorehs.org/landing.cfm?id=17",
+    "borough": "Mount Vernon"
+  },
+  {
+    "id": 561010161,
+    "lat": 40.8935036,
+    "lon": -73.8612154,
+    "tags": {
+      "name": "Montefiore Medical Center - Wakefield Campus"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Montefiore Health System",
+    "address": "600 East 233rd Street, Bronx, NY 10466",
+    "phone": "+1 718 920 9000",
+    "website": "https://www.montefiore.org/wakefield",
+    "borough": "Bronx"
+  },
+  {
+    "id": 561419820,
+    "lat": 40.5985557,
+    "lon": -73.7534181,
+    "tags": {
+      "name": "Saint John's Episcopal Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": null,
+    "address": "327 Beach 19th Street, Far Roackaway, 11691",
+    "phone": "+1 718 869 7000",
+    "website": "https://www.ehs.org/",
+    "borough": "Far Roackaway"
+  },
+  {
+    "id": 561823610,
+    "lat": 40.6572512,
+    "lon": -73.934432,
+    "tags": {
+      "name": "Kingsboro Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": true,
+    "operator": null,
+    "address": "681 Clarkson Avenue, Brooklyn, 11203",
+    "phone": "+1 718 221 7700",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/kbpc/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 561823611,
+    "lat": 40.656643,
+    "lon": -73.9437023,
+    "tags": {
+      "name": "Kings County Hospital Center"
+    },
+    "has_er": true,
+    "beds": 627,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "451 Clarkson Avenue, Brooklyn, 11203",
+    "phone": "+1-718-245-3131",
+    "website": "https://www.nychealthandhospitals.org/kingscounty/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 561823612,
+    "lat": 40.6593422,
+    "lon": -73.9332091,
+    "tags": {
+      "name": "Kingsbrook Jewish Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": null,
+    "address": "585 Schenectady Avenue, Brooklyn, 11203",
+    "phone": "+1 718 604 5000",
+    "website": "https://www.kingsbrook.org/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 561836782,
+    "lat": 40.6554831,
+    "lon": -73.9122214,
+    "tags": {
+      "name": "Brookdale Hospital Medical Center"
+    },
+    "has_er": true,
+    "beds": 530,
+    "is_24_7": true,
+    "operator": null,
+    "address": "1 Brookdale Plaza, Brooklyn, 11212",
+    "phone": "+1 718 240 5000",
+    "website": "http://www.brookdalehospital.org/main-campus.html",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 561921179,
+    "lat": 40.700327,
+    "lon": -73.8164398,
+    "tags": {
+      "name": "Jamaica Hospital Medical Center"
+    },
+    "has_er": true,
+    "beds": 402,
+    "is_24_7": true,
+    "operator": null,
+    "address": "8900 Van Wyck Expressway, Jamaica, 11418",
+    "phone": "+1 718 206 6000",
+    "website": "https://jamaicahospital.org/",
+    "borough": "Jamaica"
+  },
+  {
+    "id": 561925067,
+    "lat": 40.7177045,
+    "lon": -73.8059538,
+    "tags": {
+      "name": "Queens Hospital Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "82-68 164th Street, Jamaica, 11432",
+    "phone": "+1 718 883 3000",
+    "website": "https://www.nychealthandhospitals.org/queens/",
+    "borough": "Jamaica"
+  },
+  {
+    "id": 561930692,
+    "lat": 40.7410898,
+    "lon": -73.7306799,
+    "tags": {
+      "name": "Creedmoor Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "79-25 Winchester Boulevard, Queens Village, 11427",
+    "phone": "+1 718 464 7500",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/crpc/",
+    "borough": "Queens Village"
+  },
+  {
+    "id": 561930693,
+    "lat": 40.7458874,
+    "lon": -73.7260227,
+    "tags": {
+      "name": "New York City Children's Center - Queens Campus"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "74-03 Commonwealth Boulevard, Bellerose, 11426",
+    "phone": "+1 718 264 4500",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/nyccc/qcpc/",
+    "borough": "Bellerose"
+  },
+  {
+    "id": 561932876,
+    "lat": 40.7766004,
+    "lon": -73.7690078,
+    "tags": {
+      "name": "Saint Mary's Hospital for Children"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Saint Mary's Healthcare System for Children",
+    "address": "29-01 216th Street, Bayside, NY 11360",
+    "phone": "+1-718-281-8800",
+    "website": "https://www.stmaryskids.org/",
+    "borough": "Bayside"
+  },
+  {
+    "id": 562015906,
+    "lat": 40.7471842,
+    "lon": -73.8251962,
+    "tags": {
+      "name": "NewYork-Presbyterian/Queens"
+    },
+    "has_er": true,
+    "beds": 535,
+    "is_24_7": true,
+    "operator": "NewYork-Presbyterian Healthcare System",
+    "address": "56-45 Main Street, Flushing, 11355",
+    "phone": "+1 718 670 2000",
+    "website": "http://www.nyhq.org/",
+    "borough": "Flushing"
+  },
+  {
+    "id": 562041963,
+    "lat": 40.7680618,
+    "lon": -73.9248337,
+    "tags": {
+      "name": "Mount Sinai Queens"
+    },
+    "has_er": true,
+    "beds": 235,
+    "is_24_7": true,
+    "operator": "Mount Sinai",
+    "address": "25-10 30th Avenue, Astoria, 11102",
+    "phone": "+1 718 932 1000",
+    "website": "http://www.mountsinai.org/locations/queens",
+    "borough": "Astoria"
+  },
+  {
+    "id": 562058708,
+    "lat": 40.699481,
+    "lon": -73.9427774,
+    "tags": {
+      "name": "NYC Health + Hospitals/Woodhull"
+    },
+    "has_er": true,
+    "beds": 388,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "760 Broadway, Brooklyn, 11206",
+    "phone": "+1 718 963 8000",
+    "website": "https://www.nychealthandhospitals.org/woodhull/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 562110355,
+    "lat": 40.6744641,
+    "lon": -73.9207119,
+    "tags": {
+      "name": "New York City Children's Center - Brooklyn Campus"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "1819 Bergan Street, Brooklyn, 11233",
+    "phone": "+1 718 221 4500",
+    "website": "https://www.omh.ny.gov/omhweb/facilities/nyccc/bkpc/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 562110647,
+    "lat": 40.6784084,
+    "lon": -73.9372099,
+    "tags": {
+      "name": "Interfaith Medical Center"
+    },
+    "has_er": true,
+    "beds": 287,
+    "is_24_7": true,
+    "operator": null,
+    "address": "1545 Atlantic Avenue, Brooklyn, 11213",
+    "phone": "+1 718 613 4000",
+    "website": "https://www.interfaithmedical.com/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 562256746,
+    "lat": 40.6905839,
+    "lon": -73.9779176,
+    "tags": {
+      "name": "Brooklyn Hospital Center"
+    },
+    "has_er": true,
+    "beds": 464,
+    "is_24_7": true,
+    "operator": null,
+    "address": "121 DeKalb Avenue, Brooklyn, 11201",
+    "phone": "+1 718 250 8000",
+    "website": "https://www.tbh.org/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 562303098,
+    "lat": 40.7332252,
+    "lon": -73.9824426,
+    "tags": {
+      "name": "Mount Sinai Beth Israel"
+    },
+    "has_er": true,
+    "beds": 799,
+    "is_24_7": true,
+    "operator": "Mount Sinai",
+    "address": "New York, 10003",
+    "phone": "+1 212 420 2000",
+    "website": "https://www.mountsinai.org/locations/beth-israel",
+    "borough": "New York"
+  },
+  {
+    "id": 562360129,
+    "lat": 40.7644584,
+    "lon": -73.956963,
+    "tags": {
+      "name": "Memorial Sloan Kettering Cancer Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Memorial Sloan Kettering Cancer Center",
+    "address": "1275 York Avenue, New York, 10065",
+    "phone": "+1 212 639 2000",
+    "website": "https://www.mskcc.org/",
+    "borough": "New York"
+  },
+  {
+    "id": 562361553,
+    "lat": 40.7736422,
+    "lon": -73.9608622,
+    "tags": {
+      "name": "Lenox Hill Hospital"
+    },
+    "has_er": true,
+    "beds": 652,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "100 East 77th Street, New York, 10075",
+    "phone": "+1 212 434 2000",
+    "website": "https://lenoxhill.northwell.edu",
+    "borough": "New York"
+  },
+  {
+    "id": 562367949,
+    "lat": 40.7850572,
+    "lon": -73.9449502,
+    "tags": {
+      "name": "NYC Health + Hospitals/Metropolitan"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "1901 1st Avenue, New York, 10129",
+    "phone": "+1 212-423-6262",
+    "website": "https://www.nychealthandhospitals.org/metropolitan/",
+    "borough": "New York"
+  },
+  {
+    "id": 562510587,
+    "lat": 40.8052353,
+    "lon": -73.9614667,
+    "tags": {
+      "name": "Mount Sinai Morningside"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Mount Sinai",
+    "address": "1111 Amsterdam Avenue, New York, 10029",
+    "phone": "+1-212-523-4000",
+    "website": "https://www.mountsinai.org/locations/morningside",
+    "borough": "New York"
+  },
+  {
+    "id": 562540012,
+    "lat": 40.8144044,
+    "lon": -73.9388249,
+    "tags": {
+      "name": "NYC Health + Hospitals/Harlem"
+    },
+    "has_er": true,
+    "beds": 272,
+    "is_24_7": true,
+    "operator": "NYC Health + Hospitals",
+    "address": "506 Lenox Avenue, New York, 10037",
+    "phone": "+1 212 939 1000",
+    "website": "https://www.nychealthandhospitals.org/harlem/",
+    "borough": "New York"
+  },
+  {
+    "id": 562562103,
+    "lat": 40.873262,
+    "lon": -73.9128055,
+    "tags": {
+      "name": "NewYork-Presbyterian/Allen Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "NewYork-Presbyterian",
+    "address": "5141 Broadway, New York, 10040",
+    "phone": "+1 212 932 4000",
+    "website": "https://www.nyp.org/allenhospital",
+    "borough": "New York"
+  },
+  {
+    "id": 562564541,
+    "lat": 40.8673297,
+    "lon": -73.9053409,
+    "tags": {
+      "name": "James J Peters Veterans Affairs Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Veterans Health Administration",
+    "address": "130 West Kingsbridge Road, Bronx, 10468",
+    "phone": "+1 718 584 9000",
+    "website": "https://www.bronx.va.gov/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 562586515,
+    "lat": 40.8527986,
+    "lon": -73.8914963,
+    "tags": {
+      "name": "Saint Barnabas Hospital"
+    },
+    "has_er": true,
+    "beds": 422,
+    "is_24_7": true,
+    "operator": "SBH Health System",
+    "address": "4487 3rd Avenue, Bronx, 10457",
+    "phone": "+1 718 960 9000",
+    "website": "http://www.sbhny.org/st-barnabas-hospital/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 562630644,
+    "lat": 40.843486,
+    "lon": -73.9105978,
+    "tags": {
+      "name": "BronxCare Hospital Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Bronx-Lebanon Hospital System",
+    "address": "1650 Grand Concourse, Bronx, 10457",
+    "phone": "+1 718 590 1800",
+    "website": "https://www.bronxcare.org/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 562640493,
+    "lat": 40.8314339,
+    "lon": -73.9030982,
+    "tags": {
+      "name": "Bronx-Lebanon Hospital Center Fulton Division"
+    },
+    "has_er": true,
+    "beds": 164,
+    "is_24_7": true,
+    "operator": "BronxCare Health System",
+    "address": "1276 Fulton Avenue, Bronx, 10456",
+    "phone": "+1 718 590 1800",
+    "website": "https://www.bronxcare.org/",
+    "borough": "Bronx"
+  },
+  {
+    "id": 562846734,
+    "lat": 40.8407134,
+    "lon": -73.8484706,
+    "tags": {
+      "name": "Montefiore Westchester Square Campus"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Montefiore Health System",
+    "address": "2475 Saint Raymonds Avenue, Bronx, 10461",
+    "phone": "+1 718 430 7300",
+    "website": "https://www.montefiore.org/westchester-square-campus",
+    "borough": "Bronx"
+  },
+  {
+    "id": 591394791,
+    "lat": 40.7403602,
+    "lon": -74.1904339,
+    "tags": {
+      "name": "University Hospital"
+    },
+    "has_er": true,
+    "beds": 519,
+    "is_24_7": true,
+    "operator": "University Hospital Newark",
+    "address": "150 Bergen Street, Newark, 07103",
+    "phone": "+1 973 972 4300",
+    "website": "https://uhnj.org/",
+    "borough": "Newark"
+  },
+  {
+    "id": 721524163,
+    "lat": 40.6551408,
+    "lon": -73.9444402,
+    "tags": {
+      "name": "University Hospital of Brooklyn"
+    },
+    "has_er": true,
+    "beds": 342,
+    "is_24_7": true,
+    "operator": "State University of New York",
+    "address": "445 Lenox Road, Brooklyn, 11203",
+    "phone": "+1 718 270 1000",
+    "website": "https://www.downstate.edu/uhb/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 723006150,
+    "lat": 40.6466837,
+    "lon": -74.0211159,
+    "tags": {
+      "name": "NYU Langone Hospital \u2013 Brooklyn"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "NYU Langone",
+    "address": "150 55th Street, Brooklyn, NY 11220",
+    "phone": "+1-718-630-7000",
+    "website": "https://nyulangone.org/locations/nyu-langone-hospital-brooklyn",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 793953305,
+    "lat": 40.8387239,
+    "lon": -73.8352419,
+    "tags": {
+      "name": "Montefiore Family Medical Association"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": "310 East Tremont Avenue, The Bronx, NY 10461",
+    "phone": null,
+    "website": null,
+    "borough": "The Bronx"
+  },
+  {
+    "id": 799488173,
+    "lat": 40.7103064,
+    "lon": -74.0049658,
+    "tags": {
+      "name": "NewYork-Presbyterian Lower Manhattan Hospital"
+    },
+    "has_er": true,
+    "beds": 132,
+    "is_24_7": false,
+    "operator": null,
+    "address": "170 William Street, New York, NY 10038",
+    "phone": null,
+    "website": "https://www.nyp.org/lowermanhattan",
+    "borough": "New York"
+  },
+  {
+    "id": 818557074,
+    "lat": 40.7697294,
+    "lon": -73.9869586,
+    "tags": {
+      "name": "Mount Sinai West"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Mount Sinai Health System",
+    "address": "1000 10th Avenue, New York, NY 10019",
+    "phone": "+1-212-523-4000",
+    "website": "https://www.mountsinai.org/locations/west",
+    "borough": "New York"
+  },
+  {
+    "id": 836178213,
+    "lat": 40.7366737,
+    "lon": -73.7302024,
+    "tags": {
+      "name": "Creedmor Psychiatric Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 845192544,
+    "lat": 40.655925,
+    "lon": -73.8655193,
+    "tags": {
+      "name": "Brooklyn Developmental Disabilities Services Offices"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 1148889600,
+    "lat": 40.9121259,
+    "lon": -73.8406188,
+    "tags": {
+      "name": "Montefiore School of Nursing"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "Montefiore Health System",
+    "address": "53 Valentine Street, Mount Vernon, NY 10550",
+    "phone": "+1-914-361-6221",
+    "website": null,
+    "borough": "Mount Vernon"
+  },
+  {
+    "id": 1172887525,
+    "lat": 40.8956941,
+    "lon": -74.0928348,
+    "tags": {
+      "name": "Kessler Institute For Rehabilitation - Saddle Brook"
+    },
+    "has_er": false,
+    "beds": 112,
+    "is_24_7": false,
+    "operator": null,
+    "address": "300 Market Street, Saddle Brook, NJ 07663",
+    "phone": "+1 201 587 8500",
+    "website": "https://www.kessler-rehab.com/locations-and-tours/saddle-brook",
+    "borough": "Saddle Brook"
+  },
+  {
+    "id": 1265948117,
+    "lat": 40.7704067,
+    "lon": -73.9424054,
+    "tags": {
+      "name": "NYC Health + Hospitals/Coler"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": "NYC Health + Hospitals/",
+    "address": "900 Main Street, Roosevelt Island, 10044",
+    "phone": "+1 212 848 6000",
+    "website": "https://www.nychealthandhospitals.org/coler/",
+    "borough": "Roosevelt Island"
+  },
+  {
+    "id": 1307534086,
+    "lat": 40.5954576,
+    "lon": -74.0905932,
+    "tags": {
+      "name": "Carmel Richmond"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": "https://www.archcare.org/carmel-richmond/",
+    "borough": null
+  },
+  {
+    "id": 3364740,
+    "lat": 40.7041664,
+    "lon": -73.9176829,
+    "tags": {
+      "name": "Wyckoff Heights Medical Center"
+    },
+    "has_er": true,
+    "beds": 350,
+    "is_24_7": true,
+    "operator": null,
+    "address": "374 Stockholm Street, Brooklyn, 11237",
+    "phone": "+1 718 963 7272",
+    "website": "http://www.wyckoffhospital.org/",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 8635611,
+    "lat": 40.8519669,
+    "lon": -74.2348099,
+    "tags": {
+      "name": "Essex County Hospital Center"
+    },
+    "has_er": false,
+    "beds": null,
+    "is_24_7": false,
+    "operator": null,
+    "address": null,
+    "phone": null,
+    "website": null,
+    "borough": null
+  },
+  {
+    "id": 15507604,
+    "lat": 40.5170482,
+    "lon": -74.1967381,
+    "tags": {
+      "name": "Staten Island University Hospital South"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "375 Seguine Avenue, Staten Island, 10309",
+    "phone": "+1 718 226 2000",
+    "website": "https://www.northwell.edu/find-care/locations/staten-island-university-hospital",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 16312917,
+    "lat": 40.7556671,
+    "lon": -73.7077115,
+    "tags": {
+      "name": "Long Island Jewish Medical Center"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "270-05 76th Avenue, Glen Oaks, 11040",
+    "phone": "+1 718 470 7000",
+    "website": "https://www.northwell.edu/find-care/locations/long-island-jewish-medical-center",
+    "borough": "Glen Oaks"
+  },
+  {
+    "id": 16342377,
+    "lat": 40.7750872,
+    "lon": -73.7005247,
+    "tags": {
+      "name": "North Shore University Hospital"
+    },
+    "has_er": true,
+    "beds": null,
+    "is_24_7": true,
+    "operator": "Northwell Health",
+    "address": "300 Community Drive, Manhasset, NY 11030",
+    "phone": "+1 516 562 0100",
+    "website": "https://www.northwell.edu/find-care/locations/north-shore-university-hospital",
+    "borough": "Manhasset"
+  }
 ]

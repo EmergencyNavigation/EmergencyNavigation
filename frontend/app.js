@@ -51,6 +51,21 @@ async function loadHospitals() {
             .bindPopup(`🏥 ${h.name}`);
     });
 }
+async function loadPolice() {
+    const res = await fetch("/api/police");
+    const policeStations = await res.json();
+
+    policeStations.forEach(p => {
+        L.circleMarker([p.lat, p.lon], {
+            radius: 6,
+            color: "green",
+            fillColor: "green",
+            fillOpacity: 0.8
+        })
+        .addTo(map)
+        .bindPopup(`🚓 ${p.tags.name || "Police Station"}`);
+    });
+}
 
 async function loadHazards() {
     const res = await fetch("/api/hazards");
@@ -98,95 +113,71 @@ map.on("click", async function(e) {
         <p>Calculating fastest route...</p>
     `;
 
-    let data;
+let data;
+let bestHospital;
+let top3;
 
-    try {
-        const res = await fetch("/api/nearest-er", {
-            method: "POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify({ lat, lon })
-        });
-
-        data = await res.json();
-    } catch {
-        document.getElementById("result").innerHTML = `
-            <h3>Error</h3>
-            <p>Failed to connect to server.</p>
-        `;
-        return;
-    }
-
-    const resHaz = await fetch("/api/hazards");
-    const hazards = await resHaz.json();
-
-    let danger = false;
-
-    hazards.forEach(h => {
-        const dist = Math.sqrt(
-            Math.pow(h.lat - lat, 2) +
-            Math.pow(h.lon - lon, 2)
-        );
-
-        if (dist < 0.02) {
-            danger = true;
-        }
+try {
+    const res = await fetch("/api/nearest-er", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ lat, lon })
     });
 
-    const resAll = await fetch("/api/hospitals");
-    const allHospitals = await resAll.json();
-
-    allHospitals.forEach(h => {
-        h.dist = Math.sqrt(
-            Math.pow(h.lat - lat, 2) +
-            Math.pow(h.lon - lon, 2)
-        );
-    });
-
-    allHospitals.sort((a, b) => a.dist - b.dist);
-    const top3 = allHospitals.slice(0, 3);
-    const bestHospital = top3[0];
-
-    hospitalMarker = L.marker([bestHospital.lat, bestHospital.lon], { icon: bestIcon })
-        .addTo(map)
-        .bindPopup(`⭐ BEST OPTION: ${bestHospital.name}`)
-        .openPopup();
-
-    routeLine = L.polyline(
-        [
-            [lat, lon],
-            [bestHospital.lat, bestHospital.lon]
-        ],
-        {
-            color: "#dc2626",
-            weight: 6,
-            opacity: 0.9,
-            dashArray: "10, 8"
+    data = await res.json();
+    bestHospital = data.best;
+    top3 = data.top3 || [];
+} catch {
+    document.getElementById("result").innerHTML = `
+        <h3>Error</h3>
+        <p>Failed to connect to server.</p>
+    `;
+    return;
 }
-    ).addTo(map);
 
-    map.fitBounds(routeLine.getBounds(), {
-        padding: [50, 50]
-    });
+if (!bestHospital || !bestHospital.geometry) {
+    document.getElementById("result").innerHTML = `
+        <h3>Error</h3>
+        <p>No route data returned from backend.</p>
+    `;
+    return;
+}
 
-    let html = `<h3>Top 3 ER for ${emergencyType}</h3>`;
+hospitalMarker = L.marker([bestHospital.lat, bestHospital.lon], { icon: bestIcon })
+    .addTo(map)
+    .bindPopup(`⭐ BEST OPTION: ${bestHospital.name}`)
+    .openPopup();
 
-    top3.forEach((h, i) => {
-        html += `
-            <p>
-                <b>${i + 1}. ${h.name}</b><br/>
-                Distance: ${(h.dist * 111).toFixed(2)} km
-            </p>
-        `;
-    });
+const routePoints = bestHospital.geometry.map(p => [p.lat, p.lon]);
 
-    if (danger) {
-        html += `<p style="color:red;">⚠️ Hazard detected nearby!</p>`;
-    }
+routeLine = L.polyline(routePoints, {
+    color: "#dc2626",
+    weight: 6,
+    opacity: 0.9
+}).addTo(map);
 
-    document.getElementById("result").innerHTML = html;
-    document.getElementById("decisionText").innerHTML = `
+map.fitBounds(routeLine.getBounds(), {
+    padding: [50, 50]
+});
+
+let html = `<h3>Top 3 ER for ${emergencyType}</h3>`;
+
+top3.forEach((h, i) => {
+    html += `
+        <p>
+            <b>${i + 1}. ${h.name}</b><br/>
+            Distance: ${h.distance_km} km<br/>
+            Time: ${h.duration_min} min<br/>
+            Hazard Penalty: ${h.hazard_penalty}
+        </p>
+    `;
+});
+
+document.getElementById("result").innerHTML = html;
+
+document.getElementById("decisionText").innerHTML = `
     Emergency type: <b>${emergencyType}</b><br>
-    Selected <b>${bestHospital.name}</b> because it is the closest available emergency care option among all loaded hospitals.
+    Selected <b>${bestHospital.name}</b> because it has the best score based on driving time and hazard penalty.
 `;
 
 document.getElementById("routeTime").innerText = new Date().toLocaleTimeString();
@@ -242,3 +233,39 @@ document.getElementById("locateBtn").addEventListener("click", () => {
 loadHospitals();
 loadHazards();
 checkStatus();
+loadPolice();
+document.getElementById("searchBtn").addEventListener("click", async () => {
+    let query = document.getElementById("locationInput").value.trim();
+
+    if (!query.toLowerCase().includes("new york") && !query.toLowerCase().includes("nyc")) {
+        query += ", New York City";
+}
+
+    if (!query) {
+        alert("Please enter a location");
+        return;
+    }
+
+    try {
+        const res = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`);
+        const data = await res.json();
+
+        if (data.length === 0) {
+            alert("Location not found");
+            return;
+        }
+
+        const lat = parseFloat(data[0].lat);
+        const lon = parseFloat(data[0].lon);
+
+        // Move map to searched location
+        map.setView([lat, lon], 13);
+
+        // Simulate click (reuse your existing logic)
+        map.fire("click", { latlng: { lat, lng: lon } });
+
+    } catch (err) {
+        console.error(err);
+        alert("Search failed");
+    }
+});
