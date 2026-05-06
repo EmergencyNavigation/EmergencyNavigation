@@ -4,44 +4,87 @@
     <title>NeuroRoute Emergency System</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <div id="sidebar">
+
+    <div id="leftPanel">
         <h1>🚑 NeuroRoute</h1>
+
         <div id="statsBox">
             <div>Total Hospitals: <span id="hospitalCount">0</span></div>
             <div>Active Hazards: <span id="hazardCount">0</span></div>
         </div>
-        <p>Click anywhere on the NYC map to find the nearest ER.</p>
-        <input id="locationInput" type="text" placeholder="Enter address or place">
-        <button id="searchBtn">Search Location</button>
-         <select id="emergencyType">
+
+        <p class="instruction">Choose service, emergency type, then search or click the map.</p>
+
+        <label>Service Type</label>
+        <select id="destinationType">
+            <option value="hospital">Route to Hospital</option>
+            <option value="police">Route to Police Station</option>
+        </select>
+
+        <label>Emergency Type</label>
+        <select id="emergencyType">
             <option value="General Emergency">General Emergency</option>
             <option value="Heart Attack">Heart Attack</option>
             <option value="Stroke">Stroke</option>
             <option value="Accident Trauma">Accident Trauma</option>
             <option value="Child Emergency">Child Emergency</option>
         </select>
-        <div id="result">Waiting for location...</div>
-        <div id="decisionBox">
-            <div id="timeBox">
-                Last route calculated: <span id="routeTime">Not yet</span>
+
+        <label>Search Location</label>
+        <input id="locationInput" type="text" placeholder="Enter address or place">
+        <button id="searchBtn">Search Location</button>
+
+        <button id="locateBtn">Use My Location</button>
+        <button id="clearBtn">Clear Route</button>
+    </div>
+
+    <div id="mapWrap">
+        <div id="topBar">
+            <div>
+                <div id="topTitle">NeuroRoute Command Center</div>
+                <div id="topSub">Real-time NYC emergency routing dashboard</div>
             </div>
+
+            <div id="topBadges">
+                <span>OSRM Routing</span>
+                <span>Hazard Aware</span>
+                <span>Live Data</span>
+            </div>
+        </div>
+
+        <div id="map"></div>
+        <div id="mapOverlay">Click map to dispatch</div>
+    </div>
+
+    <div id="rightPanel">
+        <div class="infoCard">
+            <h3>Live Status</h3>
+            <div id="statusBox">Status: Checking...</div>
+            <div>Time: <span id="liveClock">--:--:--</span></div>
+            <div id="weatherBox">Weather: Loading...</div>
+        </div>
+
+        <div class="infoCard">
+            <h3>Routing Result</h3>
+            <div id="result">Waiting for location...</div>
+        </div>
+
+        <div class="infoCard">
             <h3>Routing Decision</h3>
+            <div>Last route calculated: <span id="routeTime">Not yet</span></div>
             <div id="decisionText">No emergency selected yet.</div>
         </div>
-        <button id="clearBtn">Clear Route</button>
-        <button id="locateBtn">Use My Location</button>
-        <div id="hazardsBox">
+
+        <div class="infoCard">
             <h3>Active Hazards</h3>
             <div id="hazardsList">Loading hazards...</div>
         </div>
     </div>
 
-    <div id="map"></div>
-
-
-   
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="app.js"></script>
 </body>

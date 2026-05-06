@@ -75,13 +75,19 @@ async function loadHazards() {
     const hazardsList = document.getElementById("hazardsList");
     hazardsList.innerHTML = "";
 
+    
     hazards.forEach(h => {
+        const color =
+            h.severity === "High" ? "#ef4444" :
+            h.severity === "Medium" ? "#f59e0b" :
+            "#3b82f6";
+
         L.circleMarker([h.lat, h.lon], {
             radius: 8,
-            color: "red",
-            fillColor: "red",
+            color: color,
+            fillColor: color,
             fillOpacity: 0.8
-        }).addTo(map).bindPopup(`⚠️ ${h.type} - ${h.severity}`);
+    }).addTo(map).bindPopup(`⚠️ ${h.type} - ${h.severity}`);
 
         const div = document.createElement("div");
         div.className = "hazardItem";
@@ -108,10 +114,17 @@ map.on("click", async function(e) {
         .openPopup();
 
     document.getElementById("result").innerHTML = `
-        <h3>Processing Emergency...</h3>
-        <p>Emergency type: ${emergencyType}</p>
-        <p>Calculating fastest route...</p>
-    `;
+    <div class="loadingRow">
+        <div class="spinner"></div>
+        <div>
+            <b>Processing Emergency...</b><br>
+            ${emergencyType} route is being calculated.
+        </div>
+    </div>
+`;
+
+const overlay = document.getElementById("mapOverlay");
+if (overlay) overlay.style.opacity = "0";
 
 let data;
 let bestHospital;
@@ -164,12 +177,12 @@ let html = `<h3>Top 3 ER for ${emergencyType}</h3>`;
 
 top3.forEach((h, i) => {
     html += `
-        <p>
-            <b>${i + 1}. ${h.name}</b><br/>
-            Distance: ${h.distance_km} km<br/>
-            Time: ${h.duration_min} min<br/>
+        <div class="resultCard">
+            <b>${i + 1}. ${h.name}</b><br>
+            Distance: ${h.distance_km} km<br>
+            Time: ${h.duration_min} min<br>
             Hazard Penalty: ${h.hazard_penalty}
-        </p>
+        </div>
     `;
 });
 
@@ -188,8 +201,7 @@ document.getElementById("decisionText").innerHTML = `
 
 document.getElementById("routeTime").innerText = new Date().toLocaleTimeString();
 });
-
-document.getElementById("clearBtn").addEventListener("click", () => {
+    document.getElementById("clearBtn").addEventListener("click", () => {
     if (patientMarker) map.removeLayer(patientMarker);
     if (hospitalMarker) map.removeLayer(hospitalMarker);
     if (routeLine) map.removeLayer(routeLine);
@@ -199,10 +211,11 @@ document.getElementById("clearBtn").addEventListener("click", () => {
     routeLine = null;
 
     document.getElementById("result").innerHTML = "Cleared. Click map again.";
-
-    // 🔥 ADD THESE (Step 10)
     document.getElementById("decisionText").innerHTML = "No emergency selected yet.";
     document.getElementById("routeTime").innerText = "Not yet";
+
+    const overlay = document.getElementById("mapOverlay");
+    if (overlay) overlay.style.opacity = "1";
 });
 
 document.getElementById("locateBtn").addEventListener("click", () => {
@@ -243,14 +256,14 @@ loadPolice();
 document.getElementById("searchBtn").addEventListener("click", async () => {
     let query = document.getElementById("locationInput").value.trim();
 
-    if (!query.toLowerCase().includes("new york") && !query.toLowerCase().includes("nyc")) {
-        query += ", New York City";
-}
-
     if (!query) {
         alert("Please enter a location");
         return;
     }
+
+    if (!query.toLowerCase().includes("new york") && !query.toLowerCase().includes("nyc")) {
+        query += ", New York City";
+}
 
     try {
         const res = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`);
@@ -275,3 +288,28 @@ document.getElementById("searchBtn").addEventListener("click", async () => {
         alert("Search failed");
     }
 });
+function updateLiveClock() {
+    document.getElementById("liveClock").innerText =
+        new Date().toLocaleTimeString();
+}
+
+setInterval(updateLiveClock, 1000);
+updateLiveClock();
+
+async function loadWeather() {
+    try {
+        const res = await fetch("https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitude=-74.0060&current_weather=true");
+        const data = await res.json();
+
+        const temp = data.current_weather.temperature;
+        const wind = data.current_weather.windspeed;
+
+        document.getElementById("weatherBox").innerText =
+            `Weather: ${temp}°C, Wind ${wind} km/h`;
+    } catch {
+        document.getElementById("weatherBox").innerText =
+            "Weather: unavailable";
+    }
+}
+
+loadWeather();
