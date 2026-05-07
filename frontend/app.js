@@ -15,9 +15,16 @@ const hospitalIcon = L.icon({
 });
 
 const bestIcon = L.icon({
+    
     iconUrl: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
     iconSize: [32, 32],
     iconAnchor: [16, 32],
+});
+const policeBestIcon = L.icon({
+    iconUrl: "https://cdn-icons-png.flaticon.com/512/1048/1048315.png",
+    iconSize: [42, 42],
+    iconAnchor: [21, 42],
+    popupAnchor: [0, -35]
 });
 
 async function checkStatus() {
@@ -45,26 +52,26 @@ async function loadHospitals() {
     const hospitals = await res.json();
     document.getElementById("hospitalCount").innerText = hospitals.length;
 
-    hospitals.forEach(h => {
-        L.marker([h.lat, h.lon], { icon: hospitalIcon })
-            .addTo(map)
-            .bindPopup(`🏥 ${h.name}`);
-    });
+    // hospitals.forEach(h => {
+    //     L.marker([h.lat, h.lon], { icon: hospitalIcon })
+    //         .addTo(map)
+    //         .bindPopup(`🏥 ${h.name}`);
+    // });
 }
 async function loadPolice() {
     const res = await fetch("/api/police");
     const policeStations = await res.json();
 
-    policeStations.forEach(p => {
-        L.circleMarker([p.lat, p.lon], {
-            radius: 6,
-            color: "green",
-            fillColor: "green",
-            fillOpacity: 0.8
-        })
-        .addTo(map)
-        .bindPopup(`🚓 ${p.tags.name || "Police Station"}`);
-    });
+    // policeStations.forEach(p => {
+    //     L.circleMarker([p.lat, p.lon], {
+    //         radius: 6,
+    //         color: "green",
+    //         fillColor: "green",
+    //         fillOpacity: 0.8
+    //     })
+    //     .addTo(map)
+    //     .bindPopup(`🚓 ${p.tags.name || "Police Station"}`);
+    // });
 }
 
 async function loadHazards() {
@@ -110,7 +117,7 @@ map.on("click", async function(e) {
 
     patientMarker = L.marker([lat, lon])
         .addTo(map)
-        .bindPopup("🚨 Patient Location")
+        .bindPopup("🚑 Patient Location")
         .openPopup();
 
     document.getElementById("result").innerHTML = `
@@ -134,7 +141,12 @@ try {
     const res = await fetch("/api/nearest-er", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({ lat, lon })
+        body: JSON.stringify({
+            lat: lat,
+            lon: lon,
+            service_type: document.getElementById("destinationType").value,
+            emergency_type: document.getElementById("emergencyType").value
+        })
     });
 
     data = await res.json();
@@ -156,9 +168,24 @@ if (!bestHospital || !bestHospital.geometry) {
     return;
 }
 
-hospitalMarker = L.marker([bestHospital.lat, bestHospital.lon], { icon: bestIcon })
+const selectedService =
+    document.getElementById("destinationType").value;
+
+const finalIcon =
+    selectedService === "police"
+        ? policeBestIcon
+        : bestIcon;
+
+hospitalMarker = L.marker(
+    [bestHospital.lat, bestHospital.lon],
+    { icon: finalIcon }
+)
     .addTo(map)
-    .bindPopup(`⭐ BEST OPTION: ${bestHospital.name}`)
+    .bindPopup(
+        selectedService === "police"
+            ? `🚓 BEST POLICE OPTION: ${bestHospital.name}`
+            : `🚑 BEST HOSPITAL OPTION: ${bestHospital.name}`
+    )
     .openPopup();
 
 const routePoints = bestHospital.geometry.map(p => [p.lat, p.lon]);
@@ -173,11 +200,17 @@ map.fitBounds(routeLine.getBounds(), {
     padding: [50, 50]
 });
 
-let html = `<h3>Top 3 ER for ${emergencyType}</h3>`;
+let serviceLabel = document.getElementById("destinationType").value === "police"
+    ? "Police Stations"
+    : "ER Options";
 
+let html = `<h3>Top 3 ${serviceLabel}</h3>`;
 top3.forEach((h, i) => {
     html += `
         <div class="resultCard">
+            <span class="serviceBadge">
+                ${selectedService === "police" ? "🚓 Police" : "🚑 Hospital"}
+            </span><br>
             <b>${i + 1}. ${h.name}</b><br>
             Distance: ${h.distance_km} km<br>
             Time: ${h.duration_min} min<br>

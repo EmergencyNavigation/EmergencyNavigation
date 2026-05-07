@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import json
 import os
-from route_engine import rank_hospitals
+from route_engine import rank_destinations
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
@@ -24,94 +24,123 @@ def css():
 def js():
     return send_from_directory(FRONTEND_DIR, "app.js")
 
+# ---------------- HELPERS ----------------
+
+def load_json_file(filename):
+    if not os.path.exists(filename):
+        return None
+    with open(filename) as f:
+        return json.load(f)
+
+
+def normalize_place(item):
+    if "lat" not in item or "lon" not in item:
+        return None
+
+    return {
+        "name": item.get("name") or item.get("tags", {}).get("name", "Unknown Destination"),
+        "lat": item["lat"],
+        "lon": item["lon"],
+        "tags": item.get("tags", {}),
+        "has_er": item.get("has_er", False),
+        "is_24_7": item.get("is_24_7", False),
+        "operator": item.get("operator"),
+        "address": item.get("address"),
+        "website": item.get("website"),
+        "borough": item.get("borough")
+    }
+
+
+def normalize_places(raw_items):
+    results = []
+    for item in raw_items:
+        place = normalize_place(item)
+        if place:
+            results.append(place)
+    return results
+
 # ---------------- API ROUTES ----------------
 
 @app.route("/api/status")
 def status():
     return jsonify({
         "status": "ok",
-        "hospitals_exists": os.path.exists("hospitals.json")
+        "hospitals_exists": os.path.exists("hospitals.json"),
+        "police_exists": os.path.exists("police.json"),
+        "hazards_exists": os.path.exists("hazards.json")
     })
 
 @app.route("/api/hospitals")
 def hospitals():
-    if not os.path.exists("hospitals.json"):
+    data = load_json_file("hospitals.json")
+    if data is None:
         return jsonify({"error": "hospitals.json not found"}), 404
-
-    with open("hospitals.json") as f:
-        data = json.load(f)
-
-    results = []
-    for item in data:
-        if "lat" in item and "lon" in item:
-            results.append({
-                "name": item.get("tags", {}).get("name", "Unknown Hospital"),
-                "lat": item["lat"],
-                "lon": item["lon"]
-            })
-
-    return jsonify(results)
+    return jsonify(normalize_places(data))
 
 @app.route("/api/hazards")
 def hazards():
-    if not os.path.exists("hazards.json"):
+    data = load_json_file("hazards.json")
+    if data is None:
         return jsonify({"error": "hazards.json not found"}), 404
-
-    with open("hazards.json") as f:
-        return jsonify(json.load(f))
+    return jsonify(data)
 
 @app.route("/api/police")
 def police():
-    if not os.path.exists("police.json"):
+    data = load_json_file("police.json")
+    if data is None:
         return jsonify({"error": "police.json not found"}), 404
-
-    with open("police.json") as f:
-        return jsonify(json.load(f))
-
-# 🔥 NEW SMART ROUTING (DIMITRI ENGINE)
+    return jsonify(data)
 
 @app.route("/api/nearest-er", methods=["POST"])
 def nearest_er():
-    data = request.get_json()
+    data = request.get_json() or {}
+
     lat = data.get("lat")
     lon = data.get("lon")
+    service_type = data.get("service_type") or data.get("destinationType") or "hospital"
+    emergency_type = data.get("emergency_type") or data.get("emergencyType") or "General Emergency"
 
     if lat is None or lon is None:
         return jsonify({"error": "lat and lon required"}), 400
 
-    if not os.path.exists("hospitals.json"):
-        return jsonify({"error": "hospitals.json not found"}), 404
+    if service_type not in ["hospital", "police"]:
+        return jsonify({"error": "service_type must be hospital or police"}), 400
 
-    if not os.path.exists("hazards.json"):
+    data_file = "police.json" if service_type == "police" else "hospitals.json"
+
+    raw_destinations = load_json_file(data_file)
+    if raw_destinations is None:
+        return jsonify({"error": f"{data_file} not found"}), 404
+
+    raw_hazards = load_json_file("hazards.json")
+    if raw_hazards is None:
         return jsonify({"error": "hazards.json not found"}), 404
 
-    # load hospitals
-    with open("hospitals.json") as f:
-        raw_hospitals = json.load(f)
+    destinations = normalize_places(raw_destinations)
 
-    hospitals = []
-    for item in raw_hospitals:
-        if "lat" in item and "lon" in item:
-            hospitals.append({
-                "name": item.get("tags", {}).get("name", "Unknown Hospital"),
-                "lat": item["lat"],
-                "lon": item["lon"]
-            })
-
-    # load hazards
-    with open("hazards.json") as f:
-        hazards = json.load(f)
-
-    # 🔥 use Dimitri algorithm
-    ranked = rank_hospitals(lat, lon, hospitals, hazards)
+    ranked = rank_destinations(
+        lat,
+        lon,
+        destinations,
+        raw_hazards,
+        service_type=service_type,
+        emergency_type=emergency_type
+    )
 
     if not ranked:
         return jsonify({"error": "No route found"}), 500
 
+    if service_type == "police":
+        decision = "Selected police station using real driving time plus hazard penalty."
+    else:
+        decision = f"Selected hospital for {emergency_type} using real driving time, hazard penalty, and hospital category priority."
+
     return jsonify({
         "best": ranked[0],
         "top3": ranked[:3],
-        "decision": "Selected hospital based on fastest time + hazard penalty"
+        "service_type": service_type,
+        "emergency_type": emergency_type,
+        "decision": decision
     })
 
 # ---------------- RUN SERVER ----------------

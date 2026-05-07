@@ -10,7 +10,16 @@
 <body>
 
     <div id="leftPanel">
-        <h1>🚑 NeuroRoute</h1>
+        <div id="brandBar">
+            <div id="brandIcon">🚑</div>
+
+            <div id="brandText">
+                <div id="brandTitle">NeuroRoute</div>
+                <div id="brandSub">NYC Emergency Dispatch</div>
+            </div>
+
+            <div id="brandStatus">●</div>
+        </div>
 
         <div id="statsBox">
             <div>Total Hospitals: <span id="hospitalCount">0</span></div>
@@ -43,21 +52,16 @@
     </div>
 
     <div id="mapWrap">
-        <div id="topBar">
-            <div>
-                <div id="topTitle">NeuroRoute Command Center</div>
-                <div id="topSub">Real-time NYC emergency routing dashboard</div>
-            </div>
-
-            <div id="topBadges">
-                <span>OSRM Routing</span>
-                <span>Hazard Aware</span>
-                <span>Live Data</span>
-            </div>
-        </div>
+        
 
         <div id="map"></div>
         <div id="mapOverlay">Click map to dispatch</div>
+        <div id="mapLegend">
+            <div><span class="legendDot hazard"></span> Hazard</div>
+            <div><span class="legendDot route"></span> Route</div>
+            <div><span class="legendDot hospital"></span> Hospital</div>
+            <div><span class="legendDot police"></span> Police</div>
+        </div>
     </div>
 
     <div id="rightPanel">
