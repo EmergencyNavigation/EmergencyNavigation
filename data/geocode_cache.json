@@ -1,0 +1,774 @@
+{
+  "1 Brookdale Plaza, Brooklyn, NY 11212-3139": {
+    "lat": 40.655241724884,
+    "lon": -73.912205473149
+  },
+  "1 Guthrie Drive, Corning, NY 14830": {
+    "lat": 42.1355136,
+    "lon": -76.9692355
+  },
+  "1 Heroes Way, Riverhead, NY 11901": {
+    "lat": 40.9343042,
+    "lon": -72.6739202
+  },
+  "1 Hospital Drive, Massena, NY 13662": {
+    "lat": 44.936809871385,
+    "lon": -74.908378918584
+  },
+  "10-42 Mitchell Avenue, Binghamton, NY 13903": {
+    "lat": 42.084492079068,
+    "lon": -75.914056811649
+  },
+  "100 East 77th Street, New York, NY 10021": {
+    "lat": 40.774242911409,
+    "lon": -73.96144674649
+  },
+  "100 High Street, Buffalo, NY 14203": {
+    "lat": 42.900396853484,
+    "lon": -78.866755694431
+  },
+  "100 Park Street, Glens Falls, NY 12801": {
+    "lat": 43.307265317705,
+    "lon": -73.646098827477
+  },
+  "100 Port Washington Boulevard, Roslyn, NY 11576": {
+    "lat": 40.805887319592,
+    "lon": -73.669035272655
+  },
+  "100 Woods Road, Valhalla, NY 10595": {
+    "lat": 41.085906518146,
+    "lon": -73.80345058822
+  },
+  "1000 10th Avenue, New York, NY 10019": {
+    "lat": 40.770079506677,
+    "lon": -73.987771442474
+  },
+  "1000 Montauk Highway, West Islip, NY 11795": {
+    "lat": 40.695812665145,
+    "lon": -73.294614852004
+  },
+  "1000 North Village Avenue, Rockville Centre, NY 11570": {
+    "lat": 40.687191,
+    "lon": -73.630873
+  },
+  "1000 South Avenue, Rochester, NY 14620": {
+    "lat": 43.135220069877,
+    "lon": -77.607644430179
+  },
+  "101 Dates Drive, Ithaca, NY 14850": {
+    "lat": 42.470863299515,
+    "lon": -76.537604923444
+  },
+  "101 Hospital Road, Patchogue, NY 11772": {
+    "lat": 40.78033948522,
+    "lon": -72.978165126072
+  },
+  "101 St Andrews Lane, Glen Cove, NY 11542": {
+    "lat": 40.871735751045,
+    "lon": -73.621499972296
+  },
+  "102-01 66th Road, Forest Hills, NY 11375": {
+    "lat": 40.728548787435,
+    "lon": -73.851687196441
+  },
+  "105 Marys Avenue, Kingston, NY 12401": {
+    "lat": 41.922553234989,
+    "lon": -73.999563339331
+  },
+  "110 W Sixth Street, Oswego, NY 13126": {
+    "lat": 43.454904638178,
+    "lon": -76.516515345126
+  },
+  "1101 Nott Street, Schenectady, NY 12308": {
+    "lat": 42.819880755805,
+    "lon": -73.919020617788
+  },
+  "111 Clara Barton Street, Dansville, NY 14437": {
+    "lat": 42.552430846209,
+    "lon": -77.700412411492
+  },
+  "111 East 210th Street, Bronx, NY 10467": {
+    "lat": 40.87998315045,
+    "lon": -73.880738645183
+  },
+  "111 Hospital Drive, Utica, NY 13502": {
+    "lat": 43.1032263,
+    "lon": -75.2353872
+  },
+  "1111 Amsterdam Avenue, New York, NY 10025": {
+    "lat": 40.805859261947,
+    "lon": -73.961663540065
+  },
+  "12 North 7th Avenue, Mount Vernon, NY 10550": {
+    "lat": 40.912593980786,
+    "lon": -73.840088814834
+  },
+  "1200 Driving Park Avenue, Box 111, Newark, NY 14513": {
+    "lat": 43.059584124933,
+    "lon": -77.100796432781
+  },
+  "121 Dekalb Avenue, Brooklyn, NY 11201": {
+    "lat": 40.689645721451,
+    "lon": -73.972208920166
+  },
+  "1230 York Avenue, New York, NY 10021": {
+    "lat": 40.762965979043,
+    "lon": -73.956496455309
+  },
+  "127 North St, Batavia, NY 14020": {
+    "lat": 43.003978608118,
+    "lon": -78.177071258486
+  },
+  "127 South Broadway, Yonkers, NY 10701": {
+    "lat": 40.930069865253,
+    "lon": -73.897606178204
+  },
+  "1270 Belmont Avenue, Schenectady, NY 12308": {
+    "lat": 42.821932372541,
+    "lon": -73.913346411738
+  },
+  "1275 York Avenue, New York, NY 10065": {
+    "lat": 40.763742805799,
+    "lon": -73.956109689767
+  },
+  "1276 Fulton Avenue, Bronx, NY 10456": {
+    "lat": 40.831750948172,
+    "lon": -73.903663249774
+  },
+  "128 Ashford Avenue, Dobbs Ferry, NY 10522": {
+    "lat": 41.014699573388,
+    "lon": -73.862054361684
+  },
+  "1283 York Avenue, New York, NY 10065": {
+    "lat": 40.763916554076,
+    "lon": -73.955980008084
+  },
+  "1300 Massachusetts Avenue, Troy, NY 12180": {
+    "lat": 42.743580015359,
+    "lon": -73.675701949682
+  },
+  "134 Homer Avenue, Cortland, NY 13045": {
+    "lat": 42.606677738125,
+    "lon": -76.18599529683
+  },
+  "1400 Pelham Parkway, Bronx, NY 10461": {
+    "lat": 40.857447720384,
+    "lon": -73.84764511868
+  },
+  "1425 Portland Avenue, Rochester, NY 14621": {
+    "lat": 43.191055490179,
+    "lon": -77.584403244091
+  },
+  "15 Maple Avenue, Warwick, NY 10990": {
+    "lat": 41.263305188451,
+    "lon": -74.356307650103
+  },
+  "150 55th Street, Brooklyn, NY 11220": {
+    "lat": 40.646899541107,
+    "lon": -74.020965100023
+  },
+  "1500 N James St, Rome, NY 13440": {
+    "lat": 43.228977828545,
+    "lon": -75.444142419485
+  },
+  "1540 Maple Road, Amherst, NY 14221": {
+    "lat": 42.991175179834,
+    "lon": -78.73172058317
+  },
+  "1545 Atlantic Avenue, Brooklyn, NY 11213": {
+    "lat": 40.678018980907,
+    "lon": -73.938512393598
+  },
+  "1555 Long Pond Road, Rochester, NY 14626": {
+    "lat": 43.193164550373,
+    "lon": -77.701528944652
+  },
+  "156 West Avenue, Brockport, NY 14420": {
+    "lat": 43.220118722873,
+    "lon": -77.944817052608
+  },
+  "16 Bank Street, Batavia, NY 14020": {
+    "lat": 42.997672162103,
+    "lon": -78.181783837066
+  },
+  "16 Guion Place, New Rochelle, NY 10802": {
+    "lat": 40.912975273438,
+    "lon": -73.787111745886
+  },
+  "160 East Main Street, Port Jervis, NY 12771": {
+    "lat": 41.367268520583,
+    "lon": -74.682676157617
+  },
+  "160 North Midland Avenue, Nyack, NY 10960": {
+    "lat": 41.096697923076,
+    "lon": -73.924787986734
+  },
+  "1650 Champlin  Avenue, Utica, NY 13502": {
+    "lat": 43.101660525215,
+    "lon": -75.273862138089
+  },
+  "1650 Grand Concourse, Bronx, NY 10457": {
+    "lat": 40.843821148532,
+    "lon": -73.91146715395
+  },
+  "169 Riverside Drive, Binghamton, NY 13905": {
+    "lat": 42.093006371704,
+    "lon": -75.937133107173
+  },
+  "17 Lansing Street, Auburn, NY 13021": {
+    "lat": 42.940894126037,
+    "lon": -76.562179898714
+  },
+  "170 William Street, New York, NY 10038": {
+    "lat": 40.710404152638,
+    "lon": -74.005493041926
+  },
+  "1740-70 Eastchester Road, Bronx, NY 10461": {
+    "lat": 40.847855263959,
+    "lon": -73.844801238022
+  },
+  "1752 Park Avenue, New York, NY 10035": {
+    "lat": 40.80285860749,
+    "lon": -73.940732033653
+  },
+  "179 North Broad St, Norwich, NY 13815": {
+    "lat": 42.541028437359,
+    "lon": -75.524701645311
+  },
+  "1825 Eastchester Road, Bronx, NY 10461": {
+    "lat": 40.85027345042,
+    "lon": -73.844945235471
+  },
+  "1901 First Avenue, New York, NY 10029": {
+    "lat": 40.784173660859,
+    "lon": -73.944134516784
+  },
+  "191 North Main Street, Wellsville, NY 14895": {
+    "lat": 42.122985486077,
+    "lon": -77.950085403057
+  },
+  "196-198 North Street, Geneva, NY 14456": {
+    "lat": 42.87575798805,
+    "lon": -76.98817917446
+  },
+  "1980 Crompond Road, Cortlandt Manor, NY 10567": {
+    "lat": 41.291447199115,
+    "lon": -73.892001247379
+  },
+  "2 Coulter Road, Clifton Springs, NY 14432": {
+    "lat": 42.96053782119,
+    "lon": -77.138593472615
+  },
+  "200 Belle Terre Road, Port Jefferson, NY 11777": {
+    "lat": 40.947732886562,
+    "lon": -73.060346758282
+  },
+  "201 Manor Place, Greenport, NY 11944": {
+    "lat": 41.111131136824,
+    "lon": -72.360872065241
+  },
+  "203 Old Military Road, Lake Placid, NY 12946": {
+    "lat": 44.266576954794,
+    "lon": -73.985103047807
+  },
+  "207 Foote Avenue, Jamestown, NY 14701": {
+    "lat": 42.091580945087,
+    "lon": -79.232969685098
+  },
+  "21 Bloomingdale Road, White Plains, NY 10605": {
+    "lat": 41.025677790129,
+    "lon": -73.757737491595
+  },
+  "211 Church Street, Saratoga Springs, NY 12866": {
+    "lat": 43.08484472551,
+    "lon": -73.796214643615
+  },
+  "2157 Main Street, Buffalo, NY 14214": {
+    "lat": 42.929982871446,
+    "lon": -78.848956203874
+  },
+  "2201 Hempstead Turnpike, East Meadow, NY 11554": {
+    "lat": 40.725297323147,
+    "lon": -73.555688804991
+  },
+  "221 Jericho Turnpike, Syosset, NY 11791": {
+    "lat": 40.810242105934,
+    "lon": -73.508632717109
+  },
+  "2210 Troy Road, Niskayuna, NY 12309": {
+    "lat": 42.793502683206,
+    "lon": -73.877837754564
+  },
+  "2215 Burdett Avenue, Troy, NY 12180": {
+    "lat": 42.734097113137,
+    "lon": -73.671327299122
+  },
+  "2233 State Route 86, P.O. Box 471, Saranac Lake, NY 12983": {
+    "lat": 44.344294650797,
+    "lon": -74.144471841341
+  },
+  "224 East Main St, Springville, NY 14141": {
+    "lat": 42.508556023442,
+    "lon": -78.658757082139
+  },
+  "234 East 149th Street, Bronx, NY 10451": {
+    "lat": 40.817595424208,
+    "lon": -73.923799149873
+  },
+  "240 Meeting House Lane, Southampton, NY 11968": {
+    "lat": 40.885746502434,
+    "lon": -72.380666596305
+  },
+  "241 North Road, Poughkeepsie, NY 12601": {
+    "lat": 41.727997523447,
+    "lon": -73.932732295188
+  },
+  "2475 St. Raymond Avenue, Bronx, NY 10461": {
+    "lat": 40.840299739816,
+    "lon": -73.848435877593
+  },
+  "25 Hackett Boulevard, Albany, NY 12208": {
+    "lat": 42.645442999314,
+    "lon": -73.778441275423
+  },
+  "25-10 30th Avenue, Long Island City, NY 11102": {
+    "lat": 40.768407012681,
+    "lon": -73.924768814931
+  },
+  "2525 Kings Highway, Brooklyn, NY 11229": {
+    "lat": 40.613835408514,
+    "lon": -73.948084054101
+  },
+  "255 Lafayette Avenue, Suffern, NY 10901": {
+    "lat": 41.112159374584,
+    "lon": -74.13392053312
+  },
+  "259 First Street, Mineola, NY 11501": {
+    "lat": 40.74165026854,
+    "lon": -73.643253656472
+  },
+  "2601 Ocean Parkway, Brooklyn, NY 11235": {
+    "lat": 40.586631111924,
+    "lon": -73.965789903885
+  },
+  "2605 Harlem Road, Cheektowaga, NY 14225": {
+    "lat": 42.91372706929,
+    "lon": -78.784251956334
+  },
+  "270 Park Avenue, Huntington, NY 11743": {
+    "lat": 40.880076824681,
+    "lon": -73.417488758734
+  },
+  "270-05 76th Avenue, New Hyde Park, NY 11040": {
+    "lat": 40.753333877156,
+    "lon": -73.706882858069
+  },
+  "275 North Street, Harrison, NY 10528": {
+    "lat": 40.988964,
+    "lon": -73.7081144
+  },
+  "29 East Cayuga Street, Oswego, NY 13126": {
+    "lat": 43.459494125544,
+    "lon": -76.506476130887
+  },
+  "2950 Elmwood Avenue, Kenmore, NY 14217": {
+    "lat": 42.979187563006,
+    "lon": -78.878740519849
+  },
+  "3 Mercycare Lane, Guilderland, NY 12084": {
+    "lat": 42.700245064561,
+    "lon": -73.906182597585
+  },
+  "30 Seventh Avenue, New York, NY 10011": {
+    "lat": 40.737663199254,
+    "lon": -74.000415310782
+  },
+  "300 Community Drive, Manhasset, NY 11030": {
+    "lat": 40.776195413916,
+    "lon": -73.702965680507
+  },
+  "301 East 17th Street, New York, NY 10003": {
+    "lat": 40.7343943,
+    "lon": -73.9829914
+  },
+  "301 East Main Street, Bay Shore, NY 11706": {
+    "lat": 40.724889862631,
+    "lon": -73.241013941334
+  },
+  "301 Prospect Avenue, Syracuse, NY 13203": {
+    "lat": 43.055148533131,
+    "lon": -76.148914180421
+  },
+  "310 East 14th Street, New York, NY 10003": {
+    "lat": 40.732172506589,
+    "lon": -73.984680439361
+  },
+  "315 South Manning Boulevard, Albany, NY 12208": {
+    "lat": 42.670997621075,
+    "lon": -73.786483135365
+  },
+  "3201 Kings Highway, Brooklyn, NY 11234": {
+    "lat": 40.617754949715,
+    "lon": -73.943215689787
+  },
+  "321 Genesee Street, Oneida, NY 13421": {
+    "lat": 43.078767471995,
+    "lon": -75.655172135372
+  },
+  "325 East Bay Drive, Long Beach, NY 11561": {
+    "lat": 40.594273622865,
+    "lon": -73.654695415181
+  },
+  "327 Beach 19th Street, Far Rockaway, NY 11691": {
+    "lat": 40.598033956515,
+    "lon": -73.753027797436
+  },
+  "33-57 Harrison Street, Johnson City, NY 13790": {
+    "lat": 42.114510295474,
+    "lon": -75.959054065104
+  },
+  "3424 Kossuth Avenue & 210th Street, Bronx, NY 10467": {
+    "lat": 40.880124706515,
+    "lon": -73.881754581147
+  },
+  "350 Parrish Street, Canandaigua, NY 14424": {
+    "lat": 42.87493223763,
+    "lon": -77.290065937658
+  },
+  "355 Bard Avenue, Staten Island, NY 10310": {
+    "lat": 40.635049908843,
+    "lon": -74.106531979012
+  },
+  "3669 Southwestern Blvd, Orchard Park, NY 14127": {
+    "lat": 42.7802565,
+    "lon": -78.7726454
+  },
+  "374 Stockholm Street, Brooklyn, NY 11237": {
+    "lat": 40.704913368642,
+    "lon": -73.917336015229
+  },
+  "375 Seguine Avenue, Staten Island, NY 10309": {
+    "lat": 40.517401965645,
+    "lon": -74.19687733391
+  },
+  "400 East Main Street, Mount Kisco, NY 10549": {
+    "lat": 41.196123617346,
+    "lon": -73.724769570376
+  },
+  "41 East Post Road, White Plains, NY 10601": {
+    "lat": 41.026806853181,
+    "lon": -73.768915796164
+  },
+  "427 Guy Park Avenue, Amsterdam, NY 12010": {
+    "lat": 42.954085720111,
+    "lon": -74.217184149438
+  },
+  "4295 Hempstead Turnpike, Bethpage, NY 11714": {
+    "lat": 40.725864228845,
+    "lon": -73.478512265918
+  },
+  "43 New Scotland Avenue, Albany, NY 12208": {
+    "lat": 42.652795789867,
+    "lon": -73.780932037131
+  },
+  "43 Pearl Street West, Sidney, NY 13838": {
+    "lat": 42.30453161269,
+    "lon": -75.396318157297
+  },
+  "4422 Third Avenue, Bronx, NY 10457": {
+    "lat": 40.853567241769,
+    "lon": -73.891327356672
+  },
+  "445 Lenox Road, Brooklyn, NY 11203": {
+    "lat": 40.654457883967,
+    "lon": -73.946244670269
+  },
+  "45 Reade Place, Poughkeepsie, NY 12601": {
+    "lat": 41.694453108144,
+    "lon": -73.935305515207
+  },
+  "45 Rivington Street, New York, NY 10002": {
+    "lat": 40.720817473929,
+    "lon": -73.991009657659
+  },
+  "451 Clarkson Avenue, Brooklyn, NY 11203": {
+    "lat": 40.655771944262,
+    "lon": -73.945225608004
+  },
+  "45th Avenue & Parsons Blvd, Flushing, NY 11355": {
+    "lat": 40.755429728582,
+    "lon": -73.815339109996
+  },
+  "462 First Avenue, New York, NY 10016": {
+    "lat": 40.739696677918,
+    "lon": -73.976402510469
+  },
+  "462 Grider Street, Buffalo, NY 14215": {
+    "lat": 42.926457555011,
+    "lon": -78.829223514588
+  },
+  "475 Seaview Avenue, Staten Island, NY 10305": {
+    "lat": 40.583752169868,
+    "lon": -74.08643578576
+  },
+  "4802 Tenth Avenue, Brooklyn, NY 11219": {
+    "lat": 40.6394203,
+    "lon": -73.9981068
+  },
+  "4900 Broad Road, Syracuse, NY 13215": {
+    "lat": 43.007937287925,
+    "lon": -76.170236981473
+  },
+  "4988 Sthwy 30, Amsterdam, NY 12010": {
+    "lat": 42.961122950093,
+    "lon": -74.18619917071
+  },
+  "50 Leroy Street, Potsdam, NY 13676": {
+    "lat": 44.675909560946,
+    "lon": -74.981529530521
+  },
+  "50 Route 25A, Smithtown, NY 11787": {
+    "lat": 40.865025913719,
+    "lon": -73.220617257623
+  },
+  "506 Lenox Avenue, New York, NY 10037": {
+    "lat": 40.814891697234,
+    "lon": -73.940196118162
+  },
+  "506 Sixth Street, Brooklyn, NY 11215": {
+    "lat": 40.668465780924,
+    "lon": -73.979709664276
+  },
+  "51 Glasgow Avenue, Jamestown, NY 14701": {
+    "lat": 42.091406935869,
+    "lon": -79.24630679981
+  },
+  "51 N Route 9W, West Haverstraw, NY 10993": {
+    "lat": 41.2140955,
+    "lon": -73.9885454
+  },
+  "5141 Broadway, New York, NY 10034": {
+    "lat": 40.872833275264,
+    "lon": -73.912220518415
+  },
+  "515 Main Street, Olean, NY 14760": {
+    "lat": 42.089824048968,
+    "lon": -78.426889170272
+  },
+  "525 East 68th Street, New York, NY 10021": {
+    "lat": 40.764254134268,
+    "lon": -73.955379234616
+  },
+  "529 Central Avenue, Dunkirk, NY 14048": {
+    "lat": 42.480795838417,
+    "lon": -79.333849414245
+  },
+  "530 East 74th Street, New York, NY 10021": {
+    "lat": 40.767815336348,
+    "lon": -73.952097280709
+  },
+  "5300 Military Road, Lewiston, NY 14092": {
+    "lat": 43.1540721,
+    "lon": -79.0325315
+  },
+  "535 E 70th Street, New York, NY 10021": {
+    "lat": 40.765284298935,
+    "lon": -73.95392738726
+  },
+  "55 Palmer Avenue, Bronxville, NY 10708": {
+    "lat": 40.941567392065,
+    "lon": -73.837071606151
+  },
+  "550 First Avenue, New York, NY 10016": {
+    "lat": 40.742346194975,
+    "lon": -73.974474127012
+  },
+  "555 St. Joseph's Boulevard, Elmira, NY 14901": {
+    "lat": 42.091337663335,
+    "lon": -76.797243419202
+  },
+  "56-45 Main Street, Flushing, NY 11355": {
+    "lat": 40.74751163083,
+    "lon": -73.826008500259
+  },
+  "565 Abbott Road, Buffalo, NY 14220": {
+    "lat": 42.848244504275,
+    "lon": -78.812501622217
+  },
+  "585 Schenectady Avenue, Brooklyn, NY 11203": {
+    "lat": 40.658819347172,
+    "lon": -73.933990449869
+  },
+  "600 East 233rd Street, Bronx, NY 10466": {
+    "lat": 40.894584900107,
+    "lon": -73.861319383264
+  },
+  "600 Northern Boulevard, Albany, NY 12204": {
+    "lat": 42.673529778021,
+    "lon": -73.7502938493
+  },
+  "600 Roe Avenue, Elmira, NY 14905": {
+    "lat": 42.1001845,
+    "lon": -76.8272709
+  },
+  "6001 Shimer Drive, Lockport, NY 14094": {
+    "lat": 43.1486733,
+    "lon": -78.7081146
+  },
+  "601 Elmwood Avenue, Rochester, NY 14642": {
+    "lat": 43.124314838433,
+    "lon": -77.624774427005
+  },
+  "6010 East Malloy Road, Syracuse, NY 13211": {
+    "lat": 43.099153892286,
+    "lon": -76.098645333386
+  },
+  "621 Tenth Street, Niagara Falls, NY 14302": {
+    "lat": 43.093469486821,
+    "lon": -79.05035073597
+  },
+  "622 West 168th Street, New York, NY 10032": {
+    "lat": 40.84128191701,
+    "lon": -73.940402444116
+  },
+  "6511 Springbrook Avenue, Rhinebeck, NY 12572": {
+    "lat": 41.937600763058,
+    "lon": -73.909132036328
+  },
+  "655 Madison Street, Syracuse, NY 13210": {
+    "lat": 43.045443494295,
+    "lon": -76.139726273001
+  },
+  "670 Stoneleigh Avenue, Carmel, NY 10512": {
+    "lat": 41.384742612191,
+    "lon": -73.66441394875
+  },
+  "68 Harris-Bushville Road P.O. Box 800, Harris, NY 12742": {
+    "lat": null,
+    "lon": null
+  },
+  "70 Atlantic Avenue, Brooklyn, NY 11201": {
+    "lat": 40.69106465958,
+    "lon": -73.99756970838
+  },
+  "70 Dubois Street, Newburgh, NY 12550": {
+    "lat": 41.503660310543,
+    "lon": -74.01509741502
+  },
+  "701 North Broadway, Sleepy Hollow, NY 10591": {
+    "lat": 41.103174445545,
+    "lon": -73.860892357946
+  },
+  "707 East Main Street, Middletown, NY 10940": {
+    "lat": 41.439924041835,
+    "lon": -74.367512960961
+  },
+  "71 Prospect Ave, Hudson, NY 12534": {
+    "lat": 42.245786499849,
+    "lon": -73.777999317659
+  },
+  "7329 Seneca Road North, Hornell, NY 14843": {
+    "lat": 42.356458197808,
+    "lon": -77.661769903991
+  },
+  "736 Irving Avenue, Syracuse, NY 13210": {
+    "lat": 43.041878519486,
+    "lon": -76.137929238503
+  },
+  "75 Beekman St, Plattsburgh, NY 12901": {
+    "lat": 44.700063137794,
+    "lon": -73.466718402565
+  },
+  "75 North Country Road, Port Jefferson, NY 11777": {
+    "lat": 40.9396773,
+    "lon": -73.0533068
+  },
+  "75 Vanderbilt Avenue, Staten Island, NY 10304": {
+    "lat": 40.621168375539,
+    "lon": -74.075160754571
+  },
+  "750 East Adams Street, Syracuse, NY 13210": {
+    "lat": 43.042623087691,
+    "lon": -76.139812052316
+  },
+  "760 Broadway, Brooklyn, NY 11206": {
+    "lat": 40.700457084778,
+    "lon": -73.941587228488
+  },
+  "785 Mamaroneck Avenue, White Plains, NY 10605": {
+    "lat": 41.013898400738,
+    "lon": -73.755064818107
+  },
+  "79-01 Broadway, Elmhurst, NY 11373": {
+    "lat": 40.7447748,
+    "lon": -73.8856505
+  },
+  "818 Ellicott Street, Buffalo, NY 14203": {
+    "lat": 42.900563849657,
+    "lon": -78.867234230819
+  },
+  "82-68 164th Street, Jamaica, NY 11432": {
+    "lat": 40.717490120852,
+    "lon": -73.802239359066
+  },
+  "830 Washington Street, Watertown, NY 13601": {
+    "lat": 43.964735854471,
+    "lon": -75.912846284078
+  },
+  "888 Old Country Road, Plainview, NY 11803": {
+    "lat": 40.774545107343,
+    "lon": -73.477946686604
+  },
+  "89 Genesee Street, Rochester, NY 14611": {
+    "lat": 43.148425980769,
+    "lon": -77.636142925779
+  },
+  "89th Avenue & Van Wyck Expressway, Jamaica, NY 11418": {
+    "lat": 40.701402739208,
+    "lon": -73.816311112936
+  },
+  "900 Franklin Avenue, Valley Stream, NY 11580": {
+    "lat": 40.681668831375,
+    "lon": -73.685778053862
+  },
+  "95 Bradhurst Avenue, Valhalla, NY 10595": {
+    "lat": 41.0752634,
+    "lon": -73.7985639
+  },
+  "967 North Broadway, Yonkers, NY 10701": {
+    "lat": 40.968271727759,
+    "lon": -73.885020745539
+  },
+  "99 East State Street, Gloversville, NY 12078": {
+    "lat": 43.068087415638,
+    "lon": -74.330753223377
+  },
+  "Elm and Carlton Streets, Buffalo, NY 14263": {
+    "lat": 42.898509525566,
+    "lon": -78.86500334534
+  },
+  "Health Sciences Center SUNY, Stony Brook, NY 11794": {
+    "lat": 40.9082694,
+    "lon": -73.1151875
+  },
+  "One Atwell Road, Cooperstown, NY 13326": {
+    "lat": 42.69610879283,
+    "lon": -74.924046528492
+  },
+  "One Gustave L Levy Place, New York, NY 10029": {
+    "lat": 40.790487973689,
+    "lon": -73.953786284489
+  },
+  "One Healthy Way, Oceanside, NY 11572": {
+    "lat": 40.6529838,
+    "lon": -73.6305153
+  },
+  "One Norton Avenue, Oneonta, NY 13820": {
+    "lat": 42.457406466038,
+    "lon": -75.053273913257
+  },
+  "Two Park Avenue, Yonkers, NY 10703": {
+    "lat": 40.939520219815,
+    "lon": -73.892177176309
+  }
+}

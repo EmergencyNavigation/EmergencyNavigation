@@ -1,0 +1,4605 @@
+[
+  {
+    "id": 1178,
+    "lat": 40.843821148532,
+    "lon": -73.91146715395,
+    "tags": {
+      "name": "BronxCare Hospital Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "BronxCare Health System",
+    "address": "1650 Grand Concourse, Bronx, NY 10457",
+    "phone": "7189018800",
+    "borough": "Bronx"
+  },
+  {
+    "id": 181,
+    "lat": 41.694453108144,
+    "lon": -73.935305515207,
+    "tags": {
+      "name": "Vassar Brothers Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Health Quest Systems, Inc.",
+    "address": "45 Reade Place, Poughkeepsie, NY 12601",
+    "phone": "8454548500",
+    "borough": "Dutchess",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": 913,
+    "lat": 40.880076824681,
+    "lon": -73.417488758734,
+    "tags": {
+      "name": "Huntington Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Huntington Hospital Association",
+    "address": "270 Park Avenue, Huntington, NY 11743",
+    "phone": "6313512200",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 471,
+    "lat": 43.193164550373,
+    "lon": -77.701528944652,
+    "tags": {
+      "name": "The Unity Hospital of Rochester"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Unity Hospital of Rochester",
+    "address": "1555 Long Pond Road, Rochester, NY 14626",
+    "phone": "5857237000",
+    "borough": "Monroe"
+  },
+  {
+    "id": 1,
+    "lat": 42.652795789867,
+    "lon": -73.780932037131,
+    "tags": {
+      "name": "Albany Medical Center Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Albany Medical Center Hospital",
+    "address": "43 New Scotland Avenue, Albany, NY 12208",
+    "phone": "5182623474",
+    "borough": "Albany",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 775,
+    "lat": 41.2140955,
+    "lon": -73.9885454,
+    "tags": {
+      "name": "Helen Hayes Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "New York State Department of Health",
+    "address": "51 N Route 9W, West Haverstraw, NY 10993",
+    "phone": "8457864000",
+    "borough": "Rockland"
+  },
+  {
+    "id": 1450,
+    "lat": 40.774242911409,
+    "lon": -73.96144674649,
+    "tags": {
+      "name": "Lenox Hill Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Lenox Hill Hospital",
+    "address": "100 East 77th Street, New York, NY 10021",
+    "phone": "2124342000",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1465,
+    "lat": 40.762965979043,
+    "lon": -73.956496455309,
+    "tags": {
+      "name": "Rockefeller University Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "The Rockefeller University Inc",
+    "address": "1230 York Avenue, New York, NY 10021",
+    "phone": "2123277511",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 5,
+    "lat": 42.670997621075,
+    "lon": -73.786483135365,
+    "tags": {
+      "name": "St. Peter's Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Peters Hospital Inc",
+    "address": "315 South Manning Boulevard, Albany, NY 12208",
+    "phone": "5184541550",
+    "borough": "Albany"
+  },
+  {
+    "id": 1309,
+    "lat": 40.678018980907,
+    "lon": -73.938512393598,
+    "tags": {
+      "name": "Interfaith Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "The Brookdale Hospital Medical Center",
+    "address": "1545 Atlantic Avenue, Brooklyn, NY 11213",
+    "phone": "7189357000",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 412,
+    "lat": 43.148425980769,
+    "lon": -77.636142925779,
+    "tags": {
+      "name": "Unity Specialty Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "The Unity Hospital of Rochester",
+    "address": "89 Genesee Street, Rochester, NY 14611",
+    "phone": "5857237000",
+    "borough": "Monroe"
+  },
+  {
+    "id": 739,
+    "lat": 42.457406466038,
+    "lon": -75.053273913257,
+    "tags": {
+      "name": "A.O. Fox Memorial Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Aurelia Osborn Fox Memorial Hospital Society Inc",
+    "address": "One Norton Avenue, Oneonta, NY 13820",
+    "phone": "6074322000",
+    "borough": "Otsego"
+  },
+  {
+    "id": 1293,
+    "lat": 40.613835408514,
+    "lon": -73.948084054101,
+    "tags": {
+      "name": "Maimonides Midwood Community Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The New York Community Hospital of Brooklyn, Inc.",
+    "address": "2525 Kings Highway, Brooklyn, NY 11229",
+    "phone": "7186925300",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 1630,
+    "lat": 40.753333877156,
+    "lon": -73.706882858069,
+    "tags": {
+      "name": "Long Island Jewish Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Long Island Jewish Medical Center",
+    "address": "270-05 76th Avenue, New Hyde Park, NY 11040",
+    "phone": "7184707764",
+    "borough": "Queens"
+  },
+  {
+    "id": 550,
+    "lat": 40.810242105934,
+    "lon": -73.508632717109,
+    "tags": {
+      "name": "Syosset Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "North Shore University Hospital Inc",
+    "address": "221 Jericho Turnpike, Syosset, NY 11791",
+    "phone": "5164966400",
+    "borough": "Nassau"
+  },
+  {
+    "id": 10223,
+    "lat": 40.646899541107,
+    "lon": -74.020965100023,
+    "tags": {
+      "name": "Calvary Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Calvary Hospital Inc.",
+    "address": "150 55th Street, Brooklyn, NY 11220",
+    "phone": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 574,
+    "lat": 43.093469486821,
+    "lon": -79.05035073597,
+    "tags": {
+      "name": "Niagara Falls Memorial Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Niagara Falls Memorial Medical Center",
+    "address": "621 Tenth Street, Niagara Falls, NY 14302",
+    "phone": "7162784000",
+    "borough": "Niagara"
+  },
+  {
+    "id": 1437,
+    "lat": 40.710404152638,
+    "lon": -74.005493041926,
+    "tags": {
+      "name": "New York-Presbyterian/Lower Manhattan Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "170 William Street, New York, NY 10038",
+    "phone": "2123125175",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1635,
+    "lat": 40.598033956515,
+    "lon": -73.753027797436,
+    "tags": {
+      "name": "St Johns Episcopal Hospital So Shore"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Episcopal Health Services Inc",
+    "address": "327 Beach 19th Street, Far Rockaway, NY 11691",
+    "phone": "7188687320",
+    "borough": "Queens"
+  },
+  {
+    "id": 397,
+    "lat": 43.078767471995,
+    "lon": -75.655172135372,
+    "tags": {
+      "name": "Oneida Health Hospital"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Oneida Health Systems, Inc",
+    "address": "321 Genesee Street, Oneida, NY 13421",
+    "phone": "3153636000",
+    "borough": "Madison"
+  },
+  {
+    "id": 324,
+    "lat": 44.344294650797,
+    "lon": -74.144471841341,
+    "tags": {
+      "name": "Adirondack Medical Center-Saranac Lake Site"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Adirondack Medical Center",
+    "address": "2233 State Route 86, P.O. Box 471, Saranac Lake, NY 12983",
+    "phone": "5188914141",
+    "borough": "Franklin"
+  },
+  {
+    "id": 1692,
+    "lat": 40.700457084778,
+    "lon": -73.941587228488,
+    "tags": {
+      "name": "Woodhull Medical & Mental Health Center"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "760 Broadway, Brooklyn, NY 11206",
+    "phone": "7189638101",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 15709,
+    "lat": 43.045443494295,
+    "lon": -76.139726273001,
+    "tags": {
+      "name": "Children's Pavilion Upstate Medical University"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "State University of New York",
+    "address": "655 Madison Street, Syracuse, NY 13210",
+    "phone": "3154649681",
+    "borough": "Onondaga"
+  },
+  {
+    "id": 15478,
+    "lat": 43.1032263,
+    "lon": -75.2353872,
+    "tags": {
+      "name": "Wynn Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "MVHS, Inc.",
+    "address": "111 Hospital Drive, Utica, NY 13502",
+    "phone": "3159177760",
+    "borough": "Oneida"
+  },
+  {
+    "id": 551,
+    "lat": 40.725864228845,
+    "lon": -73.478512265918,
+    "tags": {
+      "name": "St. Joseph Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "WSNCHS North Inc",
+    "address": "4295 Hempstead Turnpike, Bethpage, NY 11714",
+    "phone": "5165796000",
+    "borough": "Nassau"
+  },
+  {
+    "id": 102,
+    "lat": 42.091406935869,
+    "lon": -79.24630679981,
+    "tags": {
+      "name": "UPMC Chautauqua at WCA"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "UPMC Chautauqua at WCA",
+    "address": "51 Glasgow Avenue, Jamestown, NY 14701",
+    "phone": "7164870141",
+    "borough": "Chautauqua"
+  },
+  {
+    "id": 43,
+    "lat": 42.093006371704,
+    "lon": -75.937133107173,
+    "tags": {
+      "name": "Our Lady of Lourdes Memorial Hospital"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Our Lady of Lourdes Memorial Hospital Inc",
+    "address": "169 Riverside Drive, Binghamton, NY 13905",
+    "phone": "6077985111",
+    "borough": "Broome"
+  },
+  {
+    "id": 1639,
+    "lat": 40.768407012681,
+    "lon": -73.924768814931,
+    "tags": {
+      "name": "Mount Sinai Hospital - Mount Sinai Hospital of Queens"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Mount Sinai Hospital",
+    "address": "25-10 30th Avenue, Long Island City, NY 11102",
+    "phone": "7189321000",
+    "borough": "Queens"
+  },
+  {
+    "id": 1138,
+    "lat": 41.0752634,
+    "lon": -73.7985639,
+    "tags": {
+      "name": "Blythedale Children's Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Blythedale Childrens Hospital Inc",
+    "address": "95 Bradhurst Avenue, Valhalla, NY 10595",
+    "phone": "9145927555",
+    "borough": "Westchester"
+  },
+  {
+    "id": 924,
+    "lat": 40.724889862631,
+    "lon": -73.241013941334,
+    "tags": {
+      "name": "South Shore University Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "South Shore University Hospital",
+    "address": "301 East Main Street, Bay Shore, NY 11706",
+    "phone": "6319683000",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 216,
+    "lat": 42.898509525566,
+    "lon": -78.86500334534,
+    "tags": {
+      "name": "Roswell Park Cancer Institute"
+    },
+    "categories": [
+      "children"
+    ],
+    "has_er": false,
+    "operator": "Roswell Park Cancer Institute Corporation",
+    "address": "Elm and Carlton Streets, Buffalo, NY 14263",
+    "phone": "7168452300",
+    "borough": "Erie"
+  },
+  {
+    "id": 676,
+    "lat": 42.96053782119,
+    "lon": -77.138593472615,
+    "tags": {
+      "name": "Clifton Springs Hospital and Clinic"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Clifton Springs Sanitarium Co",
+    "address": "2 Coulter Road, Clifton Springs, NY 14432",
+    "phone": "3154621311",
+    "borough": "Ontario"
+  },
+  {
+    "id": 267,
+    "lat": 42.979187563006,
+    "lon": -78.878740519849,
+    "tags": {
+      "name": "Kenmore Mercy Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Kenmore Mercy Hospital",
+    "address": "2950 Elmwood Avenue, Kenmore, NY 14217",
+    "phone": "7164476100",
+    "borough": "Erie"
+  },
+  {
+    "id": 158,
+    "lat": 42.606677738125,
+    "lon": -76.18599529683,
+    "tags": {
+      "name": "Guthrie Cortland Medical Center"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Guthrie Cortland Medical Center",
+    "address": "134 Homer Avenue, Cortland, NY 13045",
+    "phone": "6077567525",
+    "borough": "Cortland"
+  },
+  {
+    "id": 779,
+    "lat": 41.112159374584,
+    "lon": -74.13392053312,
+    "tags": {
+      "name": "Good Samaritan Hospital of Suffern"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Good Samaritan Hosp of Suffern",
+    "address": "255 Lafayette Avenue, Suffern, NY 10901",
+    "phone": "8453685000",
+    "borough": "Rockland",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": 207,
+    "lat": 42.900396853484,
+    "lon": -78.866755694431,
+    "tags": {
+      "name": "Buffalo General Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Kaleida Health",
+    "address": "100 High Street, Buffalo, NY 14203",
+    "phone": "7168595600",
+    "borough": "Erie"
+  },
+  {
+    "id": 482,
+    "lat": 42.961122950093,
+    "lon": -74.18619917071,
+    "tags": {
+      "name": "St. Mary's Healthcare - Amsterdam Memorial Campus"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "St. Mary's Healthcare",
+    "address": "4988 Sthwy 30, Amsterdam, NY 12010",
+    "phone": "5188423100",
+    "borough": "Montgomery"
+  },
+  {
+    "id": 815,
+    "lat": 44.675909560946,
+    "lon": -74.981529530521,
+    "tags": {
+      "name": "Canton-Potsdam Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Canton-Potsdam Hospital",
+    "address": "50 Leroy Street, Potsdam, NY 13676",
+    "phone": "3152653300",
+    "borough": "Saint Lawrence"
+  },
+  {
+    "id": 2,
+    "lat": 42.645442999314,
+    "lon": -73.778441275423,
+    "tags": {
+      "name": "Albany Medical Center - South Clinical Campus"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Albany Medical Center Hospital",
+    "address": "25 Hackett Boulevard, Albany, NY 12208",
+    "phone": "5182621200",
+    "borough": "Albany"
+  },
+  {
+    "id": 135,
+    "lat": 44.700063137794,
+    "lon": -73.466718402565,
+    "tags": {
+      "name": "The University of Vermont Health Network - Champlain Valley Physicians Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Champlain Valley Physicians Hospital Medical Center Inc",
+    "address": "75 Beekman St, Plattsburgh, NY 12901",
+    "phone": "5185612000",
+    "borough": "Clinton"
+  },
+  {
+    "id": 583,
+    "lat": 43.1540721,
+    "lon": -79.0325315,
+    "tags": {
+      "name": "Mount St. Mary's Hospital and Health Center"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Mount St Marys Hospital of Niagara Falls",
+    "address": "5300 Military Road, Lewiston, NY 14092",
+    "phone": "7162974800",
+    "borough": "Niagara"
+  },
+  {
+    "id": 9691,
+    "lat": 40.594273622865,
+    "lon": -73.654695415181,
+    "tags": {
+      "name": "South Nassau Communities Hospital Off-Campus Emergency Department"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "South Nassau Communities Hospital Inc",
+    "address": "325 East Bay Drive, Long Beach, NY 11561",
+    "phone": "5168701010",
+    "borough": "Nassau"
+  },
+  {
+    "id": 208,
+    "lat": 42.900563849657,
+    "lon": -78.867234230819,
+    "tags": {
+      "name": "Golisano Children's Hospital of Buffalo"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Kaleida Health",
+    "address": "818 Ellicott Street, Buffalo, NY 14203",
+    "phone": "7168787000",
+    "borough": "Erie"
+  },
+  {
+    "id": 977,
+    "lat": 42.470863299515,
+    "lon": -76.537604923444,
+    "tags": {
+      "name": "Cayuga Medical Center at Ithaca"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Cayuga Medical Center at Ithaca, Inc",
+    "address": "101 Dates Drive, Ithaca, NY 14850",
+    "phone": "6072744011",
+    "borough": "Tompkins"
+  },
+  {
+    "id": 1315,
+    "lat": 40.658819347172,
+    "lon": -73.933990449869,
+    "tags": {
+      "name": "Kingsbrook Jewish Medical Village"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "The Brookdale Hospital Medical Center",
+    "address": "585 Schenectady Avenue, Brooklyn, NY 11203",
+    "phone": "7186045000",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 411,
+    "lat": 43.191055490179,
+    "lon": -77.584403244091,
+    "tags": {
+      "name": "Rochester General Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Rochester General Hospital Inc",
+    "address": "1425 Portland Avenue, Rochester, NY 14621",
+    "phone": "5859224000",
+    "borough": "Monroe"
+  },
+  {
+    "id": 635,
+    "lat": 43.042623087691,
+    "lon": -76.139812052316,
+    "tags": {
+      "name": "University Hospital SUNY Health Science Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "State University of New York",
+    "address": "750 East Adams Street, Syracuse, NY 13210",
+    "phone": "3154645540",
+    "borough": "Onondaga",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 42,
+    "lat": 42.084492079068,
+    "lon": -75.914056811649,
+    "tags": {
+      "name": "United Health Services Hospitals Inc. - Binghamton General Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "United Health Services Hospitals Inc",
+    "address": "10-42 Mitchell Avenue, Binghamton, NY 13903",
+    "phone": "6077622200",
+    "borough": "Broome"
+  },
+  {
+    "id": 330,
+    "lat": 43.068087415638,
+    "lon": -74.330753223377,
+    "tags": {
+      "name": "Nathan Littauer Hospital"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Nathan Littauer Hospital Inc",
+    "address": "99 East State Street, Gloversville, NY 12078",
+    "phone": "5187258621",
+    "borough": "Fulton"
+  },
+  {
+    "id": 9700,
+    "lat": 40.737663199254,
+    "lon": -74.000415310782,
+    "tags": {
+      "name": "Northwell Greenwich Village Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Lenox Hill Hospital",
+    "address": "30 Seventh Avenue, New York, NY 10011",
+    "phone": "5164658018",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 752,
+    "lat": 41.384742612191,
+    "lon": -73.66441394875,
+    "tags": {
+      "name": "Putnam Hospital"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Health Quest Systems, Inc.",
+    "address": "670 Stoneleigh Avenue, Carmel, NY 10512",
+    "phone": "8452795711",
+    "borough": "Putnam"
+  },
+  {
+    "id": 128,
+    "lat": 42.541028437359,
+    "lon": -75.524701645311,
+    "tags": {
+      "name": "Chenango Memorial Hospital Inc"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Chenango Memorial Hospital Inc",
+    "address": "179 North Broad St, Norwich, NY 13815",
+    "phone": "6073374111",
+    "borough": "Chenango"
+  },
+  {
+    "id": 1638,
+    "lat": 40.728548787435,
+    "lon": -73.851687196441,
+    "tags": {
+      "name": "Long Island Jewish Forest Hills"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Long Island Jewish Medical Center",
+    "address": "102-01 66th Road, Forest Hills, NY 11375",
+    "phone": "5165624060",
+    "borough": "Queens"
+  },
+  {
+    "id": 891,
+    "lat": 41.111131136824,
+    "lon": -72.360872065241,
+    "tags": {
+      "name": "Stony Brook Eastern Long Island Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "State University of New York",
+    "address": "201 Manor Place, Greenport, NY 11944",
+    "phone": "6314771000",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 1740,
+    "lat": 40.583752169868,
+    "lon": -74.08643578576,
+    "tags": {
+      "name": "Staten Island University Hosp-North"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Staten Island University Hospital",
+    "address": "475 Seaview Avenue, Staten Island, NY 10305",
+    "phone": "7182269515",
+    "borough": "Staten Island",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 831,
+    "lat": 42.821932372541,
+    "lon": -73.913346411738,
+    "tags": {
+      "name": "Sunnyview Hospital and Rehabilitation Center"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Sunnyview Hospital and Rehabilitation Center Inc",
+    "address": "1270 Belmont Avenue, Schenectady, NY 12308",
+    "phone": "5183824500",
+    "borough": "Schenectady"
+  },
+  {
+    "id": 1122,
+    "lat": 40.941567392065,
+    "lon": -73.837071606151,
+    "tags": {
+      "name": "New York-Presbyterian Westchester"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "55 Palmer Avenue, Bronxville, NY 10708",
+    "phone": "9147871000",
+    "borough": "Westchester"
+  },
+  {
+    "id": 938,
+    "lat": 40.9343042,
+    "lon": -72.6739202,
+    "tags": {
+      "name": "Peconic Bay Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Central Suffolk Hospital",
+    "address": "1 Heroes Way, Riverhead, NY 11901",
+    "phone": "6315486000",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 1324,
+    "lat": 40.617754949715,
+    "lon": -73.943215689787,
+    "tags": {
+      "name": "Mount Sinai Brooklyn"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Beth Israel Medical Center Inc",
+    "address": "3201 Kings Highway, Brooklyn, NY 11234",
+    "phone": "7189513000",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 1045,
+    "lat": 41.026806853181,
+    "lon": -73.768915796164,
+    "tags": {
+      "name": "White Plains Hospital Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "White Plains Hospital Medical Center",
+    "address": "41 East Post Road, White Plains, NY 10601",
+    "phone": "9146810600",
+    "borough": "Westchester"
+  },
+  {
+    "id": 870,
+    "lat": 42.356458197808,
+    "lon": -77.661769903991,
+    "tags": {
+      "name": "St. James Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "St. James Hospital",
+    "address": "7329 Seneca Road North, Hornell, NY 14843",
+    "phone": "6073248000",
+    "borough": "Steuben"
+  },
+  {
+    "id": 3058,
+    "lat": 40.85027345042,
+    "lon": -73.844945235471,
+    "tags": {
+      "name": "Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Montefiore Medical Center",
+    "address": "1825 Eastchester Road, Bronx, NY 10461",
+    "phone": "7189042001",
+    "borough": "Bronx"
+  },
+  {
+    "id": 1466,
+    "lat": 40.770079506677,
+    "lon": -73.987771442474,
+    "tags": {
+      "name": "Mount Sinai West"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Lukes Roosevelt Hospital Center Inc",
+    "address": "1000 10th Avenue, New York, NY 10019",
+    "phone": "2125237225",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1438,
+    "lat": 40.739696677918,
+    "lon": -73.976402510469,
+    "tags": {
+      "name": "Bellevue Hospital Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "462 First Avenue, New York, NY 10016",
+    "phone": "2125624132",
+    "borough": "Manhattan",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 1169,
+    "lat": 40.87998315045,
+    "lon": -73.880738645183,
+    "tags": {
+      "name": "Montefiore Medical Center - Henry & Lucy Moses Div"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Montefiore Medical Center",
+    "address": "111 East 210th Street, Bronx, NY 10467",
+    "phone": "7189202001",
+    "borough": "Bronx"
+  },
+  {
+    "id": 192,
+    "lat": 41.937600763058,
+    "lon": -73.909132036328,
+    "tags": {
+      "name": "Northern Dutchess Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Northern Dutchess Hospital Inc",
+    "address": "6511 Springbrook Avenue, Rhinebeck, NY 12572",
+    "phone": "8458713001",
+    "borough": "Dutchess"
+  },
+  {
+    "id": 1039,
+    "lat": 41.291447199115,
+    "lon": -73.892001247379,
+    "tags": {
+      "name": "NewYork-Presbyterian/Hudson Valley Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hudson Valley Hospital Center",
+    "address": "1980 Crompond Road, Cortlandt Manor, NY 10567",
+    "phone": "9147379000",
+    "borough": "Westchester"
+  },
+  {
+    "id": 1723,
+    "lat": 42.7802565,
+    "lon": -78.7726454,
+    "tags": {
+      "name": "Mercy Hospital - Mercy Hospital Orchard Park Division"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Mercy Hospital of Buffalo Inc",
+    "address": "3669 Southwestern Blvd, Orchard Park, NY 14127",
+    "phone": "7166620500",
+    "borough": "Erie"
+  },
+  {
+    "id": 66,
+    "lat": 42.089824048968,
+    "lon": -78.426889170272,
+    "tags": {
+      "name": "Olean General Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Olean General Hospital Inc",
+    "address": "515 Main Street, Olean, NY 14760",
+    "phone": "7163756171",
+    "borough": "Cattaraugus"
+  },
+  {
+    "id": 1626,
+    "lat": 40.7447748,
+    "lon": -73.8856505,
+    "tags": {
+      "name": "Elmhurst Hospital Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "79-01 Broadway, Elmhurst, NY 11373",
+    "phone": "7183344000",
+    "borough": "Queens",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 245,
+    "lat": 40.9082694,
+    "lon": -73.1151875,
+    "tags": {
+      "name": "Stony Brook University Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "State University of New York",
+    "address": "Health Sciences Center SUNY, Stony Brook, NY 11794",
+    "phone": "6314442701",
+    "borough": "Suffolk",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 4,
+    "lat": 42.673529778021,
+    "lon": -73.7502938493,
+    "tags": {
+      "name": "Samaritan Hospital - Albany Memorial Campus"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Samaritan Hospital of Troy NY Inc",
+    "address": "600 Northern Boulevard, Albany, NY 12204",
+    "phone": "5184713221",
+    "borough": "Albany"
+  },
+  {
+    "id": 9059,
+    "lat": 43.099153892286,
+    "lon": -76.098645333386,
+    "tags": {
+      "name": "Crouse Hospital - Commonwealth Division"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Crouse Health Hospital Inc",
+    "address": "6010 East Malloy Road, Syracuse, NY 13211",
+    "phone": "3154342470",
+    "borough": "Onondaga"
+  },
+  {
+    "id": 756,
+    "lat": 42.734097113137,
+    "lon": -73.671327299122,
+    "tags": {
+      "name": "Samaritan Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Samaritan Hospital of Troy NY Inc",
+    "address": "2215 Burdett Avenue, Troy, NY 12180",
+    "phone": "5182713300",
+    "borough": "Rensselaer"
+  },
+  {
+    "id": 1305,
+    "lat": 40.6394203,
+    "lon": -73.9981068,
+    "tags": {
+      "name": "Maimonides Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Maimonides Medical Center",
+    "address": "4802 Tenth Avenue, Brooklyn, NY 11219",
+    "phone": "7182836000",
+    "borough": "Brooklyn",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 1005,
+    "lat": 43.307265317705,
+    "lon": -73.646098827477,
+    "tags": {
+      "name": "Glens Falls Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Glens Falls Hospital Inc",
+    "address": "100 Park Street, Glens Falls, NY 12801",
+    "phone": "5189261000",
+    "borough": "Warren"
+  },
+  {
+    "id": 818,
+    "lat": 43.08484472551,
+    "lon": -73.796214643615,
+    "tags": {
+      "name": "Saratoga Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Saratoga Hospital Inc",
+    "address": "211 Church Street, Saratoga Springs, NY 12866",
+    "phone": "5185873222",
+    "borough": "Saratoga"
+  },
+  {
+    "id": 1486,
+    "lat": 40.80285860749,
+    "lon": -73.940732033653,
+    "tags": {
+      "name": "Henry J. Carter Specialty Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "1752 Park Avenue, New York, NY 10035",
+    "phone": "2123188000",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 118,
+    "lat": 42.091337663335,
+    "lon": -76.797243419202,
+    "tags": {
+      "name": "St. Joseph's Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Arnot Ogden Medical Center",
+    "address": "555 St. Joseph's Boulevard, Elmira, NY 14901",
+    "phone": "6077336541",
+    "borough": "Chemung"
+  },
+  {
+    "id": 1099,
+    "lat": 40.939520219815,
+    "lon": -73.892177176309,
+    "tags": {
+      "name": "SJRH - Park Care Pavilion"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "St Johns Riverside Hospital Inc",
+    "address": "Two Park Avenue, Yonkers, NY 10703",
+    "phone": "9149647300",
+    "borough": "Westchester"
+  },
+  {
+    "id": 367,
+    "lat": 43.964735854471,
+    "lon": -75.912846284078,
+    "tags": {
+      "name": "Samaritan Medical Center"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Samaritan Medical Center",
+    "address": "830 Washington Street, Watertown, NY 13601",
+    "phone": "3157854000",
+    "borough": "Jefferson"
+  },
+  {
+    "id": 563,
+    "lat": 40.805887319592,
+    "lon": -73.669035272655,
+    "tags": {
+      "name": "St. Francis Hospital & Heart Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Francis Hospital Inc",
+    "address": "100 Port Washington Boulevard, Roslyn, NY 11576",
+    "phone": "5165626000",
+    "borough": "Nassau"
+  },
+  {
+    "id": 1454,
+    "lat": 40.784173660859,
+    "lon": -73.944134516784,
+    "tags": {
+      "name": "Metropolitan Hospital Center"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "1901 First Avenue, New York, NY 10029",
+    "phone": "2124238993",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1124,
+    "lat": 41.014699573388,
+    "lon": -73.862054361684,
+    "tags": {
+      "name": "SJRH - Dobbs Ferry Pavillion"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "St Johns Riverside Hospital Inc",
+    "address": "128 Ashford Avenue, Dobbs Ferry, NY 10522",
+    "phone": "9146930700",
+    "borough": "Westchester"
+  },
+  {
+    "id": 804,
+    "lat": 44.936809871385,
+    "lon": -74.908378918584,
+    "tags": {
+      "name": "Massena Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Massena Hospital, Inc.",
+    "address": "1 Hospital Drive, Massena, NY 13662",
+    "phone": "3157641711",
+    "borough": "Saint Lawrence"
+  },
+  {
+    "id": 1453,
+    "lat": 40.763742805799,
+    "lon": -73.956109689767,
+    "tags": {
+      "name": "Memorial Hospital for Cancer and Allied Diseases"
+    },
+    "categories": [
+      "children"
+    ],
+    "has_er": false,
+    "operator": "Memorial Hospital for Cancer and Allied Diseases Inc",
+    "address": "1275 York Avenue, New York, NY 10065",
+    "phone": "2126392000",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1737,
+    "lat": 40.517401965645,
+    "lon": -74.19687733391,
+    "tags": {
+      "name": "Staten Island University Hospital Prince's Bay"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Staten Island University Hospital",
+    "address": "375 Seguine Avenue, Staten Island, NY 10309",
+    "phone": "7182269515",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 1469,
+    "lat": 40.805859261947,
+    "lon": -73.961663540065,
+    "tags": {
+      "name": "Mount Sinai Morningside"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Lukes Roosevelt Hospital Center Inc",
+    "address": "1111 Amsterdam Avenue, New York, NY 10025",
+    "phone": "2125234295",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 552,
+    "lat": 40.774545107343,
+    "lon": -73.477946686604,
+    "tags": {
+      "name": "Plainview Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Plainview Hospital",
+    "address": "888 Old Country Road, Plainview, NY 11803",
+    "phone": "5167193000",
+    "borough": "Nassau"
+  },
+  {
+    "id": 210,
+    "lat": 42.926457555011,
+    "lon": -78.829223514588,
+    "tags": {
+      "name": "Erie County Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Erie County Medical Center Corporation",
+    "address": "462 Grider Street, Buffalo, NY 14215",
+    "phone": "7168983000",
+    "borough": "Erie",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 848,
+    "lat": 42.793502683206,
+    "lon": -73.877837754564,
+    "tags": {
+      "name": "Ellis Hospital - Bellevue Woman's Care Center Division"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Ellis Hospital Inc",
+    "address": "2210 Troy Road, Niskayuna, NY 12309",
+    "phone": "5183469400",
+    "borough": "Schenectady"
+  },
+  {
+    "id": 1098,
+    "lat": 40.930069865253,
+    "lon": -73.897606178204,
+    "tags": {
+      "name": "St. Joseph's Medical Center"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St. Josephs Hospital, Yonkers",
+    "address": "127 South Broadway, Yonkers, NY 10701",
+    "phone": "9143787000",
+    "borough": "Westchester"
+  },
+  {
+    "id": 1172,
+    "lat": 40.817595424208,
+    "lon": -73.923799149873,
+    "tags": {
+      "name": "Lincoln Medical & Mental Health Center"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "234 East 149th Street, Bronx, NY 10451",
+    "phone": "7185795700",
+    "borough": "Bronx",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 889,
+    "lat": 40.885746502434,
+    "lon": -72.380666596305,
+    "tags": {
+      "name": "Stony Brook Southampton Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "State University of New York",
+    "address": "240 Meeting House Lane, Southampton, NY 11968",
+    "phone": "6317268200",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 636,
+    "lat": 43.041878519486,
+    "lon": -76.137929238503,
+    "tags": {
+      "name": "Crouse Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Crouse Health Hospital Inc",
+    "address": "736 Irving Avenue, Syracuse, NY 13210",
+    "phone": "3154707111",
+    "borough": "Onondaga"
+  },
+  {
+    "id": 671,
+    "lat": 42.87575798805,
+    "lon": -76.98817917446,
+    "tags": {
+      "name": "Geneva General Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Geneva General Hospital Inc",
+    "address": "196-198 North Street, Geneva, NY 14456",
+    "phone": "3157874000",
+    "borough": "Ontario"
+  },
+  {
+    "id": 1028,
+    "lat": 43.059584124933,
+    "lon": -77.100796432781,
+    "tags": {
+      "name": "Newark-Wayne Community Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Newark-Wayne Community Hospital",
+    "address": "1200 Driving Park Avenue, Box 111, Newark, NY 14513",
+    "phone": "3153322022",
+    "borough": "Wayne"
+  },
+  {
+    "id": 1301,
+    "lat": 40.655771944262,
+    "lon": -73.945225608004,
+    "tags": {
+      "name": "Kings County Hospital Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "451 Clarkson Avenue, Brooklyn, NY 11203",
+    "phone": "7182453901",
+    "borough": "Brooklyn",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 1320,
+    "lat": 40.654457883967,
+    "lon": -73.946244670269,
+    "tags": {
+      "name": "University Hospital of Brooklyn"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "State of New York",
+    "address": "445 Lenox Road, Brooklyn, NY 11203",
+    "phone": "7182702401",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 1633,
+    "lat": 40.717490120852,
+    "lon": -73.802239359066,
+    "tags": {
+      "name": "Queens Hospital Center"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "82-68 164th Street, Jamaica, NY 11432",
+    "phone": "7188832350",
+    "borough": "Queens"
+  },
+  {
+    "id": 1458,
+    "lat": 40.764254134268,
+    "lon": -73.955379234616,
+    "tags": {
+      "name": "New York-Presbyterian Hospital - New York Weill Cornell Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "525 East 68th Street, New York, NY 10021",
+    "phone": "2127465454",
+    "borough": "Manhattan",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 727,
+    "lat": 43.454904638178,
+    "lon": -76.516515345126,
+    "tags": {
+      "name": "Oswego Hospital"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Oswego Hospital Inc",
+    "address": "110 W Sixth Street, Oswego, NY 13126",
+    "phone": "3153495511",
+    "borough": "Oswego"
+  },
+  {
+    "id": 484,
+    "lat": 42.954085720111,
+    "lon": -74.217184149438,
+    "tags": {
+      "name": "St. Mary's Healthcare"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "St. Mary's Healthcare",
+    "address": "427 Guy Park Avenue, Amsterdam, NY 12010",
+    "phone": "5188421900",
+    "borough": "Montgomery"
+  },
+  {
+    "id": 15464,
+    "lat": 43.1486733,
+    "lon": -78.7081146,
+    "tags": {
+      "name": "Lockport Memorial Hospital, a Campus of Mount St Mary's"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Mount St Marys Hospital of Niagara Falls",
+    "address": "6001 Shimer Drive, Lockport, NY 14094",
+    "phone": null,
+    "borough": "Niagara"
+  },
+  {
+    "id": 1460,
+    "lat": 40.732172506589,
+    "lon": -73.984680439361,
+    "tags": {
+      "name": "New York Eye and Ear Infirmary of Mount Sinai"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "NY Eye and Ear Infirmary Inc",
+    "address": "310 East 14th Street, New York, NY 10003",
+    "phone": "2129794300",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 599,
+    "lat": 43.101660525215,
+    "lon": -75.273862138089,
+    "tags": {
+      "name": "Faxton St Luke's Healthcare Campus"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "MVHS, Inc.",
+    "address": "1650 Champlin  Avenue, Utica, NY 13502",
+    "phone": "3156246001",
+    "borough": "Oneida"
+  },
+  {
+    "id": 1185,
+    "lat": 40.840299739816,
+    "lon": -73.848435877593,
+    "tags": {
+      "name": "Montefiore Medical Center - Montefiore Westchester Square"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Montefiore Medical Center",
+    "address": "2475 St. Raymond Avenue, Bronx, NY 10461",
+    "phone": "7184307359",
+    "borough": "Bronx"
+  },
+  {
+    "id": 9431,
+    "lat": 42.700245064561,
+    "lon": -73.906182597585,
+    "tags": {
+      "name": "St. Peter's Addiction Recovery Center"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "St Peters Hospital Inc",
+    "address": "3 Mercycare Lane, Guilderland, NY 12084",
+    "phone": "5184526701",
+    "borough": "Albany"
+  },
+  {
+    "id": 699,
+    "lat": 41.439924041835,
+    "lon": -74.367512960961,
+    "tags": {
+      "name": "Garnet Health Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Garnet Health Medical Center",
+    "address": "707 East Main Street, Middletown, NY 10940",
+    "phone": "8453331000",
+    "borough": "Orange"
+  },
+  {
+    "id": 1046,
+    "lat": 41.013898400738,
+    "lon": -73.755064818107,
+    "tags": {
+      "name": "Winifred Masterson Burke Rehabilitation Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "The Winifred Masterson Burke Rehabilitation Foundation Inc",
+    "address": "785 Mamaroneck Avenue, White Plains, NY 10605",
+    "phone": "9149480050",
+    "borough": "Westchester"
+  },
+  {
+    "id": 1168,
+    "lat": 40.894584900107,
+    "lon": -73.861319383264,
+    "tags": {
+      "name": "Montefiore Medical Center-Wakefield Hospital"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Montefiore Medical Center",
+    "address": "600 East 233rd Street, Bronx, NY 10466",
+    "phone": "7189209000",
+    "borough": "Bronx"
+  },
+  {
+    "id": 1445,
+    "lat": 40.814891697234,
+    "lon": -73.940196118162,
+    "tags": {
+      "name": "Harlem Hospital Center"
+    },
+    "categories": [
+      "children",
+      "er",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "506 Lenox Avenue, New York, NY 10037",
+    "phone": "2129391000",
+    "borough": "Manhattan",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 989,
+    "lat": 41.922553234989,
+    "lon": -73.999563339331,
+    "tags": {
+      "name": "HealthAlliance Hospital Mary's Avenue Campus"
+    },
+    "categories": [
+      "cardiac",
+      "stroke"
+    ],
+    "has_er": false,
+    "operator": "HealthAlliance Hospital Mary's Avenue Campus",
+    "address": "105 Marys Avenue, Kingston, NY 12401",
+    "phone": "8453382500",
+    "borough": "Ulster"
+  },
+  {
+    "id": 490,
+    "lat": 40.871735751045,
+    "lon": -73.621499972296,
+    "tags": {
+      "name": "Glen Cove Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Glen Cove Hospital",
+    "address": "101 St Andrews Lane, Glen Cove, NY 11542",
+    "phone": "5166747588",
+    "borough": "Nassau"
+  },
+  {
+    "id": 1288,
+    "lat": 40.689645721451,
+    "lon": -73.972208920166,
+    "tags": {
+      "name": "Brooklyn Hospital Center - Downtown Campus"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Brooklyn Hospital Center",
+    "address": "121 Dekalb Avenue, Brooklyn, NY 11201",
+    "phone": "7182508000",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 628,
+    "lat": 43.007937287925,
+    "lon": -76.170236981473,
+    "tags": {
+      "name": "UPSTATE University Hospital at Community General"
+    },
+    "categories": [
+      "cardiac",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "State University of New York",
+    "address": "4900 Broad Road, Syracuse, NY 13215",
+    "phone": "3154925953",
+    "borough": "Onondaga"
+  },
+  {
+    "id": 3975,
+    "lat": 40.872833275264,
+    "lon": -73.912220518415,
+    "tags": {
+      "name": "New York-Presbyterian Hospital - Allen Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "5141 Broadway, New York, NY 10034",
+    "phone": "2129324000",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1628,
+    "lat": 40.755429728582,
+    "lon": -73.815339109996,
+    "tags": {
+      "name": "Flushing Hospital Medical Center"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Flushing Hospital and Medical Center Inc",
+    "address": "45th Avenue & Parsons Blvd, Flushing, NY 11355",
+    "phone": "7186705918",
+    "borough": "Queens"
+  },
+  {
+    "id": 1165,
+    "lat": 40.857447720384,
+    "lon": -73.84764511868,
+    "tags": {
+      "name": "Jacobi Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "1400 Pelham Parkway, Bronx, NY 10461",
+    "phone": "7189185000",
+    "borough": "Bronx",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 518,
+    "lat": 40.681668831375,
+    "lon": -73.685778053862,
+    "tags": {
+      "name": "Long Island Jewish Valley Stream"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Long Island Jewish Medical Center",
+    "address": "900 Franklin Avenue, Valley Stream, NY 11580",
+    "phone": "5162566000",
+    "borough": "Nassau"
+  },
+  {
+    "id": 339,
+    "lat": 43.003978608118,
+    "lon": -78.177071258486,
+    "tags": {
+      "name": "United Memorial Medical Center North Street Campus"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "United Memorial Medical Center",
+    "address": "127 North St, Batavia, NY 14020",
+    "phone": "5853436030",
+    "borough": "Genesee"
+  },
+  {
+    "id": 1306,
+    "lat": 40.668465780924,
+    "lon": -73.979709664276,
+    "tags": {
+      "name": "NewYork-Presbyterian Brooklyn Methodist Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "506 Sixth Street, Brooklyn, NY 11215",
+    "phone": "7187803101",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 15437,
+    "lat": 40.720817473929,
+    "lon": -73.991009657659,
+    "tags": {
+      "name": "Mount Sinai -  Behavioral Health Center"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Beth Israel Medical Center Inc",
+    "address": "45 Rivington Street, New York, NY 10002",
+    "phone": null,
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1133,
+    "lat": 40.988964,
+    "lon": -73.7081144,
+    "tags": {
+      "name": "St. Joseph's MC-St. Vincent's Westchester Division"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "St. Josephs Hospital, Yonkers",
+    "address": "275 North Street, Harrison, NY 10528",
+    "phone": "9149255300",
+    "borough": "Westchester"
+  },
+  {
+    "id": 1318,
+    "lat": 40.704913368642,
+    "lon": -73.917336015229,
+    "tags": {
+      "name": "Wyckoff Heights Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Wyckoff Heights Medical Center",
+    "address": "374 Stockholm Street, Brooklyn, NY 11237",
+    "phone": "7189637101",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 925,
+    "lat": 40.695812665145,
+    "lon": -73.294614852004,
+    "tags": {
+      "name": "Good Samaritan Hospital Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Good Samaritan Hospital Medical Center",
+    "address": "1000 Montauk Highway, West Islip, NY 11795",
+    "phone": "6313763000",
+    "borough": "Suffolk",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": 1186,
+    "lat": 40.880124706515,
+    "lon": -73.881754581147,
+    "tags": {
+      "name": "North Central Bronx Hospital"
+    },
+    "categories": [
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "3424 Kossuth Avenue & 210th Street, Bronx, NY 10467",
+    "phone": "7185193500",
+    "borough": "Bronx"
+  },
+  {
+    "id": 678,
+    "lat": 42.87493223763,
+    "lon": -77.290065937658,
+    "tags": {
+      "name": "F.F. Thompson Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Frederick Ferris Thompson Hospital",
+    "address": "350 Parrish Street, Canandaigua, NY 14424",
+    "phone": "7163966527",
+    "borough": "Ontario"
+  },
+  {
+    "id": 1047,
+    "lat": 41.025677790129,
+    "lon": -73.757737491595,
+    "tags": {
+      "name": "New York-Presbyterian Westchester Behavioral Health Center"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "21 Bloomingdale Road, White Plains, NY 10605",
+    "phone": "9146829100",
+    "borough": "Westchester"
+  },
+  {
+    "id": 393,
+    "lat": 42.552430846209,
+    "lon": -77.700412411492,
+    "tags": {
+      "name": "Nicholas H. Noyes Memorial Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Nicholas H Noyes Memorial Hospital",
+    "address": "111 Clara Barton Street, Dansville, NY 14437",
+    "phone": "5853356001",
+    "borough": "Livingston"
+  },
+  {
+    "id": 1061,
+    "lat": 40.912593980786,
+    "lon": -73.840088814834,
+    "tags": {
+      "name": "Montefiore Mount Vernon Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Montefiore Mount Vernon Hospital, Inc.",
+    "address": "12 North 7th Avenue, Mount Vernon, NY 10550",
+    "phone": "9143616100",
+    "borough": "Westchester"
+  },
+  {
+    "id": 116,
+    "lat": 42.1001845,
+    "lon": -76.8272709,
+    "tags": {
+      "name": "Arnot Ogden Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Arnot Ogden Medical Center",
+    "address": "600 Roe Avenue, Elmira, NY 14905",
+    "phone": "6077374230",
+    "borough": "Chemung"
+  },
+  {
+    "id": 541,
+    "lat": 40.776195413916,
+    "lon": -73.702965680507,
+    "tags": {
+      "name": "North Shore University Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "North Shore University Hospital Inc",
+    "address": "300 Community Drive, Manhasset, NY 11030",
+    "phone": "5165628730",
+    "borough": "Nassau"
+  },
+  {
+    "id": 1463,
+    "lat": 40.742346194975,
+    "lon": -73.974474127012,
+    "tags": {
+      "name": "NYU Langone Hospitals"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "NYU Langone Hospitals",
+    "address": "550 First Avenue, New York, NY 10016",
+    "phone": "2122635500",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 776,
+    "lat": 41.096697923076,
+    "lon": -73.924787986734,
+    "tags": {
+      "name": "Montefiore Nyack"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Montefiore Nyack Hospital",
+    "address": "160 North Midland Avenue, Nyack, NY 10960",
+    "phone": "8453482000",
+    "borough": "Rockland"
+  },
+  {
+    "id": 513,
+    "lat": 40.687191,
+    "lon": -73.630873,
+    "tags": {
+      "name": "Mercy Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Mercy Medical Center",
+    "address": "1000 North Village Avenue, Rockville Centre, NY 11570",
+    "phone": "5167052525",
+    "borough": "Nassau"
+  },
+  {
+    "id": 589,
+    "lat": 43.228977828545,
+    "lon": -75.444142419485,
+    "tags": {
+      "name": "Rome Memorial Hospital, Inc"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Rome Memorial Hospital, Inc",
+    "address": "1500 N James St, Rome, NY 13440",
+    "phone": "3153387000",
+    "borough": "Oneida"
+  },
+  {
+    "id": 1304,
+    "lat": 40.646899541107,
+    "lon": -74.020965100023,
+    "tags": {
+      "name": "NYU Langone Hospital-Brooklyn"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "NYU Langone Hospitals",
+    "address": "150 55th Street, Brooklyn, NY 11220",
+    "phone": "7186307300",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 630,
+    "lat": 43.055148533131,
+    "lon": -76.148914180421,
+    "tags": {
+      "name": "St. Joseph's Hospital Health Center"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "St Joseph's Hospital Health Center",
+    "address": "301 Prospect Avenue, Syracuse, NY 13203",
+    "phone": "3154485111",
+    "borough": "Onondaga",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": 708,
+    "lat": 41.367268520583,
+    "lon": -74.682676157617,
+    "tags": {
+      "name": "Bon Secours Community Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Bon Secours Community Hospital",
+    "address": "160 East Main Street, Port Jervis, NY 12771",
+    "phone": "8458565351",
+    "borough": "Orange"
+  },
+  {
+    "id": 896,
+    "lat": 40.947732886562,
+    "lon": -73.060346758282,
+    "tags": {
+      "name": "St. Charles Hospital"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Charles Hosp and Rehab Ctr Inc",
+    "address": "200 Belle Terre Road, Port Jefferson, NY 11777",
+    "phone": "6314746600",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 1473,
+    "lat": 40.621168375539,
+    "lon": -74.075160754571,
+    "tags": {
+      "name": "RUMC-Bayley Seton"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Richmond University Medical Center",
+    "address": "75 Vanderbilt Avenue, Staten Island, NY 10304",
+    "phone": "7183906000",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 1176,
+    "lat": 40.853567241769,
+    "lon": -73.891327356672,
+    "tags": {
+      "name": "SBH Health System"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Barnabas Hospital Inc",
+    "address": "4422 Third Avenue, Bronx, NY 10457",
+    "phone": "7189606100",
+    "borough": "Bronx"
+  },
+  {
+    "id": 12,
+    "lat": 43.459494125544,
+    "lon": -76.506476130887,
+    "tags": {
+      "name": "Lakeview Center for Mental Health and Wellness"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Oswego Hospital Inc",
+    "address": "29 East Cayuga Street, Oswego, NY 13126",
+    "phone": "3153495526",
+    "borough": "Oswego"
+  },
+  {
+    "id": 1446,
+    "lat": 40.7343943,
+    "lon": -73.9829914,
+    "tags": {
+      "name": "NYU Langone Orthopedic Hospital"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "NYU Langone Hospitals",
+    "address": "301 East 17th Street, New York, NY 10003",
+    "phone": "2125986000",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1097,
+    "lat": 40.968271727759,
+    "lon": -73.885020745539,
+    "tags": {
+      "name": "SJRH - St Johns Division"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Johns Riverside Hospital Inc",
+    "address": "967 North Broadway, Yonkers, NY 10701",
+    "phone": "9149644200",
+    "borough": "Westchester"
+  },
+  {
+    "id": 9531,
+    "lat": 43.220118722873,
+    "lon": -77.944817052608,
+    "tags": {
+      "name": "URMC Strong West"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "University of Rochester Inc",
+    "address": "156 West Avenue, Brockport, NY 14420",
+    "phone": "5857851000",
+    "borough": "Monroe"
+  },
+  {
+    "id": 1175,
+    "lat": 40.847855263959,
+    "lon": -73.844801238022,
+    "tags": {
+      "name": "Calvary Hospital Inc"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Calvary Hospital Inc.",
+    "address": "1740-70 Eastchester Road, Bronx, NY 10461",
+    "phone": "7185182244",
+    "borough": "Bronx"
+  },
+  {
+    "id": 292,
+    "lat": 42.91372706929,
+    "lon": -78.784251956334,
+    "tags": {
+      "name": "Sisters of Charity Hospital - St. Joseph Campus"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Sisters of Charity Hospital of Buffalo New York Inc",
+    "address": "2605 Harlem Road, Cheektowaga, NY 14225",
+    "phone": "7168912400",
+    "borough": "Erie"
+  },
+  {
+    "id": 1738,
+    "lat": 40.635049908843,
+    "lon": -74.106531979012,
+    "tags": {
+      "name": "Richmond University Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Richmond University Medical Center",
+    "address": "355 Bard Avenue, Staten Island, NY 10310",
+    "phone": "7188182413",
+    "borough": "Staten Island"
+  },
+  {
+    "id": 10139,
+    "lat": 40.763916554076,
+    "lon": -73.955980008084,
+    "tags": {
+      "name": "New York-Presbyterian David H. Koch Center"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "1283 York Avenue, New York, NY 10065",
+    "phone": null,
+    "borough": "Manhattan"
+  },
+  {
+    "id": 10355,
+    "lat": 40.767815336348,
+    "lon": -73.952097280709,
+    "tags": {
+      "name": "David H. Koch Center For Cancer Care"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Memorial Hospital for Cancer and Allied Diseases Inc",
+    "address": "530 East 74th Street, New York, NY 10021",
+    "phone": null,
+    "borough": "Manhattan"
+  },
+  {
+    "id": 9753,
+    "lat": 40.69106465958,
+    "lon": -73.99756970838,
+    "tags": {
+      "name": "NYU Langone Hospital - Joseph S. and Diane H. Steinberg Ambulatory Care Center"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "NYU Langone Hospitals",
+    "address": "70 Atlantic Avenue, Brooklyn, NY 11201",
+    "phone": null,
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 694,
+    "lat": 41.503660310543,
+    "lon": -74.01509741502,
+    "tags": {
+      "name": "St Luke's Cornwall Hospital/Newburgh"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Luke's Cornwall Hospital",
+    "address": "70 Dubois Street, Newburgh, NY 12550",
+    "phone": "8455614400",
+    "borough": "Orange"
+  },
+  {
+    "id": 413,
+    "lat": 43.124314838433,
+    "lon": -77.624774427005,
+    "tags": {
+      "name": "Strong Memorial Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "University of Rochester Inc",
+    "address": "601 Elmwood Avenue, Rochester, NY 14642",
+    "phone": "5852758387",
+    "borough": "Monroe",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 1294,
+    "lat": 40.586631111924,
+    "lon": -73.965789903885,
+    "tags": {
+      "name": "South Brooklyn Health"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "New York City Health and Hospitals Corporation",
+    "address": "2601 Ocean Parkway, Brooklyn, NY 11235",
+    "phone": "7186163000",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 3067,
+    "lat": 42.991175179834,
+    "lon": -78.73172058317,
+    "tags": {
+      "name": "Millard Fillmore Suburban Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Kaleida Health",
+    "address": "1540 Maple Road, Amherst, NY 14221",
+    "phone": "7165683600",
+    "borough": "Erie"
+  },
+  {
+    "id": 15417,
+    "lat": 42.743580015359,
+    "lon": -73.675701949682,
+    "tags": {
+      "name": "St. Peter's Hospital - SPARC"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "St Peters Hospital Inc",
+    "address": "1300 Massachusetts Avenue, Troy, NY 12180",
+    "phone": "5182685941",
+    "borough": "Rensselaer"
+  },
+  {
+    "id": 1117,
+    "lat": 41.196123617346,
+    "lon": -73.724769570376,
+    "tags": {
+      "name": "Northern Westchester Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Northern Westchester Hosp Assoc Inc",
+    "address": "400 East Main Street, Mount Kisco, NY 10549",
+    "phone": "9146661303",
+    "borough": "Westchester"
+  },
+  {
+    "id": 8554,
+    "lat": 42.30453161269,
+    "lon": -75.396318157297,
+    "tags": {
+      "name": "A.O. Fox Memorial Hospital - Tri-Town Campus"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Aurelia Osborn Fox Memorial Hospital Society Inc",
+    "address": "43 Pearl Street West, Sidney, NY 13838",
+    "phone": "6075612021",
+    "borough": "Delaware"
+  },
+  {
+    "id": 1129,
+    "lat": 41.103174445545,
+    "lon": -73.860892357946,
+    "tags": {
+      "name": "Phelps Hospital"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Phelps Memorial Hospital Association",
+    "address": "701 North Broadway, Sleepy Hollow, NY 10591",
+    "phone": "9143663000",
+    "borough": "Westchester"
+  },
+  {
+    "id": 39,
+    "lat": 42.122985486077,
+    "lon": -77.950085403057,
+    "tags": {
+      "name": "Memorial Hosp of Wm F & Gertrude F Jones A/K/A Jones Memorial Hosp"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Memorial Hospital of William F & Gertrude F Jones Inc",
+    "address": "191 North Main Street, Wellsville, NY 14895",
+    "phone": "5855931100",
+    "borough": "Allegany"
+  },
+  {
+    "id": 746,
+    "lat": 42.69610879283,
+    "lon": -74.924046528492,
+    "tags": {
+      "name": "Mary Imogene Bassett Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Mary Imogene Bassett Hospital Inc",
+    "address": "One Atwell Road, Cooperstown, NY 13326",
+    "phone": "6075473456",
+    "borough": "Otsego"
+  },
+  {
+    "id": 98,
+    "lat": 42.480795838417,
+    "lon": -79.333849414245,
+    "tags": {
+      "name": "Brooks-TLC Hospital System, Inc."
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Brooks-TLC Hospital System, Inc.",
+    "address": "529 Central Avenue, Dunkirk, NY 14048",
+    "phone": "7163661111",
+    "borough": "Chautauqua"
+  },
+  {
+    "id": 280,
+    "lat": 42.508556023442,
+    "lon": -78.658757082139,
+    "tags": {
+      "name": "Bertrand Chaffee Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Bertrand Chaffee Hospital",
+    "address": "224 East Main St, Springville, NY 14141",
+    "phone": "7165922871",
+    "borough": "Erie"
+  },
+  {
+    "id": 1637,
+    "lat": 40.74751163083,
+    "lon": -73.826008500259,
+    "tags": {
+      "name": "NewYork-Presbyterian/Queens"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "NewYork-Presbyterian/Queens",
+    "address": "56-45 Main Street, Flushing, NY 11355",
+    "phone": "7186701021",
+    "borough": "Queens"
+  },
+  {
+    "id": 1629,
+    "lat": 40.701402739208,
+    "lon": -73.816311112936,
+    "tags": {
+      "name": "Jamaica Hospital Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Jamaica Hospital Inc",
+    "address": "89th Avenue & Van Wyck Expressway, Jamaica, NY 11418",
+    "phone": "7182066000",
+    "borough": "Queens",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 213,
+    "lat": 42.848244504275,
+    "lon": -78.812501622217,
+    "tags": {
+      "name": "Mercy Hospital of Buffalo"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Mercy Hospital of Buffalo Inc",
+    "address": "565 Abbott Road, Buffalo, NY 14220",
+    "phone": "7168267000",
+    "borough": "Erie"
+  },
+  {
+    "id": 103,
+    "lat": 42.091580945087,
+    "lon": -79.232969685098,
+    "tags": {
+      "name": "UPMC Chautauqua at WCA"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "UPMC Chautauqua at WCA",
+    "address": "207 Foote Avenue, Jamestown, NY 14701",
+    "phone": "7164870141",
+    "borough": "Chautauqua"
+  },
+  {
+    "id": 829,
+    "lat": 42.819880755805,
+    "lon": -73.919020617788,
+    "tags": {
+      "name": "Ellis Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Ellis Hospital Inc",
+    "address": "1101 Nott Street, Schenectady, NY 12308",
+    "phone": "5182434000",
+    "borough": "Schenectady"
+  },
+  {
+    "id": 1286,
+    "lat": 40.655241724884,
+    "lon": -73.912205473149,
+    "tags": {
+      "name": "Brookdale Hospital Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Brookdale Hospital Medical Center",
+    "address": "1 Brookdale Plaza, Brooklyn, NY 11212-3139",
+    "phone": "7182405276",
+    "borough": "Brooklyn"
+  },
+  {
+    "id": 527,
+    "lat": 40.6529838,
+    "lon": -73.6305153,
+    "tags": {
+      "name": "Mount Sinai South Nassau"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "South Nassau Communities Hospital Inc",
+    "address": "One Healthy Way, Oceanside, NY 11572",
+    "phone": "5166323000",
+    "borough": "Nassau"
+  },
+  {
+    "id": 306,
+    "lat": 44.266576954794,
+    "lon": -73.985103047807,
+    "tags": {
+      "name": "Adirondack Medical Center-Lake Placid Site"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "Adirondack Medical Center",
+    "address": "203 Old Military Road, Lake Placid, NY 12946",
+    "phone": "5185233311",
+    "borough": "Essex"
+  },
+  {
+    "id": 58,
+    "lat": 42.114510295474,
+    "lon": -75.959054065104,
+    "tags": {
+      "name": "United Health Services Hospitals Inc. - Wilson Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "United Health Services Hospitals Inc",
+    "address": "33-57 Harrison Street, Johnson City, NY 13790",
+    "phone": "6077636000",
+    "borough": "Broome"
+  },
+  {
+    "id": 340,
+    "lat": 42.997672162103,
+    "lon": -78.181783837066,
+    "tags": {
+      "name": "United Memorial Medical Center Bank Street Campus"
+    },
+    "categories": [],
+    "has_er": false,
+    "operator": "United Memorial Medical Center",
+    "address": "16 Bank Street, Batavia, NY 14020",
+    "phone": "5853436030",
+    "borough": "Genesee"
+  },
+  {
+    "id": 511,
+    "lat": 40.74165026854,
+    "lon": -73.643253656472,
+    "tags": {
+      "name": "NYU Langone Hospital-Long Island"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "NYU Langone Hospitals",
+    "address": "259 First Street, Mineola, NY 11501",
+    "phone": "5166630333",
+    "borough": "Nassau"
+  },
+  {
+    "id": 528,
+    "lat": 40.725297323147,
+    "lon": -73.555688804991,
+    "tags": {
+      "name": "Nassau University Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Nassau Health Care Corporation",
+    "address": "2201 Hempstead Turnpike, East Meadow, NY 11554",
+    "phone": "5165720123",
+    "borough": "Nassau"
+  },
+  {
+    "id": 1456,
+    "lat": 40.790487973689,
+    "lon": -73.953786284489,
+    "tags": {
+      "name": "Mount Sinai Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Mount Sinai Hospital",
+    "address": "One Gustave L Levy Place, New York, NY 10029",
+    "phone": "2122417005",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1447,
+    "lat": 40.765284298935,
+    "lon": -73.95392738726,
+    "tags": {
+      "name": "Hospital for Special Surgery"
+    },
+    "categories": [
+      "children"
+    ],
+    "has_er": false,
+    "operator": "NY Society for the Relief of The Ruptured & Crippled",
+    "address": "535 E 70th Street, New York, NY 10021",
+    "phone": "2126061236",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 1464,
+    "lat": 40.84128191701,
+    "lon": -73.940402444116,
+    "tags": {
+      "name": "New York-Presbyterian Hospital - Columbia Presbyterian Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The New York and Presbyterian Hospital",
+    "address": "622 West 168th Street, New York, NY 10032",
+    "phone": "2123052500",
+    "borough": "Manhattan"
+  },
+  {
+    "id": 885,
+    "lat": 40.78033948522,
+    "lon": -72.978165126072,
+    "tags": {
+      "name": "NYU Langone Hospital - Suffolk"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "NYU Langone Hospitals",
+    "address": "101 Hospital Road, Patchogue, NY 11772",
+    "phone": "6316547100",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 85,
+    "lat": 42.940894126037,
+    "lon": -76.562179898714,
+    "tags": {
+      "name": "Auburn Community Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Auburn Community Hospital",
+    "address": "17 Lansing Street, Auburn, NY 13021",
+    "phone": "3152557209",
+    "borough": "Cayuga"
+  },
+  {
+    "id": 409,
+    "lat": 43.135220069877,
+    "lon": -77.607644430179,
+    "tags": {
+      "name": "Highland Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Strong Partners Health System, Inc.",
+    "address": "1000 South Avenue, Rochester, NY 14620",
+    "phone": "5854732200",
+    "borough": "Monroe"
+  },
+  {
+    "id": 704,
+    "lat": 41.263305188451,
+    "lon": -74.356307650103,
+    "tags": {
+      "name": "St Anthony Community Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "St. Anthony's Community Hospital",
+    "address": "15 Maple Avenue, Warwick, NY 10990",
+    "phone": "8459862276",
+    "borough": "Orange"
+  },
+  {
+    "id": 1164,
+    "lat": 40.831750948172,
+    "lon": -73.903663249774,
+    "tags": {
+      "name": "BronxCare Hospital Center"
+    },
+    "categories": [
+      "cardiac",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "BronxCare Health System",
+    "address": "1276 Fulton Avenue, Bronx, NY 10456",
+    "phone": "7189018800",
+    "borough": "Bronx"
+  },
+  {
+    "id": 218,
+    "lat": 42.929982871446,
+    "lon": -78.848956203874,
+    "tags": {
+      "name": "Sisters of Charity Hospital"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Sisters of Charity Hospital of Buffalo New York Inc",
+    "address": "2157 Main Street, Buffalo, NY 14214",
+    "phone": "7168621000",
+    "borough": "Erie"
+  },
+  {
+    "id": 895,
+    "lat": 40.9396773,
+    "lon": -73.0533068,
+    "tags": {
+      "name": "John T Mather Memorial Hospital of Port Jefferson New York Inc"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "John T Mather of Port Jefferson NY Inc",
+    "address": "75 North Country Road, Port Jefferson, NY 11777",
+    "phone": "6314731320",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 146,
+    "lat": 42.245786499849,
+    "lon": -73.777999317659,
+    "tags": {
+      "name": "Columbia Memorial Hospital"
+    },
+    "categories": [
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Columbia Memorial Hospital",
+    "address": "71 Prospect Ave, Hudson, NY 12534",
+    "phone": "5188287601",
+    "borough": "Columbia"
+  },
+  {
+    "id": 1072,
+    "lat": 40.912975273438,
+    "lon": -73.787111745886,
+    "tags": {
+      "name": "Montefiore New Rochelle Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Montefiore New Rochelle Hospital, Inc.",
+    "address": "16 Guion Place, New Rochelle, NY 10802",
+    "phone": "9143653700",
+    "borough": "Westchester"
+  },
+  {
+    "id": 1139,
+    "lat": 41.085906518146,
+    "lon": -73.80345058822,
+    "tags": {
+      "name": "Westchester Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Westchester County Health Care Corporation",
+    "address": "100 Woods Road, Valhalla, NY 10595",
+    "phone": "9144937018",
+    "borough": "Westchester",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": 943,
+    "lat": 40.865025913719,
+    "lon": -73.220617257623,
+    "tags": {
+      "name": "St Catherine of Siena Hospital"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Catherine Siena Med Ctr",
+    "address": "50 Route 25A, Smithtown, NY 11787",
+    "phone": "6318623107",
+    "borough": "Suffolk"
+  },
+  {
+    "id": 866,
+    "lat": 42.1355136,
+    "lon": -76.9692355,
+    "tags": {
+      "name": "Corning Hospital"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Corning Hospital Inc",
+    "address": "1 Guthrie Drive, Corning, NY 14830",
+    "phone": "6079377200",
+    "borough": "Steuben"
+  },
+  {
+    "id": 180,
+    "lat": 41.727997523447,
+    "lon": -73.932732295188,
+    "tags": {
+      "name": "Mid-Hudson Valley Division of Westchester Medical Center"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Westchester County Health Care Corporation",
+    "address": "241 North Road, Poughkeepsie, NY 12601",
+    "phone": "8454835000",
+    "borough": "Dutchess"
+  },
+  {
+    "id": "NJ11302",
+    "lat": 40.237678988,
+    "lon": -74.312314975,
+    "tags": {
+      "name": "CENTRASTATE MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Centrastate Medical Center, Inc",
+    "address": "901 WEST MAIN STREET , FREEHOLD, NJ 07728",
+    "phone": "(732) 294-7012",
+    "borough": "Monmouth"
+  },
+  {
+    "id": "NJ10708",
+    "lat": 40.812245008,
+    "lon": -74.204332012,
+    "tags": {
+      "name": "HACKENSACK MERIDIAN HEALTH, MOUNTAINSIDE MEDICAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Montclair Hospital, Llc",
+    "address": "1 BAY AVENUE , MONTCLAIR, NJ 07042",
+    "phone": "(973) 429-6000",
+    "borough": "Essex"
+  },
+  {
+    "id": "NJ11902",
+    "lat": 41.058448987,
+    "lon": -74.76692803,
+    "tags": {
+      "name": "NEWTON MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Ahs Hospital Corp",
+    "address": "175 HIGH ST , NEWTON, NJ 07860",
+    "phone": "(973) 383-2121",
+    "borough": "Sussex"
+  },
+  {
+    "id": "NJ71702-1",
+    "lat": 39.594262443,
+    "lon": -75.444754896,
+    "tags": {
+      "name": "INSPIRA MEDICAL CENTER MANNINGTON"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Inspira Medical Centers, Inc",
+    "address": "310 SALEM WOODSTOWN ROAD , SALEM, NJ 08079",
+    "phone": "(856) 935-1000",
+    "borough": "Salem"
+  },
+  {
+    "id": "NJ10802-1",
+    "lat": 39.734558429,
+    "lon": -75.066372848,
+    "tags": {
+      "name": "JEFFERSON WASHINGTON TOWNSHIP HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Kennedy University Hospital, Inc. Washington Twp",
+    "address": "435 HURFFVILLE CROSS KEYS ROAD , TURNERSVILLE, NJ 08012",
+    "phone": "(856) 582-2500",
+    "borough": "Gloucester"
+  },
+  {
+    "id": "NJ10211",
+    "lat": 40.961523465,
+    "lon": -74.074158019,
+    "tags": {
+      "name": "VALLEY HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "The Valley Health System",
+    "address": "4 VALLEY HEALTH PLAZA , PARAMUS, NJ 07652",
+    "phone": "(201) 447-8000",
+    "borough": "Bergen"
+  },
+  {
+    "id": "NJ11603-1",
+    "lat": 40.946957982,
+    "lon": -74.203076984,
+    "tags": {
+      "name": "ST JOSEPH'S WAYNE MEDICAL CENTER"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St. Joseph'S University Medical Center",
+    "address": "224 HAMBURG TURNPIKE , WAYNE, NJ 07470",
+    "phone": "(973) 942-6900",
+    "borough": "Passaic"
+  },
+  {
+    "id": "NJ10402",
+    "lat": 39.941517012,
+    "lon": -75.116804007,
+    "tags": {
+      "name": "COOPER UNIVERSITY HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Cooper Health System",
+    "address": "1 COOPER PLAZA , CAMDEN, NJ 08103",
+    "phone": "(856) 342-2000",
+    "borough": "Camden",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": "NJ10904",
+    "lat": 40.716335993,
+    "lon": -74.05040397,
+    "tags": {
+      "name": "JERSEY CITY MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Jersey City Medical Center",
+    "address": "355 GRAND STREET , JERSEY CITY, NJ 07302",
+    "phone": "(201) 915-2000",
+    "borough": "Hudson",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": "NJ11406-O1",
+    "lat": 40.895222989,
+    "lon": -74.465236009,
+    "tags": {
+      "name": "SAINT CLARE'S HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Prime Healthcare Services-Saint Clare'S Llc",
+    "address": "25 POCONO ROAD , DENVILLE, NJ 07834",
+    "phone": "(973) 983-5569",
+    "borough": "Morris"
+  },
+  {
+    "id": "NJ10501",
+    "lat": 39.087478988,
+    "lon": -74.81690102,
+    "tags": {
+      "name": "CAPE REGIONAL MEDICAL CENTER, INC"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Cape Regional Medical Center, Inc.",
+    "address": "TWO STONE HARBOR BLVD , CAPE MAY COURT HOUSE, NJ 08210",
+    "phone": "(609) 463-2000",
+    "borough": "Cape May"
+  },
+  {
+    "id": "NJ11401",
+    "lat": 40.958757019,
+    "lon": -74.310355035,
+    "tags": {
+      "name": "CHILTON MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Ahs Hospital Corp.",
+    "address": "97 WEST PARKWAY , POMPTON PLAINS, NJ 07444",
+    "phone": "(973) 831-5000",
+    "borough": "Morris"
+  },
+  {
+    "id": "NJ24745",
+    "lat": 40.985436994,
+    "lon": -74.015158989,
+    "tags": {
+      "name": "HACKENSACK MERIDIAN HEALTH PASCACK VALLEY MEDICAL"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Pascack Valley Hospital, Llc",
+    "address": "250 OLD HOOK ROAD , WESTWOOD, NJ 07675",
+    "phone": "(201) 383-1035",
+    "borough": "Bergen"
+  },
+  {
+    "id": "NJ11104",
+    "lat": 40.29187101,
+    "lon": -74.802998041,
+    "tags": {
+      "name": "CAPITAL HEALTH MEDICAL CENTER - HOPEWELL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Capital Health System, Inc.",
+    "address": "ONE CAPITAL WAY , PENNINGTON, NJ 08534",
+    "phone": "(609) 303-4000",
+    "borough": "Mercer"
+  },
+  {
+    "id": "NJ310047",
+    "lat": 39.314676006,
+    "lon": -74.593794036,
+    "tags": {
+      "name": "SHORE MEDICAL CENTER"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Shore Medical Center",
+    "address": "100 MEDICAL CENTER WAY , SOMERS POINT, NJ 08244",
+    "phone": "(609) 653-3500",
+    "borough": "Atlantic"
+  },
+  {
+    "id": "NJ10709",
+    "lat": 40.710590994,
+    "lon": -74.213557967,
+    "tags": {
+      "name": "NEWARK BETH ISRAEL MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Newark Beth Israel Medical Center",
+    "address": "201 LYONS AVE , NEWARK, NJ 07112",
+    "phone": "(973) 926-7850",
+    "borough": "Essex"
+  },
+  {
+    "id": "NJ11201",
+    "lat": 40.556647997,
+    "lon": -74.350491024,
+    "tags": {
+      "name": "JFK UNIVERSITY MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "65 JAMES STREET , EDISON, NJ 08820",
+    "phone": "(732) 321-7000",
+    "borough": "Middlesex"
+  },
+  {
+    "id": "NJ10908",
+    "lat": 40.741354004,
+    "lon": -74.034008968,
+    "tags": {
+      "name": "CAREPOINT HEALTH-HOBOKEN UNIVERSITY MEDICAL CENTER"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Humc Opco, L.L.C.",
+    "address": "308 WILLOW AVE , HOBOKEN, NJ 07030",
+    "phone": "(201) 418-1000",
+    "borough": "Hudson"
+  },
+  {
+    "id": "NJ11605",
+    "lat": 40.902917996,
+    "lon": -74.165747005,
+    "tags": {
+      "name": "ST JOSEPH'S UNIVERSITY MEDICAL CENTER INC"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "St. Joseph'S University Medical Center",
+    "address": "703 MAIN ST , PATERSON, NJ 07503",
+    "phone": "(973) 754-2010",
+    "borough": "Passaic",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": "NJ10902",
+    "lat": 40.734395013,
+    "lon": -74.049677008,
+    "tags": {
+      "name": "CAREPOINT HEALTH-CHRIST HOSPITAL"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hudson Hospital Opco, Llc",
+    "address": "176 PALISADE AVE , JERSEY CITY, NJ 07306",
+    "phone": "(201) 795-8200",
+    "borough": "Hudson"
+  },
+  {
+    "id": "NJ12102",
+    "lat": 40.702137007,
+    "lon": -75.17814202,
+    "tags": {
+      "name": "ST LUKE'S WARREN HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "St Luke'S Warren Hospital",
+    "address": "185 ROSEBERRY ST , PHILLIPSBURG, NJ 08865",
+    "phone": "(908) 847-6700",
+    "borough": "Warren"
+  },
+  {
+    "id": "NJ310052",
+    "lat": 40.077025984,
+    "lon": -74.13181002,
+    "tags": {
+      "name": "OCEAN UNIVERSITY MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "425 JACK MARTIN BLVD , BRICK, NJ 08724",
+    "phone": "(732) 840-2200",
+    "borough": "Ocean"
+  },
+  {
+    "id": "NJ10401",
+    "lat": 39.927975,
+    "lon": -75.015637034,
+    "tags": {
+      "name": "JEFFERSON CHERRY HILL HOSPITAL"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Kennedy University Hospital, Inc. Cherry Hill Div",
+    "address": "2201 CHAPEL AVENUE WEST , CHERRY HILL, NJ 08002",
+    "phone": "(856) 488-6802",
+    "borough": "Camden"
+  },
+  {
+    "id": "NJ11501",
+    "lat": 39.963905998,
+    "lon": -74.215733993,
+    "tags": {
+      "name": "COMMUNITY MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Community Medical Center",
+    "address": "99 RT 37 WEST , TOMS RIVER, NJ 08755",
+    "phone": "(732) 557-8000",
+    "borough": "Ocean"
+  },
+  {
+    "id": "NJ310027",
+    "lat": 40.659665987,
+    "lon": -74.214557006,
+    "tags": {
+      "name": "TRINITAS REGIONAL MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Trinitas Regional Medical Center",
+    "address": "225 WILLIAMSON STREET , ELIZABETH, NJ 07207",
+    "phone": "(908) 994-5000",
+    "borough": "Union"
+  },
+  {
+    "id": "NJ310024",
+    "lat": 40.613007997,
+    "lon": -74.291004992,
+    "tags": {
+      "name": "ROBERT WOOD JOHNSON UNIVERSITY HOSPITAL AT RAHWAY"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Robert Wood Johnson University Hospital At Rahway",
+    "address": "865 STONE ST , RAHWAY, NJ 07065",
+    "phone": "(732) 381-4200",
+    "borough": "Union"
+  },
+  {
+    "id": "NJ10701",
+    "lat": 40.785367,
+    "lon": -74.176034031,
+    "tags": {
+      "name": "CLARA MAASS MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Clara Maass Medical Center",
+    "address": "ONE CLARA MAASS DRIVE , BELLEVILLE, NJ 07109",
+    "phone": "(973) 450-2000",
+    "borough": "Essex"
+  },
+  {
+    "id": "NJ11001",
+    "lat": 40.531339008,
+    "lon": -74.861089995,
+    "tags": {
+      "name": "HUNTERDON MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hunterdon Medical Center",
+    "address": "2100 WESCOTT DRIVE , FLEMINGTON, NJ 08822",
+    "phone": "(908) 788-6100",
+    "borough": "Hunterdon"
+  },
+  {
+    "id": "NJ10101",
+    "lat": 39.472654819,
+    "lon": -74.51590554,
+    "tags": {
+      "name": "ATLANTICARE REGIONAL MEDICAL CENTER - MAINLAND CAM"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Atlanticare Regional Health Services, Inc.",
+    "address": "65 JIMMIE LEEDS ROAD , POMONA, NJ 08240",
+    "phone": "(609) 652-3420",
+    "borough": "Atlantic"
+  },
+  {
+    "id": "NJ11305",
+    "lat": 40.35382899,
+    "lon": -74.06376003,
+    "tags": {
+      "name": "RIVERVIEW MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "ONE RIVERVIEW PLAZA , RED BANK, NJ 07701",
+    "phone": "(732) 741-2700",
+    "borough": "Monmouth"
+  },
+  {
+    "id": "NJ11606",
+    "lat": 40.859126994,
+    "lon": -74.137144012,
+    "tags": {
+      "name": "ST MARY'S GENERAL HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Prime Healthcare Services-St. Mary'S Passaic, Llc",
+    "address": "350 BOULEVARD , PASSAIC, NJ 07055",
+    "phone": "(973) 365-4300",
+    "borough": "Passaic"
+  },
+  {
+    "id": "NJ11202",
+    "lat": 40.49538102,
+    "lon": -74.449781037,
+    "tags": {
+      "name": "ROBERT WOOD JOHNSON UNIVERSITY HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "children",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Robert Wood Johnson University Hospital, Inc.",
+    "address": "ONE ROBERT WOOD JOHNSON PLACE , NEW BRUNSWICK, NJ 08901",
+    "phone": "(732) 828-3000",
+    "borough": "Middlesex",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": "NJ10404",
+    "lat": 39.927075924,
+    "lon": -75.095654217,
+    "tags": {
+      "name": "VIRTUA OUR LADY OF LOURDES HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Trinity Health Pace",
+    "address": "1600 HADDON AVENUE , CAMDEN, NJ 08103",
+    "phone": "(856) 886-5373",
+    "borough": "Camden"
+  },
+  {
+    "id": "NJ10901",
+    "lat": 40.668330989,
+    "lon": -74.11306096,
+    "tags": {
+      "name": "CAREPOINT HEALTH - BAYONNE MEDICAL CENTER"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Ijkg Opco, L.L.C.",
+    "address": "29 EAST 29TH ST , BAYONNE, NJ 07002",
+    "phone": "(201) 858-5000",
+    "borough": "Hudson"
+  },
+  {
+    "id": "NJ12101",
+    "lat": 40.861990001,
+    "lon": -74.816165005,
+    "tags": {
+      "name": "HACKETTSTOWN MEDICAL CENTER"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Ahs Hospital Corp.",
+    "address": "651 WILLOW GROVE ST , HACKETTSTOWN, NJ 07840",
+    "phone": "(908) 852-5100",
+    "borough": "Warren"
+  },
+  {
+    "id": "NJ310058",
+    "lat": 40.956276982,
+    "lon": -74.062373999,
+    "tags": {
+      "name": "BERGEN NEW BRIDGE MEDICAL CENTER"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Bergen County Improvement Authority",
+    "address": "230 EAST RIDGEWOOD AVE , PARAMUS, NJ 07652",
+    "phone": "(201) 967-4000",
+    "borough": "Bergen"
+  },
+  {
+    "id": "NJ11304",
+    "lat": 40.295705982,
+    "lon": -73.985620995,
+    "tags": {
+      "name": "MONMOUTH MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Monmouth Medical Center",
+    "address": "300 SECOND AVENUE , LONG BRANCH, NJ 07740",
+    "phone": "(732) 222-5200",
+    "borough": "Monmouth"
+  },
+  {
+    "id": "NJ10710",
+    "lat": 40.764010878,
+    "lon": -74.302431012,
+    "tags": {
+      "name": "COOPERMAN BARNABAS MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Cooperman Barnabas Medical Center",
+    "address": "94 OLD SHORT HILLS ROAD , LIVINGSTON, NJ 07039",
+    "phone": "(973) 322-5000",
+    "borough": "Essex"
+  },
+  {
+    "id": "NJ10302",
+    "lat": 39.88192101,
+    "lon": -74.918160026,
+    "tags": {
+      "name": "VIRTUA WEST JERSEY HOSPITAL MARLTON"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Virtua West Jersey Health System",
+    "address": "90 BRICK ROAD , MARLTON, NJ 08053",
+    "phone": "(856) 355-6200",
+    "borough": "Burlington"
+  },
+  {
+    "id": "NJ310022",
+    "lat": 39.841805012,
+    "lon": -74.927089016,
+    "tags": {
+      "name": "WEST JERSEY HOSPITAL"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Virtua West Jersey Health System",
+    "address": "100 BOWMAN DRIVE , VOORHEES, NJ 08043",
+    "phone": "(856) 247-3000",
+    "borough": "Camden"
+  },
+  {
+    "id": "NJ11205",
+    "lat": 40.500977994,
+    "lon": -74.459825994,
+    "tags": {
+      "name": "SAINT PETER'S UNIVERSITY HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Saint Peter'S University Hospital",
+    "address": "254 EASTON AVE , NEW BRUNSWICK, NJ 08901",
+    "phone": "(732) 745-8600",
+    "borough": "Middlesex"
+  },
+  {
+    "id": "NJ310032",
+    "lat": 39.445260986,
+    "lon": -75.058621026,
+    "tags": {
+      "name": "INSPIRA MEDICAL CENTER VINELAND"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Inspira Medical Centers, Inc",
+    "address": "1505 W SHERMAN AVE , VINELAND, NJ 08360",
+    "phone": "(856) 641-8000",
+    "borough": "Cumberland"
+  },
+  {
+    "id": "NJ10713",
+    "lat": 40.743209003,
+    "lon": -74.174266036,
+    "tags": {
+      "name": "SAINT MICHAEL'S MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Prime Healthcare Services-St. Michael'S, Llc",
+    "address": "111 CENTRAL AVENUE , NEWARK, NJ 07102",
+    "phone": "(973) 877-5350",
+    "borough": "Essex"
+  },
+  {
+    "id": "NJ10102",
+    "lat": 39.357841784,
+    "lon": -74.433975832,
+    "tags": {
+      "name": "ATLANTICARE REGIONAL MEDICAL CENTER - CITY CAMPUS"
+    },
+    "categories": [
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Atlanticare Regional Health Services, Inc.",
+    "address": "1925 PACIFIC AVENUE , ATLANTIC CITY, NJ 08401",
+    "phone": "(609) 441-8020",
+    "borough": "Atlantic",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": "NJ10702",
+    "lat": 40.740486177,
+    "lon": -74.19229819,
+    "tags": {
+      "name": "UNIVERSITY HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "University Hospital",
+    "address": "150 BERGEN ST , NEWARK, NJ 07103",
+    "phone": "(973) 972-5658",
+    "borough": "Essex",
+    "trauma_level": "Level I"
+  },
+  {
+    "id": "NJ11403",
+    "lat": 40.789650991,
+    "lon": -74.465811008,
+    "tags": {
+      "name": "MORRISTOWN MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Ahs Hospital Corp.",
+    "address": "100 MADISON AVE , MORRISTOWN, NJ 07960",
+    "phone": "(973) 971-5000",
+    "borough": "Morris",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": "NJ11502",
+    "lat": 40.073053003,
+    "lon": -74.218793974,
+    "tags": {
+      "name": "MONMOUTH MEDICAL CENTER-SOUTHERN CAMPUS"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Monmouth Medical Center",
+    "address": "600 RIVER AVE , LAKEWOOD, NJ 08701",
+    "phone": "(732) 363-1900",
+    "borough": "Ocean"
+  },
+  {
+    "id": "NJ11102",
+    "lat": 40.235947999,
+    "lon": -74.751960968,
+    "tags": {
+      "name": "CAPITAL HEALTH REGIONAL MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Capital Health System, Inc.",
+    "address": "750 BRUNSWICK AVE , TRENTON, NJ 08638",
+    "phone": "(609) 394-6000",
+    "borough": "Mercer",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": "NJ310110",
+    "lat": 40.21612199,
+    "lon": -74.67195302,
+    "tags": {
+      "name": "ROBERT WOOD JOHNSON UNIVERSITY HOSPITAL HAMILTON"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Robert Wood Johnson University Hospital - Hamilton",
+    "address": "ONE HAMILTON HEALTH PLACE , HAMILTON, NJ 08690",
+    "phone": "(609) 586-7900",
+    "borough": "Mercer"
+  },
+  {
+    "id": "NJ10906",
+    "lat": 40.792282992,
+    "lon": -74.072978028,
+    "tags": {
+      "name": "HUDSON REGIONAL HOSPITAL"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Njmhmc, Llc",
+    "address": "55 MEADOWLANDS PKWY , SECAUCUS, NJ 07094",
+    "phone": "(201) 392-3200",
+    "borough": "Hudson"
+  },
+  {
+    "id": "NJ12005",
+    "lat": 40.712057995,
+    "lon": -74.35398896,
+    "tags": {
+      "name": "OVERLOOK MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Ahs Hospital Corp.",
+    "address": "99 BEAUVOIR AVENUE , SUMMIT, NJ 07901",
+    "phone": "(908) 522-2000",
+    "borough": "Union"
+  },
+  {
+    "id": "NJ310061",
+    "lat": 40.046498003,
+    "lon": -74.880689986,
+    "tags": {
+      "name": "VIRTUA WILLINGBORO HOSPITAL"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Trinity Health Pace",
+    "address": "218A SUNSET ROAD , WILLINGBORO, NJ 08046",
+    "phone": "(609) 835-2900",
+    "borough": "Burlington"
+  },
+  {
+    "id": "NJ10301",
+    "lat": 39.985806989,
+    "lon": -74.794999023,
+    "tags": {
+      "name": "VIRTUA MOUNT HOLLY HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Virtua-Memorial Hospital Of Burlington Co., Inc",
+    "address": "175 MADISON AVE , MOUNT HOLLY, NJ 08060",
+    "phone": "(609) 267-0700",
+    "borough": "Burlington"
+  },
+  {
+    "id": "NJ11802",
+    "lat": 40.567835993,
+    "lon": -74.594956019,
+    "tags": {
+      "name": "ROBERT WOOD JOHNSON UNIVERSITY HOSPITAL SOMERSET"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Robert Wood Johnson University Hospital, Inc.",
+    "address": "110 REHILL AVE , SOMERVILLE, NJ 08876",
+    "phone": "(908) 685-2200",
+    "borough": "Somerset"
+  },
+  {
+    "id": "NJ11301",
+    "lat": 40.405337,
+    "lon": -74.191643984,
+    "tags": {
+      "name": "BAYSHORE MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "727 N BEERS ST , HOLMDEL, NJ 07733",
+    "phone": "(732) 739-5900",
+    "borough": "Monmouth"
+  },
+  {
+    "id": "NJ11303",
+    "lat": 40.209030984,
+    "lon": -74.041042977,
+    "tags": {
+      "name": "JERSEY SHORE UNIVERSITY MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "1945 STATE ROUTE 33 , NEPTUNE, NJ 07753",
+    "phone": "(732) 775-5500",
+    "borough": "Monmouth",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": "NJ10803",
+    "lat": 39.716396988,
+    "lon": -75.152531031,
+    "tags": {
+      "name": "INSPIRA MEDICAL CENTER MULLICA HILL"
+    },
+    "categories": [
+      "cardiac",
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Inspira Medical Center-Elmer",
+    "address": "700 MULLICA HILL ROAD , MULLICA HILL, NJ 08062",
+    "phone": "(856) 508-1000",
+    "borough": "Gloucester"
+  },
+  {
+    "id": "NJ10204",
+    "lat": 40.882365988,
+    "lon": -74.05613803,
+    "tags": {
+      "name": "HACKENSACK UNIVERSITY MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke",
+      "trauma"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "30 PROSPECT AVE , HACKENSACK, NJ 07601",
+    "phone": "(551) 996-2000",
+    "borough": "Bergen",
+    "trauma_level": "Level II"
+  },
+  {
+    "id": "NJ11402",
+    "lat": 40.884792004,
+    "lon": -74.576198996,
+    "tags": {
+      "name": "SAINT CLARE'S HOSPITAL"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Prime Healthcare Services-Saint Clare'S Llc",
+    "address": "400 WEST BLACKWELL STREET , DOVER, NJ 07801",
+    "phone": "(973) 989-3424",
+    "borough": "Morris"
+  },
+  {
+    "id": "NJ10905",
+    "lat": 40.794008994,
+    "lon": -73.996379,
+    "tags": {
+      "name": "PALISADES MEDICAL CENTER"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "7600 RIVER RD , NORTH BERGEN, NJ 07047",
+    "phone": "(201) 854-5004",
+    "borough": "Hudson"
+  },
+  {
+    "id": "NJ11206",
+    "lat": 40.385948988,
+    "lon": -74.323475982,
+    "tags": {
+      "name": "OLD BRIDGE MEDICAL CENTER"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "ONE HOSPITAL PLAZA , OLD BRIDGE, NJ 08857",
+    "phone": "(732) 360-1000",
+    "borough": "Middlesex"
+  },
+  {
+    "id": "NJ11103",
+    "lat": 40.340127009,
+    "lon": -74.623805021,
+    "tags": {
+      "name": "PENN MEDICINE PRINCETON MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Princeton Healthcare System, A Nj Nonprofit Corp",
+    "address": "ONE-FIVE PLAINSBORO ROAD , PLAINSBORO, NJ 08536",
+    "phone": "(609) 853-6500",
+    "borough": "Middlesex"
+  },
+  {
+    "id": "NJ10202",
+    "lat": 40.904206001,
+    "lon": -73.968715032,
+    "tags": {
+      "name": "ENGLEWOOD HOSPITAL"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Englewood Hospital And Medical Center",
+    "address": "350 ENGLE ST , ENGLEWOOD, NJ 07631",
+    "phone": "(201) 894-3000",
+    "borough": "Bergen"
+  },
+  {
+    "id": "NJ310039",
+    "lat": 40.519071003,
+    "lon": -74.281022984,
+    "tags": {
+      "name": "RARITAN BAY MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "530 NEW BRUNSWICK AVE , PERTH AMBOY, NJ 08861",
+    "phone": "(732) 324-5000",
+    "borough": "Middlesex"
+  },
+  {
+    "id": "NJ310069",
+    "lat": 39.716396988,
+    "lon": -75.152531031,
+    "tags": {
+      "name": "INSPIRA MEDICAL CENTER MULLICA HILL"
+    },
+    "categories": [
+      "er"
+    ],
+    "has_er": true,
+    "operator": "Inspira Medical Centers, Inc",
+    "address": "700 MULLICA HILL RD , MULLICA HILL, NJ 08062",
+    "phone": "(856) 508-1000",
+    "borough": "Gloucester"
+  },
+  {
+    "id": "NJ310008",
+    "lat": 40.883048987,
+    "lon": -74.010684981,
+    "tags": {
+      "name": "HOLY NAME MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Holy Name Medical Center",
+    "address": "718 TEANECK RD , TEANECK, NJ 07666",
+    "phone": "(201) 833-3000",
+    "borough": "Bergen"
+  },
+  {
+    "id": "NJ10704",
+    "lat": 40.754611995,
+    "lon": -74.213713032,
+    "tags": {
+      "name": "CAREWELL HEALTH MEDICAL CENTER"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Eoh Acquisition Group, Llc",
+    "address": "300 CENTRAL AVE , EAST ORANGE, NJ 07018",
+    "phone": "(973) 672-8400",
+    "borough": "Essex"
+  },
+  {
+    "id": "NJ10403",
+    "lat": 39.828226999,
+    "lon": -75.008304964,
+    "tags": {
+      "name": "JEFFERSON STRATFORD HOSPITAL"
+    },
+    "categories": [
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Kennedy University Hospital, Inc.",
+    "address": "18 EAST LAUREL ROAD , STRATFORD, NJ 08084",
+    "phone": "(856) 346-7802",
+    "borough": "Camden"
+  },
+  {
+    "id": "NJ11504",
+    "lat": 39.721119981,
+    "lon": -74.284857034,
+    "tags": {
+      "name": "SOUTHERN OCEAN MEDICAL CENTER"
+    },
+    "categories": [
+      "cardiac",
+      "er",
+      "stroke"
+    ],
+    "has_er": true,
+    "operator": "Hmh Hospitals Corporation",
+    "address": "1140 RT 72 W , MANAHAWKIN, NJ 08050",
+    "phone": "(609) 597-6011",
+    "borough": "Ocean"
+  }
+]
