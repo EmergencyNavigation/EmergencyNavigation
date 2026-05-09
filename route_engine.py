@@ -4,14 +4,15 @@ import requests
 OSRM_URL = "https://router.project-osrm.org/route/v1/driving"
 
 
-# Emergency type -> words that suggest suitable hospital capability.
-# This is a prototype category layer based on available JSON fields/name/operator.
-EMERGENCY_KEYWORDS = {
-    "Heart Attack": ["cardiac", "cardiology", "heart", "er", "emergency", "medical center", "hospital"],
-    "Stroke": ["stroke", "neurology", "neuro", "er", "emergency", "medical center", "hospital"],
-    "Accident Trauma": ["trauma", "er", "emergency", "medical center", "hospital"],
-    "Child Emergency": ["children", "child", "pediatric", "pediatrics", "cohen", "montefiore"],
-    "General Emergency": []
+# Frontend emergencyType label -> hospital category in hospitals.json.
+# Categories come from NY State DOH certifications (er/cardiac/stroke/children)
+# plus ACS/DOH trauma center designations baked in nyctraffic.py.
+EMERGENCY_TO_CATEGORY = {
+    "Heart Attack":      "cardiac",
+    "Stroke":            "stroke",
+    "Accident Trauma":   "trauma",
+    "Child Emergency":   "children",
+    "General Emergency": "er",
 }
 
 
@@ -33,36 +34,46 @@ def get_name(place):
     return place.get("name") or place.get("tags", {}).get("name", "Unknown Destination")
 
 
-def get_search_text(place):
-    fields = [
-        get_name(place),
-        place.get("operator", ""),
-        place.get("address", ""),
-        place.get("borough", ""),
-        place.get("website", "") or ""
-    ]
-    return " ".join(str(x).lower() for x in fields if x is not None)
-
-
-def get_real_route(start_lat, start_lon, end_lat, end_lon):
-
-    distance = haversine_km(
-        start_lat,
-        start_lon,
-        end_lat,
-        end_lon
-    )
-
-    geometry = [
-        {"lat": start_lat, "lon": start_lon},
-        {"lat": end_lat, "lon": end_lon}
-    ]
-
+def _straight_line_route(start_lat, start_lon, end_lat, end_lon):
+    """Haversine fallback used when OSRM is unreachable — keeps the app responsive."""
+    distance = haversine_km(start_lat, start_lon, end_lat, end_lon)
     return {
         "distance_km": round(distance, 2),
         "duration_min": round(distance * 2.2, 1),
-        "geometry": geometry
+        "geometry": [
+            {"lat": start_lat, "lon": start_lon},
+            {"lat": end_lat, "lon": end_lon},
+        ],
     }
+
+
+def get_real_route(start_lat, start_lon, end_lat, end_lon):
+    """
+    Get driving distance/time/geometry from OSRM public server.
+    Falls back to straight-line haversine if OSRM is unavailable
+    (network error, rate limit, etc.).
+    """
+    url = f"{OSRM_URL}/{start_lon},{start_lat};{end_lon},{end_lat}"
+    params = {"overview": "full", "geometries": "geojson"}
+    try:
+        response = requests.get(url, params=params, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        if data.get("code") != "Ok" or not data.get("routes"):
+            return _straight_line_route(start_lat, start_lon, end_lat, end_lon)
+        route = data["routes"][0]
+        geometry = [
+            {"lat": coord[1], "lon": coord[0]}
+            for coord in route["geometry"]["coordinates"]
+        ]
+        return {
+            "distance_km": round(route["distance"] / 1000, 2),
+            "duration_min": round(route["duration"] / 60, 1),
+            "geometry": geometry,
+        }
+    except Exception as e:
+        print(f"  ! OSRM failed ({e}); using straight-line fallback")
+        return _straight_line_route(start_lat, start_lon, end_lat, end_lon)
 
 
 def hazard_penalty(route_geometry, hazards):
@@ -89,31 +100,19 @@ def hazard_penalty(route_geometry, hazards):
 
 def hospital_category_penalty(hospital, emergency_type):
     """
-    Lower is better. This softly prioritizes hospitals that match emergency type.
-    It does not completely remove other hospitals, so the app can still return a route.
+    Lower is better. Prioritizes hospitals whose `categories` array
+    contains the specialty required by the emergency type. Falls back
+    to any ER, then to a hard penalty for non-ER specialty hospitals
+    (psych, cancer, rehab, etc.) so the system still returns a route.
     """
-    if emergency_type == "General Emergency":
-        return 0 if hospital.get("has_er") else 8
+    cats = hospital.get("categories") or []
+    required = EMERGENCY_TO_CATEGORY.get(emergency_type, "er")
 
-    text = get_search_text(hospital)
-    keywords = EMERGENCY_KEYWORDS.get(emergency_type, [])
-    matches = any(word in text for word in keywords)
-
-    # ER/24-7 hospitals should generally be preferred for emergency cases.
-    er_bonus = 0
-    if hospital.get("has_er"):
-        er_bonus -= 6
-    if hospital.get("is_24_7"):
-        er_bonus -= 2
-
-    if matches:
-        return max(0, 2 + er_bonus)
-
-    # For child emergency, non-child hospitals are a worse fit.
-    if emergency_type == "Child Emergency":
-        return 18
-
-    return max(6, 12 + er_bonus)
+    if required in cats:
+        return 0                # exact specialty match
+    if "er" in cats:
+        return 8                # any ER (best fallback if specialty not nearby)
+    return 18                   # specialty-only hospital, unsuitable for emergencies
 
 
 def choose_candidates(user_lat, user_lon, destinations, service_type, emergency_type):
