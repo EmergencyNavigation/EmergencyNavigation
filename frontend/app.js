@@ -52,26 +52,26 @@ async function loadHospitals() {
     const hospitals = await res.json();
     document.getElementById("hospitalCount").innerText = hospitals.length;
 
-    // hospitals.forEach(h => {
-    //     L.marker([h.lat, h.lon], { icon: hospitalIcon })
-    //         .addTo(map)
-    //         .bindPopup(`🏥 ${h.name}`);
-    // });
+    hospitals.forEach(h => {
+        L.marker([h.lat, h.lon], { icon: hospitalIcon })
+            .addTo(map)
+            .bindPopup(`🏥 ${h.name}`);
+    });
 }
 async function loadPolice() {
     const res = await fetch("/api/police");
     const policeStations = await res.json();
 
-    // policeStations.forEach(p => {
-    //     L.circleMarker([p.lat, p.lon], {
-    //         radius: 6,
-    //         color: "green",
-    //         fillColor: "green",
-    //         fillOpacity: 0.8
-    //     })
-    //     .addTo(map)
-    //     .bindPopup(`🚓 ${p.tags.name || "Police Station"}`);
-    // });
+    policeStations.forEach(p => {
+        L.circleMarker([p.lat, p.lon], {
+            radius: 6,
+            color: "green",
+            fillColor: "green",
+            fillOpacity: 0.8
+        })
+        .addTo(map)
+        .bindPopup(`🚓 ${p.tags?.name || "Police Station"}`);
+    });
 }
 
 async function loadHazards() {
@@ -281,6 +281,16 @@ document.getElementById("locateBtn").addEventListener("click", () => {
         }
     );
 });
+
+// Re-route using the current patient marker location whenever the user
+// switches service type or emergency type — saves them from clicking the
+// map again to re-trigger routing.
+function rerouteFromCurrent() {
+    if (!patientMarker) return;
+    map.fire("click", { latlng: patientMarker.getLatLng() });
+}
+document.getElementById("emergencyType").addEventListener("change", rerouteFromCurrent);
+document.getElementById("destinationType").addEventListener("change", rerouteFromCurrent);
 
 loadHospitals();
 loadHazards();
