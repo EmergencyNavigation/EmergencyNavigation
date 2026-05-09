@@ -6,6 +6,11 @@ from route_engine import rank_destinations
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
+
+def data_path(filename):
+    return os.path.join(DATA_DIR, filename)
 
 app = Flask(__name__)
 CORS(app)
@@ -27,9 +32,10 @@ def js():
 # ---------------- HELPERS ----------------
 
 def load_json_file(filename):
-    if not os.path.exists(filename):
+    path = data_path(filename)
+    if not os.path.exists(path):
         return None
-    with open(filename) as f:
+    with open(path) as f:
         return json.load(f)
 
 
@@ -38,16 +44,19 @@ def normalize_place(item):
         return None
 
     return {
+        "id": item.get("id"),
         "name": item.get("name") or item.get("tags", {}).get("name", "Unknown Destination"),
         "lat": item["lat"],
         "lon": item["lon"],
         "tags": item.get("tags", {}),
+        "categories": item.get("categories", []),
+        "trauma_level": item.get("trauma_level"),
         "has_er": item.get("has_er", False),
         "is_24_7": item.get("is_24_7", False),
         "operator": item.get("operator"),
         "address": item.get("address"),
         "website": item.get("website"),
-        "borough": item.get("borough")
+        "borough": item.get("borough"),
     }
 
 
@@ -65,9 +74,9 @@ def normalize_places(raw_items):
 def status():
     return jsonify({
         "status": "ok",
-        "hospitals_exists": os.path.exists("hospitals.json"),
-        "police_exists": os.path.exists("police.json"),
-        "hazards_exists": os.path.exists("hazards.json")
+        "hospitals_exists": os.path.exists(data_path("hospitals.json")),
+        "police_exists": os.path.exists(data_path("police.json")),
+        "hazards_exists": os.path.exists(data_path("hazards.json"))
     })
 
 @app.route("/api/hospitals")
@@ -146,5 +155,6 @@ def nearest_er():
 # ---------------- RUN SERVER ----------------
 
 if __name__ == "__main__":
-    print("Server running at http://127.0.0.1:5000")
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    print(f"Server running at http://127.0.0.1:{port}")
+    app.run(debug=True, port=port)
