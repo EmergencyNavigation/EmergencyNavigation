@@ -1,11 +1,14 @@
 """
-NeuroRoute — NYC data builder.
+NeuroRoute — NY + NJ hospital data + NYC police/hazard builder.
 
-Hospitals: NY State Health Open Data (general info + certifications joined by fac_id),
-           addresses geocoded via free US Census Bureau geocoder (cached locally).
+Hospitals: NY State Health Open Data (general info + certifications joined by fac_id)
+           plus NJ Open Data Acute-Care Facilities. NJ category designations are baked
+           from NJ DOH PDF/HTML (no cert API exists for NJ).
+           Addresses geocoded via free US Census Bureau + Nominatim fallback (cached).
            Each hospital tagged with categories: er / cardiac / stroke / children / trauma.
-Police:    Overpass (OpenStreetMap).
-Hazards:   NYC 311 + 511NY (live) with simulated fallback.
+           Total: ~262 hospitals (NY State ~193 + NJ 69), 30 trauma centers.
+Police:    Overpass (OpenStreetMap), NYC bbox only.
+Hazards:   NYC 311 + 511NY filtered to NYC bbox; simulated fallback.
 
 Usage:
     python3 nyctraffic.py                  # same as --all
@@ -18,6 +21,7 @@ Usage:
 import json
 import os
 import random
+import re
 import sys
 import time
 from collections import Counter
@@ -32,12 +36,12 @@ NYC_311_URL = "https://data.cityofnewyork.us/resource/erm2-nwe9.json"
 NY511_EVENTS_URL = "https://511ny.org/api/getevents"
 NY_HEALTH_FACILITY_INFO_URL = "https://health.data.ny.gov/resource/vn5v-hh5r.json"
 NY_HEALTH_FACILITY_CERT_URL = "https://health.data.ny.gov/resource/2g9y-7kqm.json"
+NJ_ACUTE_CARE_URL = "https://data.nj.gov/resource/mrzk-zrvp.json"
 CENSUS_GEOCODER_URL = "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 
 NYC_BOUNDS = "40.47,-74.26,40.92,-73.70"
 NYC_BBOX = (40.47, -74.26, 40.92, -73.70)
-NYC_COUNTIES = ["New York", "Kings", "Queens", "Bronx", "Richmond"]
 
 COUNTY_TO_BOROUGH = {
     "New York": "Manhattan",
@@ -48,7 +52,8 @@ COUNTY_TO_BOROUGH = {
 }
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-GEOCODE_CACHE_PATH = os.path.join(BASE_DIR, "geocode_cache.json")
+DATA_DIR = os.path.join(BASE_DIR, "data")
+GEOCODE_CACHE_PATH = os.path.join(DATA_DIR, "geocode_cache.json")
 
 HAZARD_311_TYPES = [
     "Sewer",
@@ -72,22 +77,128 @@ CERT_TO_CATEGORY = {
     "Pediatric": "children",
 }
 
-# NYC trauma centers — substring keywords matched (case-insensitive) against NY State facility_name.
-# Source: NYC FDNY 911 EMS Trauma Triage Protocol + ACS Verified Trauma Centers.
+# NY State trauma centers — keyed by NY State fac_id (verified against vn5v-hh5r).
+# Source: NYC FDNY 911 EMS Trauma Triage Protocol + NY DOH / ACS Verified Trauma Centers.
 # https://www.facs.org/quality-programs/trauma/quality/verification-review-and-consultation-program/
 # Last verified: 2026-05.
-NYC_TRAUMA_KEYWORDS = [
-    ("Bellevue", "Level I"),
-    ("Kings County", "Level I"),
-    ("Lincoln Medical", "Level I"),
-    ("Jacobi", "Level I"),
-    ("Elmhurst Hospital Center", "Level I"),
-    ("Harlem Hospital", "Level I"),
-    ("Weill Cornell", "Level I"),
-    ("Maimonides Medical Center", "Level I"),
-    ("Staten Island University Hosp-North", "Level I"),
-    ("Jamaica Hospital Medical Center", "Level I"),
-]
+NY_TRAUMA_FAC_IDS = {
+    # NYC Level I (10)
+    "1438": "Level I",   # Bellevue Hospital Center
+    "1301": "Level I",   # Kings County Hospital Center
+    "1172": "Level I",   # Lincoln Medical & Mental Health Center
+    "1165": "Level I",   # Jacobi Medical Center
+    "1626": "Level I",   # Elmhurst Hospital Center
+    "1445": "Level I",   # Harlem Hospital Center
+    "1458": "Level I",   # NewYork-Presbyterian / Weill Cornell
+    "1305": "Level I",   # Maimonides Medical Center
+    "1740": "Level I",   # Staten Island University Hosp-North
+    "1629": "Level I",   # Jamaica Hospital Medical Center
+    # Upstate Level I (6)
+    "1":    "Level I",   # Albany Medical Center Hospital
+    "210":  "Level I",   # Erie County Medical Center (Buffalo)
+    "245":  "Level I",   # Stony Brook University Hospital
+    "413":  "Level I",   # Strong Memorial Hospital (Rochester)
+    "635":  "Level I",   # University Hospital SUNY Health Science Center (Syracuse Upstate)
+    "1139": "Level I",   # Westchester Medical Center
+    # Adult Level II (4)
+    "779":  "Level II",  # Good Samaritan Hospital of Suffern (Rockland)
+    "925":  "Level II",  # Good Samaritan Hospital Medical Center (West Islip, Suffolk)
+    "630":  "Level II",  # St. Joseph's Hospital Health Center (Syracuse)
+    "181":  "Level II",  # Vassar Brothers Medical Center (Poughkeepsie)
+}
+
+# NJ hospitals — categories baked from NJ DOH PDF/HTML extraction (2026-05).
+# Sources:
+#   Trauma:   https://www.nj.gov/health/ems/documents/NJ%20Trauma%20Centers.pdf
+#   Stroke:   https://www.nj.gov/health/healthcarequality/health-care-professionals/cardiac-stroke-services/stroke-services/list.shtml
+#   Cardiac:  https://www.nj.gov/health/healthcarequality/documents/cardiac_scch_24.pdf (NCDR Q1-Q2 2024)
+#   Children: https://www.nj.gov/health/fhs/specialpediatrics/tertiary-care/contacts/
+# All NJ General Acute Care Hospitals get "er" automatically (NJ license requires ED).
+# Keys are NJ Open Data fac_id from the Acute-Care Facilities dataset (mrzk-zrvp).
+NJ_CATEGORIES_BY_FAC = {
+    "NJ10101":   ["cardiac", "er", "stroke"],                            # ATLANTICARE REGIONAL - MAINLAND
+    "NJ10102":   ["er", "stroke", "trauma"],                             # ATLANTICARE REGIONAL - CITY CAMPUS
+    "NJ10202":   ["cardiac", "er", "stroke"],                            # ENGLEWOOD HOSPITAL
+    "NJ10204":   ["cardiac", "er", "stroke", "trauma"],                  # HACKENSACK UNIVERSITY MEDICAL CENTER
+    "NJ10211":   ["cardiac", "er", "stroke"],                            # VALLEY HOSPITAL
+    "NJ10301":   ["cardiac", "er", "stroke"],                            # VIRTUA MOUNT HOLLY HOSPITAL
+    "NJ10302":   ["cardiac", "er", "stroke"],                            # VIRTUA WEST JERSEY HOSPITAL MARLTON
+    "NJ10401":   ["er", "stroke"],                                       # JEFFERSON CHERRY HILL HOSPITAL
+    "NJ10402":   ["cardiac", "children", "er", "stroke", "trauma"],      # COOPER UNIVERSITY HOSPITAL
+    "NJ10403":   ["er", "stroke"],                                       # JEFFERSON STRATFORD HOSPITAL
+    "NJ10404":   ["cardiac", "er", "stroke"],                            # VIRTUA OUR LADY OF LOURDES HOSPITAL
+    "NJ10501":   ["er", "stroke"],                                       # CAPE REGIONAL MEDICAL CENTER
+    "NJ10701":   ["cardiac", "er", "stroke"],                            # CLARA MAASS MEDICAL CENTER
+    "NJ10702":   ["cardiac", "er", "stroke", "trauma"],                  # UNIVERSITY HOSPITAL (Newark)
+    "NJ10704":   ["er", "stroke"],                                       # CAREWELL HEALTH (formerly East Orange General)
+    "NJ10708":   ["cardiac", "er", "stroke"],                            # HACKENSACK MERIDIAN MOUNTAINSIDE
+    "NJ10709":   ["cardiac", "children", "er", "stroke"],                # NEWARK BETH ISRAEL MEDICAL CENTER
+    "NJ10710":   ["cardiac", "er", "stroke"],                            # COOPERMAN BARNABAS MEDICAL CENTER
+    "NJ10713":   ["cardiac", "er"],                                      # SAINT MICHAEL'S MEDICAL CENTER
+    "NJ10802-1": ["cardiac", "er", "stroke"],                            # JEFFERSON WASHINGTON TOWNSHIP HOSPITAL
+    "NJ10803":   ["cardiac", "er"],                                      # INSPIRA MEDICAL CENTER MULLICA HILL
+    "NJ10901":   ["er", "stroke"],                                       # CAREPOINT HEALTH BAYONNE
+    "NJ10902":   ["er", "stroke"],                                       # CAREPOINT HEALTH CHRIST HOSPITAL
+    "NJ10904":   ["cardiac", "er", "stroke", "trauma"],                  # JERSEY CITY MEDICAL CENTER
+    "NJ10905":   ["er"],                                                 # PALISADES MEDICAL CENTER
+    "NJ10906":   ["er"],                                                 # HUDSON REGIONAL HOSPITAL
+    "NJ10908":   ["er", "stroke"],                                       # CAREPOINT HEALTH HOBOKEN
+    "NJ11001":   ["cardiac", "er", "stroke"],                            # HUNTERDON MEDICAL CENTER
+    "NJ11102":   ["cardiac", "er", "stroke", "trauma"],                  # CAPITAL HEALTH REGIONAL (Trenton)
+    "NJ11103":   ["cardiac", "er", "stroke"],                            # PENN MEDICINE PRINCETON
+    "NJ11104":   ["cardiac", "er", "stroke"],                            # CAPITAL HEALTH HOPEWELL
+    "NJ11201":   ["cardiac", "er", "stroke"],                            # JFK UNIVERSITY MEDICAL CENTER
+    "NJ11202":   ["cardiac", "children", "er", "stroke", "trauma"],      # ROBERT WOOD JOHNSON (New Brunswick)
+    "NJ11205":   ["cardiac", "er", "stroke"],                            # SAINT PETER'S UNIVERSITY HOSPITAL
+    "NJ11206":   ["er", "stroke"],                                       # OLD BRIDGE MEDICAL CENTER
+    "NJ11301":   ["cardiac", "er", "stroke"],                            # BAYSHORE MEDICAL CENTER
+    "NJ11302":   ["cardiac", "er", "stroke"],                            # CENTRASTATE MEDICAL CENTER
+    "NJ11303":   ["cardiac", "er", "stroke", "trauma"],                  # JERSEY SHORE UNIVERSITY MEDICAL CENTER
+    "NJ11304":   ["cardiac", "er", "stroke"],                            # MONMOUTH MEDICAL CENTER
+    "NJ11305":   ["cardiac", "er", "stroke"],                            # RIVERVIEW MEDICAL CENTER
+    "NJ11401":   ["cardiac", "er", "stroke"],                            # CHILTON MEDICAL CENTER
+    "NJ11402":   ["er", "stroke"],                                       # SAINT CLARE'S HOSPITAL (Dover)
+    "NJ11403":   ["cardiac", "er", "stroke", "trauma"],                  # MORRISTOWN MEDICAL CENTER
+    "NJ11406-O1":["cardiac", "er", "stroke"],                            # SAINT CLARE'S HOSPITAL (Denville)
+    "NJ11501":   ["cardiac", "er", "stroke"],                            # COMMUNITY MEDICAL CENTER
+    "NJ11502":   ["er", "stroke"],                                       # MONMOUTH MEDICAL CENTER SOUTHERN
+    "NJ11504":   ["cardiac", "er", "stroke"],                            # SOUTHERN OCEAN MEDICAL CENTER
+    "NJ11603-1": ["er", "stroke"],                                       # ST JOSEPH'S WAYNE
+    "NJ11605":   ["cardiac", "er", "stroke", "trauma"],                  # ST JOSEPH'S UNIVERSITY (Paterson)
+    "NJ11606":   ["cardiac", "er", "stroke"],                            # ST MARY'S GENERAL HOSPITAL
+    "NJ11802":   ["cardiac", "er", "stroke"],                            # RWJ SOMERSET
+    "NJ11902":   ["cardiac", "er", "stroke"],                            # NEWTON MEDICAL CENTER
+    "NJ12005":   ["cardiac", "er", "stroke"],                            # OVERLOOK MEDICAL CENTER
+    "NJ12101":   ["er", "stroke"],                                       # HACKETTSTOWN MEDICAL CENTER
+    "NJ12102":   ["cardiac", "er", "stroke"],                            # ST LUKE'S WARREN HOSPITAL
+    "NJ24745":   ["er", "stroke"],                                       # HACKENSACK MERIDIAN PASCACK VALLEY
+    "NJ310008":  ["cardiac", "er", "stroke"],                            # HOLY NAME MEDICAL CENTER
+    "NJ310022":  ["er"],                                                 # WEST JERSEY HOSPITAL
+    "NJ310024":  ["cardiac", "er", "stroke"],                            # RWJ RAHWAY
+    "NJ310027":  ["cardiac", "er", "stroke"],                            # TRINITAS REGIONAL
+    "NJ310032":  ["cardiac", "er", "stroke"],                            # INSPIRA VINELAND
+    "NJ310039":  ["cardiac", "er", "stroke"],                            # RARITAN BAY (Perth Amboy)
+    "NJ310047":  ["er", "stroke"],                                       # SHORE MEDICAL CENTER
+    "NJ310052":  ["cardiac", "er", "stroke"],                            # OCEAN UNIVERSITY MEDICAL CENTER
+    "NJ310058":  ["er"],                                                 # BERGEN NEW BRIDGE MEDICAL CENTER
+    "NJ310061":  ["er"],                                                 # VIRTUA WILLINGBORO HOSPITAL
+    "NJ310069":  ["er"],                                                 # INSPIRA MULLICA HILL (alt)
+    "NJ310110":  ["cardiac", "er", "stroke"],                            # RWJ HAMILTON
+    "NJ71702-1": ["er"],                                                 # INSPIRA MANNINGTON
+}
+
+NJ_TRAUMA_LEVELS = {
+    "NJ10102":  "Level II",  # AtlantiCare Regional Medical Center - City Campus
+    "NJ10204":  "Level II",  # Hackensack University Medical Center
+    "NJ10402":  "Level I",   # Cooper University Hospital
+    "NJ10702":  "Level I",   # University Hospital (Newark)
+    "NJ10904":  "Level II",  # Jersey City Medical Center
+    "NJ11102":  "Level II",  # Capital Health Regional Medical Center
+    "NJ11202":  "Level I",   # Robert Wood Johnson University Hospital (New Brunswick)
+    "NJ11303":  "Level II",  # Jersey Shore University Medical Center
+    "NJ11403":  "Level II",  # Morristown Medical Center
+    "NJ11605":  "Level II",  # St Joseph's University Medical Center (Paterson)
+}
 
 ORDINAL_WORDS = {
     "First": "1st", "Second": "2nd", "Third": "3rd", "Fourth": "4th",
@@ -113,7 +224,8 @@ load_env()
 
 
 def write_json(filename, data):
-    path = os.path.join(BASE_DIR, filename)
+    os.makedirs(DATA_DIR, exist_ok=True)
+    path = os.path.join(DATA_DIR, filename)
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
     return path
@@ -268,7 +380,7 @@ def _geocode_nominatim(address):
     return None, None
 
 
-def geocode_address(address, cache, name=None):
+def geocode_address(address, cache, name=None, city=None):
     cached = cache.get(address)
     if cached and cached.get("lat") is not None:
         return cached["lat"], cached["lon"]
@@ -281,7 +393,8 @@ def geocode_address(address, cache, name=None):
         if normalized != address:
             lat, lon = _geocode_nominatim(normalized)
     if lat is None and name:
-        lat, lon = _geocode_nominatim(f"{name}, NYC")
+        location_hint = f"{city}, NY" if city else "NY"
+        lat, lon = _geocode_nominatim(f"{name}, {location_hint}")
 
     cache[address] = {"lat": lat, "lon": lon}
     return lat, lon
@@ -299,12 +412,18 @@ def load_geocode_cache():
 
 
 def save_geocode_cache(cache):
+    os.makedirs(DATA_DIR, exist_ok=True)
     with open(GEOCODE_CACHE_PATH, "w") as f:
         json.dump(cache, f, indent=2, sort_keys=True)
 
 
 def _count_valid_cache_entries(cache):
     return sum(1 for v in cache.values() if v.get("lat") is not None)
+
+
+def borough_label(county):
+    """NYC counties map to borough names; non-NYC counties pass through as-is."""
+    return COUNTY_TO_BOROUGH.get(county, county)
 
 
 def build_ny_address(record):
@@ -322,11 +441,7 @@ def build_ny_address(record):
 
 def fetch_ny_hospitals():
     print("  - querying NY State Health Facility General Info...")
-    counties_quoted = ",".join(f"'{c}'" for c in NYC_COUNTIES)
-    params = {
-        "$where": f"county in({counties_quoted}) AND description='Hospital'",
-        "$limit": 5000,
-    }
+    params = {"$where": "description='Hospital'", "$limit": 5000}
     records = socrata_get(NY_HEALTH_FACILITY_INFO_URL, params, "NY_STATE_APP_TOKEN")
     print(f"  - received {len(records)} records")
 
@@ -344,11 +459,7 @@ def fetch_ny_hospitals():
 
 def fetch_ny_certifications():
     print("  - querying NY State Health Facility Certifications...")
-    counties_quoted = ",".join(f"'{c}'" for c in NYC_COUNTIES)
-    params = {
-        "$where": f"county in({counties_quoted})",
-        "$limit": 50000,
-    }
+    params = {"$limit": 200000}
     records = socrata_get(NY_HEALTH_FACILITY_CERT_URL, params, "NY_STATE_APP_TOKEN")
     print(f"  - received {len(records)} certification rows")
 
@@ -364,23 +475,15 @@ def fetch_ny_certifications():
     return categories_by_fac
 
 
-def apply_trauma_keywords(hospitals, categories_by_fac):
-    matched_keywords = set()
+def apply_trauma_fac_ids(hospitals, categories_by_fac):
     levels_by_fac = {}
-    for h in hospitals:
-        name = (h.get("facility_name") or "").lower()
-        for keyword, level in NYC_TRAUMA_KEYWORDS:
-            if keyword.lower() in name:
-                fac_id = h.get("fac_id")
-                if fac_id:
-                    categories_by_fac.setdefault(fac_id, set()).add("trauma")
-                    levels_by_fac[fac_id] = level
-                    matched_keywords.add(keyword)
-                break
-    print(f"  - matched {len(matched_keywords)}/{len(NYC_TRAUMA_KEYWORDS)} trauma centers")
-    for keyword, level in NYC_TRAUMA_KEYWORDS:
-        if keyword not in matched_keywords:
-            print(f"    ! trauma keyword not found in NY State data: '{keyword}' ({level})")
+    hospital_fac_ids = {h.get("fac_id") for h in hospitals if h.get("fac_id")}
+    for fac_id, level in NY_TRAUMA_FAC_IDS.items():
+        if fac_id in hospital_fac_ids:
+            categories_by_fac.setdefault(fac_id, set()).add("trauma")
+            levels_by_fac[fac_id] = level
+    total = len(NY_TRAUMA_FAC_IDS)
+    print(f"  - matched {len(levels_by_fac)}/{total} NY State trauma centers")
     return levels_by_fac
 
 
@@ -392,7 +495,7 @@ def transform_ny_hospital(record, categories, trauma_level, cache):
     address = build_ny_address(record)
     if not address:
         return None
-    lat, lon = geocode_address(address, cache, name=name)
+    lat, lon = geocode_address(address, cache, name=name, city=record.get("city"))
     if lat is None or lon is None:
         return None
 
@@ -408,7 +511,58 @@ def transform_ny_hospital(record, categories, trauma_level, cache):
         "operator": record.get("operator_name"),
         "address": address,
         "phone": record.get("fac_phone"),
-        "borough": COUNTY_TO_BOROUGH.get(record.get("county")),
+        "borough": borough_label(record.get("county")),
+    }
+    if trauma_level:
+        result["trauma_level"] = trauma_level
+    return result
+
+
+def fetch_nj_hospitals():
+    print("  - querying NJ Open Data Acute Care Facilities...")
+    params = {
+        "$where": "facility_type='GENERAL ACUTE CARE HOSPITAL'",
+        "$limit": 200,
+    }
+    records = socrata_get(NJ_ACUTE_CARE_URL, params, "NJ_OPEN_DATA_APP_TOKEN")
+    print(f"  - received {len(records)} NJ GAC hospitals")
+    return records
+
+
+def transform_nj_hospital(record):
+    """NJ Open Data record -> hospitals.json schema."""
+    fac_id = record.get("facid")
+    raw_name = record.get("licensed_name") or ""
+    if not fac_id or not raw_name:
+        return None
+    # Strip "(NJfacid)" suffix from licensed_name
+    name = re.sub(r"\s*\(NJ\d+[-\dO]*\)\s*$", "", raw_name).strip()
+    coords = (record.get("geocoded_column") or {}).get("coordinates") or []
+    if len(coords) != 2:
+        return None
+    lon, lat = coords  # NJ Open Data stores as [lon, lat]
+
+    cats = sorted(NJ_CATEGORIES_BY_FAC.get(fac_id, ["er"]))
+    trauma_level = NJ_TRAUMA_LEVELS.get(fac_id)
+
+    address1 = record.get("address")
+    if address1:
+        address1 = address1.replace("\n", ", ").strip()
+    else:
+        parts = [record.get("fac_city"), "NJ", record.get("zip")]
+        address1 = ", ".join(p for p in parts if p)
+
+    result = {
+        "id": fac_id,
+        "lat": lat,
+        "lon": lon,
+        "tags": {"name": name},
+        "categories": cats,
+        "has_er": "er" in cats,
+        "operator": record.get("licensed_owner"),
+        "address": address1,
+        "phone": record.get("telephone"),
+        "borough": (record.get("county") or "").title() or None,
     }
     if trauma_level:
         result["trauma_level"] = trauma_level
@@ -416,7 +570,9 @@ def transform_ny_hospital(record, categories, trauma_level, cache):
 
 
 def fetch_hospitals():
-    print("Fetching NYC hospitals from NY State Open Data...")
+    print("Fetching NY State + NJ hospitals...")
+
+    # NY State pipeline
     try:
         ny_hospitals = fetch_ny_hospitals()
         categories_by_fac = fetch_ny_certifications()
@@ -424,10 +580,10 @@ def fetch_hospitals():
         print(f"  ! NY State fetch failed: {e}")
         return False
 
-    print("  - applying NYC trauma center designations...")
-    trauma_levels = apply_trauma_keywords(ny_hospitals, categories_by_fac)
+    print("  - applying NY State trauma center designations...")
+    trauma_levels = apply_trauma_fac_ids(ny_hospitals, categories_by_fac)
 
-    print("  - geocoding addresses (Census + Nominatim fallback)...")
+    print("  - geocoding NY addresses (Census + Nominatim fallback)...")
     cache = load_geocode_cache()
     valid_before = _count_valid_cache_entries(cache)
 
@@ -447,7 +603,18 @@ def fetch_hospitals():
     save_geocode_cache(cache)
     print(f"  - geocoded {valid_after - valid_before} new addresses ({valid_after} valid in cache)")
     if skipped:
-        print(f"  - skipped {skipped} hospitals (missing data or geocoding failed)")
+        print(f"  - skipped {skipped} NY hospitals (missing data or geocoding failed)")
+
+    # NJ pipeline (graceful skip on failure — NY data still saved)
+    try:
+        nj_records = fetch_nj_hospitals()
+        nj_items = [r for r in (transform_nj_hospital(rec) for rec in nj_records) if r]
+        nj_skipped = len(nj_records) - len(nj_items)
+        if nj_skipped:
+            print(f"  - skipped {nj_skipped} NJ hospitals (missing data)")
+        items.extend(nj_items)
+    except Exception as e:
+        print(f"  ! NJ fetch failed (skipping NJ, NY data still saved): {e}")
 
     write_json("hospitals.json", items)
     print(f"  - saved {len(items)} hospitals -> hospitals.json")
