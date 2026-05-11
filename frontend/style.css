@@ -585,8 +585,16 @@ button {
     margin-right: 7px;
 }
 
-.legendDot.hazard {
-    background: #ef4444;
+.legendDot.hazardHigh {
+    background: #f97316;
+}
+
+.legendDot.hazardMed {
+    background: #eab308;
+}
+
+.legendDot.hazardLow {
+    background: #a855f7;
 }
 
 .legendDot.route {

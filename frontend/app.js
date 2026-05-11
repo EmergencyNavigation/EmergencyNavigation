@@ -4,9 +4,13 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "OpenStreetMap"
 }).addTo(map);
 
-let patientMarker = null;
-let hospitalMarker = null;
-let routeLine = null;
+// All dispatch-related visuals (patient marker, hospital marker, route line)
+// live in this layer group so a single clearLayers() removes everything.
+// dispatchToken guards against in-flight async work from earlier clicks:
+// when the response arrives, if our token isn't the latest the result is dropped.
+const dispatchLayer = L.layerGroup().addTo(map);
+let dispatchToken = 0;
+let lastDispatchLatLng = null;
 
 const hospitalIcon = L.icon({
     iconUrl: "https://cdn-icons-png.flaticon.com/512/1484/1484846.png",
@@ -85,9 +89,9 @@ async function loadHazards() {
     
     hazards.forEach(h => {
         const color =
-            h.severity === "High" ? "#ef4444" :
-            h.severity === "Medium" ? "#f59e0b" :
-            "#3b82f6";
+            h.severity === "High" ? "#f97316" :
+            h.severity === "Medium" ? "#eab308" :
+            "#a855f7";
 
         L.circleMarker([h.lat, h.lon], {
             radius: 8,
@@ -111,12 +115,12 @@ map.on("click", async function(e) {
     const lon = e.latlng.lng;
     const emergencyType = document.getElementById("emergencyType").value;
 
-    if (patientMarker) map.removeLayer(patientMarker);
-    if (hospitalMarker) map.removeLayer(hospitalMarker);
-    if (routeLine) map.removeLayer(routeLine);
+    const myToken = ++dispatchToken;
+    dispatchLayer.clearLayers();
+    lastDispatchLatLng = e.latlng;
 
-    patientMarker = L.marker([lat, lon])
-        .addTo(map)
+    L.marker([lat, lon])
+        .addTo(dispatchLayer)
         .bindPopup("🚑 Patient Location")
         .openPopup();
 
@@ -153,12 +157,16 @@ try {
     bestHospital = data.best;
     top3 = data.top3 || [];
 } catch {
+    if (myToken !== dispatchToken) return;
     document.getElementById("result").innerHTML = `
         <h3>Error</h3>
         <p>Failed to connect to server.</p>
     `;
     return;
 }
+
+// A newer click started while we were awaiting — drop this stale result.
+if (myToken !== dispatchToken) return;
 
 if (!bestHospital || !bestHospital.geometry) {
     document.getElementById("result").innerHTML = `
@@ -176,11 +184,11 @@ const finalIcon =
         ? policeBestIcon
         : bestIcon;
 
-hospitalMarker = L.marker(
+L.marker(
     [bestHospital.lat, bestHospital.lon],
     { icon: finalIcon }
 )
-    .addTo(map)
+    .addTo(dispatchLayer)
     .bindPopup(
         selectedService === "police"
             ? `🚓 BEST POLICE OPTION: ${bestHospital.name}`
@@ -190,11 +198,11 @@ hospitalMarker = L.marker(
 
 const routePoints = bestHospital.geometry.map(p => [p.lat, p.lon]);
 
-routeLine = L.polyline(routePoints, {
+const routeLine = L.polyline(routePoints, {
     color: "#dc2626",
     weight: 6,
     opacity: 0.9
-}).addTo(map);
+}).addTo(dispatchLayer);
 
 map.fitBounds(routeLine.getBounds(), {
     padding: [50, 50]
@@ -235,13 +243,9 @@ document.getElementById("decisionText").innerHTML = `
 document.getElementById("routeTime").innerText = new Date().toLocaleTimeString();
 });
     document.getElementById("clearBtn").addEventListener("click", () => {
-    if (patientMarker) map.removeLayer(patientMarker);
-    if (hospitalMarker) map.removeLayer(hospitalMarker);
-    if (routeLine) map.removeLayer(routeLine);
-
-    patientMarker = null;
-    hospitalMarker = null;
-    routeLine = null;
+    dispatchToken++;  // invalidate any in-flight click handlers
+    dispatchLayer.clearLayers();
+    lastDispatchLatLng = null;
 
     document.getElementById("result").innerHTML = "Cleared. Click map again.";
     document.getElementById("decisionText").innerHTML = "No emergency selected yet.";
@@ -286,8 +290,8 @@ document.getElementById("locateBtn").addEventListener("click", () => {
 // switches service type or emergency type — saves them from clicking the
 // map again to re-trigger routing.
 function rerouteFromCurrent() {
-    if (!patientMarker) return;
-    map.fire("click", { latlng: patientMarker.getLatLng() });
+    if (!lastDispatchLatLng) return;
+    map.fire("click", { latlng: lastDispatchLatLng });
 }
 document.getElementById("emergencyType").addEventListener("change", rerouteFromCurrent);
 document.getElementById("destinationType").addEventListener("change", rerouteFromCurrent);

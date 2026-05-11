@@ -2,11 +2,19 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import json
 import os
+import threading
+import time
+from datetime import datetime
 from route_engine import rank_destinations
+from nyctraffic import fetch_hazards
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
 DATA_DIR = os.path.join(BASE_DIR, "data")
+
+# Refresh hazards.json in a background thread so /api/hazards and routing
+# always see recent NYC 311 + 511NY data. Override with env var if needed.
+HAZARD_REFRESH_INTERVAL = int(os.environ.get("HAZARD_REFRESH_INTERVAL", 600))
 
 
 def data_path(filename):
@@ -154,7 +162,27 @@ def nearest_er():
 
 # ---------------- RUN SERVER ----------------
 
+def hazard_refresh_loop():
+    while True:
+        time.sleep(HAZARD_REFRESH_INTERVAL)
+        try:
+            print(f"[hazard-refresh] fetching at {datetime.now().isoformat(timespec='seconds')}")
+            fetch_hazards(use_mock=False)
+        except Exception as e:
+            print(f"[hazard-refresh] failed: {e}")
+
+
+def start_hazard_refresh():
+    threading.Thread(target=hazard_refresh_loop, daemon=True).start()
+    print(f"[hazard-refresh] thread started — every {HAZARD_REFRESH_INTERVAL}s")
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
+    # debug=True spawns a reloader child process; only start the thread in
+    # the child (WERKZEUG_RUN_MAIN="true") to avoid two threads fetching in
+    # parallel and racing on hazards.json.
+    if os.environ.get("WERKZEUG_RUN_MAIN") == "true":
+        start_hazard_refresh()
     print(f"Server running at http://127.0.0.1:{port}")
     app.run(debug=True, port=port)

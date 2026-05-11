@@ -691,13 +691,20 @@ def fetch_hazards_from_311(days_back=7, limit=80):
     return hazards
 
 
-def severity_from_511(raw_severity):
-    s = (raw_severity or "").lower()
-    if s in ("severe", "major"):
-        return "High"
-    if s == "moderate":
-        return "Medium"
-    return "Low"
+# 511NY's `Severity` field is "Unknown" for ~95% of events, so we derive
+# severity from EventType instead — it reflects how much the event actually
+# impedes an emergency vehicle.
+SEVERITY_FROM_511_EVENT_TYPE = {
+    "closures": "High",
+    "accidentsAndIncidents": "High",
+    "roadwork": "Medium",
+    "specialEvents": "Low",
+    "transitOperations": "Low",
+}
+
+
+def severity_from_511(event_type):
+    return SEVERITY_FROM_511_EVENT_TYPE.get(event_type, "Low")
 
 
 def fetch_hazards_from_511ny():
@@ -724,12 +731,13 @@ def fetch_hazards_from_511ny():
             continue
         if not in_nyc(lat, lon):
             continue
+        event_type = r.get("EventType") or r.get("EventCategory") or "Unknown"
         hazards.append({
             "event_id": f"511-{r.get('ID')}",
             "source": "511NY",
-            "type": r.get("EventType") or r.get("EventCategory") or "Unknown",
+            "type": event_type,
             "descriptor": r.get("Description"),
-            "severity": severity_from_511(r.get("Severity")),
+            "severity": severity_from_511(event_type),
             "lat": lat,
             "lon": lon,
             "address": r.get("RoadwayName"),
